@@ -142,7 +142,7 @@ printf "Strain = ${STRAIN} \n" >> ${PAR}
 # to spawn multiple jobs that would otherwise be used
 # by pycbc_inference and cause a reduced runtime.
 OMP_NUM_THREADS=1 \
-py_inference --verbose \
+pycbc_inference --verbose \
     --skip-burn-in \
     --update-interval 500 \
     --instruments ${IFOS} \
