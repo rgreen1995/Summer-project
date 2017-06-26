@@ -1,4 +1,4 @@
-executable     = /home/c1572221/Summer-project/test_pycbc_inference.sh
+executable     = /home/c1572221/Summer-project/test_py_inference.sh
 universe       = vanilla
 getenv         = True
 output         = test.out
