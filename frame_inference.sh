@@ -6,43 +6,6 @@ NAMEDIR=`date '+%Y%m%d-%H%M%S'`
 #DIR=testrun
 #NAMEDIR=final/${DIR}
 mkdir ${NAMEDIR}
-PAR=${NAMEDIR}/parameters.txt
-
-# define coalescence time, observed masses, and waveform parameters
-TRIGGER_TIME=1126259462.0
-INJ_APPROX=IMRPhenomPv2threePointFivePN
-MASS1=15.
-MASS2=5.
-RA=2.21535724066
-DEC=-1.23649695537
-THETA_JN=2.7  ### <<---- this parameter is no longer relevant
-## Inclination calculated manually currently using findTheta.py
-INC=1.047197551
-COA_PHASE=0.
-POLARIZATION=0.8
-DISTANCE=500000 # in kpc
-INJ_F_MIN=20.
-TAPER="start"
-
-# Spin parameters
-MIN_SPIN1=0.75
-MAX_SPIN1=0.75
-MIN_KAPPA1=0.0
-MAX_KAPPA1=0.0
-MIN_SPIN2=0.0
-MAX_SPIN2=0.0
-MIN_KAPPA2=0.9
-MAX_KAPPA2=0.9
-
-# path of injection file that will be created in the example
-INJ_PATH=${NAMEDIR}/injection.xml.gz
-
-# lalapps_inspinj requires degrees on the command line
-LONGITUDE=`python -c "import numpy; print ${RA} * 180/numpy.pi"`
-LATITUDE=`python -c "import numpy; print ${DEC} * 180/numpy.pi"`
-INC_inj=`python -c "import numpy; print ${INC} * 180/numpy.pi"`
-POLARIZATION_inj=`python -c "import numpy; print ${POLARIZATION} * 180/numpy.pi"`
-COA_PHASE_inj=`python -c "import numpy; print ${COA_PHASE} * 180/numpy.pi"`
 
 # sampler parameters
 OUTPUT=${NAMEDIR}/output.hdf
@@ -133,5 +96,3 @@ pycbc_inference --verbose \
     --checkpoint-interval ${N_CHECKPOINT} \
     --checkpoint-fast \
     --nprocesses ${NPROCS}
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
