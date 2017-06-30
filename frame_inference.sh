@@ -119,7 +119,7 @@ pycbc_inference --verbose \
     --sample-rate ${SAMPLE_RATE} \
     --low-frequency-cutoff ${F_MIN} \
     --channel-name H1:DCS-CALIB_STRAIN_C01 L1:DCS-CALIB_STRAIN_C01 \ \
-    -- frame-files H1:{H1_FRAME}.gwf L1:{L1_FRAME}.gwf
+    -- frame-files H1:H-H1HWINJ_q8a0a0_T_112_588n768_fix_scale_inc_0.0-1167559433-256.gwf L1:L-L1HWINJ_q8a0a0_T_112_588n768_fix_scale_inc_0.0-1167559433-256.gwf \
     --processing-scheme ${PROCESSING_SCHEME} \
     --sampler kombine \
     --likelihood-evaluator gaussian \
