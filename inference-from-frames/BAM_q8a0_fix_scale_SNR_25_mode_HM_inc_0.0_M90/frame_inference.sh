@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 
 
-# trigger parameters
-TRIGGER_TIME=1126259462.42
-
-
-
 #Create new directory for this inference run
 NAMEDIR=`date '+%Y%m%d-%H%M%S'`
 #DIR=testrun
 #NAMEDIR=final/${DIR}
 mkdir ${NAMEDIR}
+
+PAR=${NAMEDIR}/parameters.txt
 
 # sampler parameters
 OUTPUT=${NAMEDIR}/output.hdf
@@ -28,7 +25,7 @@ NPROCS=12
 CONFIG_PATH=inference_individual.ini
 
 # get coalescence time as an integer
-TRIGGER_TIME_INT=${TRIGGER_TIME%.*}
+TRIGGER_TIME_INT=`cat times.txt` 
 
 # start and end time of data to read in
 GPS_START_TIME=$((${TRIGGER_TIME_INT} - ${SEGLEN}))
