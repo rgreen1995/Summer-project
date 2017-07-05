@@ -34,7 +34,8 @@ approx=IMRPhenomD
 LALINF_RUNNAME=${SIM_NAME}_SNR_${network_snr}_mode_${mode}_inc_${INCLINATION}_M${total_mass} 
 #LALINF_RUNDIR=$HOME/bns_pe_jena/pe_runs/$(date +"%m_%d_%Y")/${LALINF_RUNNAME}
 
-GWF_ROOT=$HOME/nlive/2048_live
+GWF_ROOT=$HOME/Summer-project/inference-from-frames
+
 GWF_DIR=${GWF_ROOT}/${LALINF_RUNNAME}
 
 echo "*>> Making Frame File Directory"

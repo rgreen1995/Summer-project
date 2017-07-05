@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
 
+# trigger parameters
+TRIGGER_TIME=1126259462.42
+
+
+
 #Create new directory for this inference run
 NAMEDIR=`date '+%Y%m%d-%H%M%S'`
 #DIR=testrun
@@ -60,6 +65,9 @@ printf "Number of processors = ${NPROCS} \n" >> ${PAR}
 printf " \nOther parameters> \n" >> ${PAR}
 printf "Detectors = ${IFOS} \n" >> ${PAR}
 printf "Strain = ${STRAIN} \n" >> ${PAR}
+# trigger parameters
+TRIGGER_TIME=1126259462.42
+
 
 # run sampler
 # specifies the number of threads for OpenMP
