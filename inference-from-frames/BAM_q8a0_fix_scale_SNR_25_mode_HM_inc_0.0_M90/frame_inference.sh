@@ -33,7 +33,7 @@ GPS_END_TIME=$((${TRIGGER_TIME_INT} + ${SEGLEN}))
 
 # Output parameters as text file
 printf "Injection approximant = ${INJ_APPROX} \n" > ${PAR}
-printf "Trigger time = ${TRIGGER_TIME} \n" >> ${PAR}
+printf "Trigger time = ${TRIGGER_TIME_INT} \n" >> ${PAR}
 printf "Mass 1 = ${MASS1} \n" >> ${PAR}
 printf "Mass 2 = ${MASS2} \n" >> ${PAR}
 printf "RA = ${RA} \n" >> ${PAR}
