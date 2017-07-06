@@ -32,28 +32,28 @@ GPS_START_TIME=$((${TRIGGER_TIME_INT} - ${SEGLEN}))
 GPS_END_TIME=$((${TRIGGER_TIME_INT} + ${SEGLEN}))
 
 # Output parameters as text file
-printf "Injection approximant = ${INJ_APPROX} \n" > ${PAR}
+#printf "Injection approximant = ${INJ_APPROX} \n" > ${PAR}
 printf "Trigger time = ${TRIGGER_TIME_INT} \n" >> ${PAR}
-printf "Mass 1 = ${MASS1} \n" >> ${PAR}
-printf "Mass 2 = ${MASS2} \n" >> ${PAR}
-printf "RA = ${RA} \n" >> ${PAR}
-printf "Declination = ${DEC} \n" >> ${PAR}
-printf "Inclination = ${INC} \n" >> ${PAR}
-printf "Phase = ${COA_PHASE} \n" >> ${PAR}
-printf "Polarisation = ${POLARIZATION} \n" >> ${PAR}
-printf "Theta_JN = ${THETA_JN} \n" >> ${PAR}
-printf "Distance (kpc) = ${DISTANCE} \n" >> ${PAR}
-printf "Minimum frequency injected = ${INJ_F_MIN} \n" >> ${PAR}
+#printf "Mass 1 = ${MASS1} \n" >> ${PAR}
+#printf "Mass 2 = ${MASS2} \n" >> ${PAR}
+#printf "RA = ${RA} \n" >> ${PAR}
+#printf "Declination = ${DEC} \n" >> ${PAR}
+#printf "Inclination = ${INC} \n" >> ${PAR}
+#printf "Phase = ${COA_PHASE} \n" >> ${PAR}
+#printf "Polarisation = ${POLARIZATION} \n" >> ${PAR}
+#printf "Theta_JN = ${THETA_JN} \n" >> ${PAR}
+#printf "Distance (kpc) = ${DISTANCE} \n" >> ${PAR}
+#printf "Minimum frequency injected = ${INJ_F_MIN} \n" >> ${PAR}
 printf "Sampler min frequency = ${F_MIN} \n" >> ${PAR}
-printf " \nSpin parameters: \n" >> ${PAR}
-printf "Spin1 min = ${MIN_SPIN1} \n" >> ${PAR}
-printf "Spin1 max = ${MAX_SPIN1} \n" >> ${PAR}
-printf "Spin1 min kappa = ${MIN_KAPPA1} \n" >> ${PAR}
-printf "Spin1 max kappa = ${MAX_KAPPA1} \n" >> ${PAR}
-printf "Spin2 min = ${MIN_SPIN2} \n" >> ${PAR}
-printf "Spin2 max = ${MAX_SPIN2} \n" >> ${PAR}
-printf "Spin2 min kappa = ${MIN_KAPPA2} \n" >> ${PAR}
-printf "Spin2 max kappa = ${MAX_KAPPA2} \n" >> ${PAR}
+#printf " \nSpin parameters: \n" >> ${PAR}
+#printf "Spin1 min = ${MIN_SPIN1} \n" >> ${PAR}
+#printf "Spin1 max = ${MAX_SPIN1} \n" >> ${PAR}
+#printf "Spin1 min kappa = ${MIN_KAPPA1} \n" >> ${PAR}
+#printf "Spin1 max kappa = ${MAX_KAPPA1} \n" >> ${PAR}
+#printf "Spin2 min = ${MIN_SPIN2} \n" >> ${PAR}
+#printf "Spin2 max = ${MAX_SPIN2} \n" >> ${PAR}
+#printf "Spin2 min kappa = ${MIN_KAPPA2} \n" >> ${PAR}
+#printf "Spin2 max kappa = ${MAX_KAPPA2} \n" >> ${PAR}
 printf " \nSampler parameters: \n" >> ${PAR}
 printf "Number of walkers = ${N_WALKERS} \n" >> ${PAR}
 printf "Number of checkpoints = ${N_CHECKPOINT} \n" >> ${PAR}
@@ -62,8 +62,6 @@ printf "Number of processors = ${NPROCS} \n" >> ${PAR}
 printf " \nOther parameters> \n" >> ${PAR}
 printf "Detectors = ${IFOS} \n" >> ${PAR}
 printf "Strain = ${STRAIN} \n" >> ${PAR}
-# trigger parameters
-TRIGGER_TIME=1126259462.42
 
 
 # run sampler
@@ -82,11 +80,13 @@ pycbc_inference --verbose \
     --instruments ${IFOS} \
     --gps-start-time ${GPS_START_TIME} \
     --gps-end-time ${GPS_END_TIME} \
+    --pad-data 2 \
+    --strain-high-pass 16.\
     --psd-model ${STRAIN} \
     --psd-inverse-length ${PSD_INVERSE_LENGTH} \
     --sample-rate ${SAMPLE_RATE} \
     --low-frequency-cutoff ${F_MIN} \
-    --channel-name H1:DCS-CALIB_STRAIN_C01 L1:DCS-CALIB_STRAIN_C01 \
+    --channel-name H1:HWINJ_INJECTED L1:HWINJ_INJECTED \
     --frame-files H1:H-H1HWINJ_q8a0a0_T_112_588n768_fix_scale_inc_0.0-1167559433-256.gwf L1:L-L1HWINJ_q8a0a0_T_112_588n768_fix_scale_inc_0.0-1167559433-256.gwf \
     --processing-scheme ${PROCESSING_SCHEME} \
     --sampler kombine \
