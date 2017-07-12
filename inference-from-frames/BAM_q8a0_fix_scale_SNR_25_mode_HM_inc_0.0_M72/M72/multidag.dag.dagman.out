@@ -1,0 +1,122 @@
+07/12/17 14:21:56 ******************************************************
+07/12/17 14:21:56 ** condor_scheduniv_exec.7726994.0 (CONDOR_DAGMAN) STARTING UP
+07/12/17 14:21:56 ** /usr/bin/condor_dagman
+07/12/17 14:21:56 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/12/17 14:21:56 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/12/17 14:21:56 ** $CondorVersion: 8.4.9 Sep 29 2016 BuildID: 382747 $
+07/12/17 14:21:56 ** $CondorPlatform: x86_64_RedHat6 $
+07/12/17 14:21:56 ** PID = 3849099
+07/12/17 14:21:56 ** Log last touched time unavailable (No such file or directory)
+07/12/17 14:21:56 ******************************************************
+07/12/17 14:21:56 Using config source: /etc/condor/condor_config
+07/12/17 14:21:56 Using local config sources: 
+07/12/17 14:21:56    /etc/condor/config.d/00admin
+07/12/17 14:21:56    /etc/condor/config.d/20-limit-post-scripts
+07/12/17 14:21:56    /etc/condor/config.d/50-job-router
+07/12/17 14:21:56    /etc/condor/config.d/accounting
+07/12/17 14:21:56    /etc/condor/config.d/dags
+07/12/17 14:21:56    /etc/condor/config.d/logfile_nfs_locking
+07/12/17 14:21:56    /etc/condor/condor_config.local
+07/12/17 14:21:56 config Macros = 84, Sorted = 84, StringBytes = 2836, TablesBytes = 3104
+07/12/17 14:21:56 CLASSAD_CACHING is ENABLED
+07/12/17 14:21:56 Daemon Log is logging: D_ALWAYS D_ERROR
+07/12/17 14:21:56 DaemonCore: No command port requested.
+07/12/17 14:21:56 DAGMAN_USE_STRICT setting: 1
+07/12/17 14:21:56 DAGMAN_VERBOSITY setting: 3
+07/12/17 14:21:56 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/12/17 14:21:56 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/12/17 14:21:56 DAGMAN_SUBMIT_DELAY setting: 0
+07/12/17 14:21:56 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/12/17 14:21:56 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/12/17 14:21:56 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/12/17 14:21:56 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/12/17 14:21:56 DAGMAN_DEFAULT_PRIORITY setting: 0
+07/12/17 14:21:56 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/12/17 14:21:56 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/12/17 14:21:56 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/12/17 14:21:56 DAGMAN_RETRY_NODE_FIRST setting: False
+07/12/17 14:21:56 DAGMAN_MAX_JOBS_IDLE setting: 100
+07/12/17 14:21:56 DAGMAN_MAX_JOBS_SUBMITTED setting: 3000
+07/12/17 14:21:56 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/12/17 14:21:56 DAGMAN_MAX_POST_SCRIPTS setting: 10
+07/12/17 14:21:56 DAGMAN_ALLOW_LOG_ERROR setting: False
+07/12/17 14:21:56 DAGMAN_MUNGE_NODE_NAMES setting: True
+07/12/17 14:21:56 DAGMAN_PROHIBIT_MULTI_JOBS setting: True
+07/12/17 14:21:56 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/12/17 14:21:56 DAGMAN_ALWAYS_RUN_POST setting: True
+07/12/17 14:21:56 DAGMAN_ABORT_DUPLICATES setting: True
+07/12/17 14:21:56 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/12/17 14:21:56 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/12/17 14:21:56 DAGMAN_AUTO_RESCUE setting: True
+07/12/17 14:21:56 DAGMAN_MAX_RESCUE_NUM setting: 100
+07/12/17 14:21:56 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/12/17 14:21:56 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/12/17 14:21:56 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/12/17 14:21:56 DAGMAN_MAX_JOB_HOLDS setting: 100
+07/12/17 14:21:56 DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/12/17 14:21:56 ALL_DEBUG setting: 
+07/12/17 14:21:56 DAGMAN_DEBUG setting: 
+07/12/17 14:21:56 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/12/17 14:21:56 argv[0] == "condor_scheduniv_exec.7726994.0"
+07/12/17 14:21:56 argv[1] == "-Lockfile"
+07/12/17 14:21:56 argv[2] == "/home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag.lock"
+07/12/17 14:21:56 argv[3] == "-AutoRescue"
+07/12/17 14:21:56 argv[4] == "1"
+07/12/17 14:21:56 argv[5] == "-DoRescueFrom"
+07/12/17 14:21:56 argv[6] == "0"
+07/12/17 14:21:56 argv[7] == "-Dag"
+07/12/17 14:21:56 argv[8] == "/home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag"
+07/12/17 14:21:56 argv[9] == "-Suppress_notification"
+07/12/17 14:21:56 argv[10] == "-CsdVersion"
+07/12/17 14:21:56 argv[11] == "$CondorVersion: 8.4.9 Sep 29 2016 BuildID: 382747 $"
+07/12/17 14:21:56 argv[12] == "-Dagman"
+07/12/17 14:21:56 argv[13] == "/usr/bin/condor_dagman"
+07/12/17 14:21:56 Warning: failed to get attribute DAGNodeName
+07/12/17 14:21:56 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/12/17 14:21:56 Default node log file is: </home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag.nodes.log>
+07/12/17 14:21:56 Note:  DAGMAN_MAX_JOBS_IDLE has been changed from the default setting; if your submit files create multiple procs, you should probably set DAGMAN_MAX_SUBMITS_PER_INTERVAL to 1
+07/12/17 14:21:56 DAG Lockfile will be written to /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag.lock
+07/12/17 14:21:56 DAG Input file is /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag
+07/12/17 14:21:56 Parsing 1 dagfiles
+07/12/17 14:21:56 Parsing /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag ...
+07/12/17 14:21:56 Dag contains 1 total jobs
+07/12/17 14:21:56 Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/12/17 14:21:59 Bootstrapping...
+07/12/17 14:21:59 Number of pre-completed nodes: 0
+07/12/17 14:21:59 MultiLogFiles: truncating log file /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag.nodes.log
+07/12/17 14:21:59 DAG status: 0 (DAG_STATUS_OK)
+07/12/17 14:21:59 Of 1 nodes total:
+07/12/17 14:21:59  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/12/17 14:21:59   ===     ===      ===     ===     ===        ===      ===
+07/12/17 14:21:59     0       0        0       0       1          0        0
+07/12/17 14:21:59 0 job proc(s) currently held
+07/12/17 14:21:59 Registering condor_event_timer...
+07/12/17 14:22:00 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag>
+07/12/17 14:22:00 Submitting Condor Node b44e2b28e2e45ef66e8e6f31b3631c71 job(s)...
+07/12/17 14:22:00 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag.nodes.log
+07/12/17 14:22:00 Masking the events recorded in the DAGMAN workflow log
+07/12/17 14:22:00 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/12/17 14:22:00 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'b44e2b28e2e45ef66e8e6f31b3631c71 -a +DAGManJobId' '=' '7726994 -a DAGManJobId' '=' '7726994 -a submit_event_notes' '=' 'DAG' 'Node:' 'b44e2b28e2e45ef66e8e6f31b3631c71 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/multidag.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub
+07/12/17 14:22:00 From submit: Submitting job(s).
+07/12/17 14:22:00 From submit: 1 job(s) submitted to cluster 7727005.
+07/12/17 14:22:00 	assigned Condor ID (7727005.0.0)
+07/12/17 14:22:00 Just submitted 1 job this cycle...
+07/12/17 14:22:00 Currently monitoring 1 Condor log file(s)
+07/12/17 14:22:00 Reassigning the id of job b44e2b28e2e45ef66e8e6f31b3631c71 from (7727005.0.0) to (7727005.0.0)
+07/12/17 14:22:00 Event: ULOG_SUBMIT for Condor Node b44e2b28e2e45ef66e8e6f31b3631c71 (7727005.0.0)
+07/12/17 14:22:00 Number of idle job procs: 1
+07/12/17 14:22:00 DAG status: 0 (DAG_STATUS_OK)
+07/12/17 14:22:00 Of 1 nodes total:
+07/12/17 14:22:00  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/12/17 14:22:00   ===     ===      ===     ===     ===        ===      ===
+07/12/17 14:22:00     0       0        1       0       0          0        0
+07/12/17 14:22:00 0 job proc(s) currently held
+07/12/17 14:22:05 Currently monitoring 1 Condor log file(s)
+07/12/17 14:22:05 Event: ULOG_EXECUTE for Condor Node b44e2b28e2e45ef66e8e6f31b3631c71 (7727005.0.0)
+07/12/17 14:22:05 Number of idle job procs: 0
+07/12/17 14:32:05 600 seconds since last log event
+07/12/17 14:32:05 Pending DAG nodes:
+07/12/17 14:32:05   Node b44e2b28e2e45ef66e8e6f31b3631c71, Condor ID 7727005, status STATUS_SUBMITTED
+07/12/17 14:42:06 1201 seconds since last log event
+07/12/17 14:42:06 Pending DAG nodes:
+07/12/17 14:42:06   Node b44e2b28e2e45ef66e8e6f31b3631c71, Condor ID 7727005, status STATUS_SUBMITTED

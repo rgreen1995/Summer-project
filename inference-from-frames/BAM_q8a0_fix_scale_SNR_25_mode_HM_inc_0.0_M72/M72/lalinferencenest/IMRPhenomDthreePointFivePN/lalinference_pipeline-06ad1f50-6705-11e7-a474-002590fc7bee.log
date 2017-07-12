@@ -1,0 +1,228 @@
+000 (7727016.000.000) 07/12 14:22:10 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 35e6b1d23490755c439845ae5858c772
+...
+000 (7727017.000.000) 07/12 14:22:10 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 7e3670e7e1c25cbe631bee7844258161
+...
+001 (7727016.000.000) 07/12 14:22:21 Job executing on host: <172.21.0.15:24491?addrs=172.21.0.15-24491>
+...
+001 (7727017.000.000) 07/12 14:22:21 Job executing on host: <172.21.0.15:65522?addrs=172.21.0.15-65522>
+...
+005 (7727017.000.000) 07/12 14:22:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+005 (7727016.000.000) 07/12 14:22:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (7727028.000.000) 07/12 14:22:30 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 961b7db686b246176504cb4abcd0c2cb
+...
+000 (7727029.000.000) 07/12 14:22:30 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: c56be0d60bf35d79e4b3d915ae9d18a0
+...
+000 (7727030.000.000) 07/12 14:22:30 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 584799f7717fbcb9ca5ac83cbe8939a0
+...
+000 (7727031.000.000) 07/12 14:22:30 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 53c9519c2bf8392d3ea4c1606a8fb042
+...
+000 (7727032.000.000) 07/12 14:22:30 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 65a5f446786e6a69c264a5f13c3ab3dd
+...
+000 (7727038.000.000) 07/12 14:22:36 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: c2256efd8bf09ef54d088f0c18a261d4
+...
+000 (7727039.000.000) 07/12 14:22:36 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 3d6a2ef2abf3390e17f88054c1ad3fa9
+...
+000 (7727040.000.000) 07/12 14:22:36 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 758d74e19e4e00bbd81504308d4ff56f
+...
+000 (7727041.000.000) 07/12 14:22:36 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: b9d87b9f864d7c0b3cf677f55b8f9b07
+...
+000 (7727042.000.000) 07/12 14:22:36 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: a1608f141aea5e68e29afa50b8cb7daf
+...
+000 (7727048.000.000) 07/12 14:22:41 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 0c650c186ea3df49df022ee2ea129939
+...
+000 (7727049.000.000) 07/12 14:22:41 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 4469a587268c98e371810fa7b1b9c86e
+...
+001 (7727029.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.29:58996?addrs=172.20.1.29-58996>
+...
+001 (7727038.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.51:44060?addrs=172.20.1.51-44060>
+...
+001 (7727041.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.47:33835?addrs=172.20.1.47-33835>
+...
+001 (7727039.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.52:38940?addrs=172.20.1.52-38940>
+...
+001 (7727040.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.38:34475?addrs=172.20.1.38-34475>
+...
+001 (7727048.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.3:44072?addrs=172.20.1.3-44072>
+...
+001 (7727049.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.40:34760?addrs=172.20.1.40-34760>
+...
+001 (7727031.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.50:50837?addrs=172.20.1.50-50837>
+...
+001 (7727028.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.57:44281?addrs=172.20.1.57-44281>
+...
+001 (7727030.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.19:35735?addrs=172.20.1.19-35735>
+...
+001 (7727032.000.000) 07/12 14:22:48 Job executing on host: <172.20.1.8:49692?addrs=172.20.1.8-49692>
+...
+001 (7727042.000.000) 07/12 14:22:49 Job executing on host: <172.20.1.56:44604?addrs=172.20.1.56-44604>
+...
+006 (7727042.000.000) 07/12 14:22:57 Image size of job updated: 40
+	4  -  MemoryUsage of job (MB)
+	3516  -  ResidentSetSize of job (KB)
+...
+006 (7727029.000.000) 07/12 14:22:57 Image size of job updated: 98120
+	16  -  MemoryUsage of job (MB)
+	15636  -  ResidentSetSize of job (KB)
+...
+006 (7727038.000.000) 07/12 14:22:57 Image size of job updated: 100152
+	18  -  MemoryUsage of job (MB)
+	17496  -  ResidentSetSize of job (KB)
+...
+006 (7727028.000.000) 07/12 14:22:57 Image size of job updated: 96084
+	14  -  MemoryUsage of job (MB)
+	13524  -  ResidentSetSize of job (KB)
+...
+006 (7727031.000.000) 07/12 14:22:57 Image size of job updated: 98736
+	16  -  MemoryUsage of job (MB)
+	16192  -  ResidentSetSize of job (KB)
+...
+006 (7727049.000.000) 07/12 14:22:57 Image size of job updated: 98304
+	15  -  MemoryUsage of job (MB)
+	15360  -  ResidentSetSize of job (KB)
+...
+006 (7727030.000.000) 07/12 14:22:57 Image size of job updated: 96532
+	14  -  MemoryUsage of job (MB)
+	13984  -  ResidentSetSize of job (KB)
+...
+006 (7727039.000.000) 07/12 14:22:57 Image size of job updated: 100420
+	18  -  MemoryUsage of job (MB)
+	17824  -  ResidentSetSize of job (KB)
+...
+006 (7727032.000.000) 07/12 14:22:57 Image size of job updated: 90660
+	7  -  MemoryUsage of job (MB)
+	6628  -  ResidentSetSize of job (KB)
+...
+006 (7727041.000.000) 07/12 14:22:57 Image size of job updated: 40
+	4  -  MemoryUsage of job (MB)
+	3516  -  ResidentSetSize of job (KB)
+...
+006 (7727040.000.000) 07/12 14:22:57 Image size of job updated: 40
+	4  -  MemoryUsage of job (MB)
+	3520  -  ResidentSetSize of job (KB)
+...
+006 (7727048.000.000) 07/12 14:22:57 Image size of job updated: 33984
+	1  -  MemoryUsage of job (MB)
+	316  -  ResidentSetSize of job (KB)
+...
+006 (7727042.000.000) 07/12 14:27:57 Image size of job updated: 228468
+	142  -  MemoryUsage of job (MB)
+	144576  -  ResidentSetSize of job (KB)
+...
+006 (7727041.000.000) 07/12 14:27:58 Image size of job updated: 235392
+	150  -  MemoryUsage of job (MB)
+	153032  -  ResidentSetSize of job (KB)
+...
+006 (7727040.000.000) 07/12 14:27:58 Image size of job updated: 101844
+	19  -  MemoryUsage of job (MB)
+	19060  -  ResidentSetSize of job (KB)
+...
+006 (7727048.000.000) 07/12 14:27:58 Image size of job updated: 235024
+	149  -  MemoryUsage of job (MB)
+	152536  -  ResidentSetSize of job (KB)
+...
+006 (7727029.000.000) 07/12 14:27:58 Image size of job updated: 235320
+	150  -  MemoryUsage of job (MB)
+	152972  -  ResidentSetSize of job (KB)
+...
+006 (7727038.000.000) 07/12 14:27:58 Image size of job updated: 101596
+	18  -  MemoryUsage of job (MB)
+	18428  -  ResidentSetSize of job (KB)
+...
+006 (7727028.000.000) 07/12 14:27:58 Image size of job updated: 179280
+	95  -  MemoryUsage of job (MB)
+	96728  -  ResidentSetSize of job (KB)
+...
+006 (7727031.000.000) 07/12 14:27:58 Image size of job updated: 235360
+	150  -  MemoryUsage of job (MB)
+	152884  -  ResidentSetSize of job (KB)
+...
+006 (7727030.000.000) 07/12 14:27:58 Image size of job updated: 234904
+	149  -  MemoryUsage of job (MB)
+	152480  -  ResidentSetSize of job (KB)
+...
+006 (7727049.000.000) 07/12 14:27:58 Image size of job updated: 234760
+	149  -  MemoryUsage of job (MB)
+	151768  -  ResidentSetSize of job (KB)
+...
+006 (7727039.000.000) 07/12 14:27:58 Image size of job updated: 102324
+	19  -  MemoryUsage of job (MB)
+	18448  -  ResidentSetSize of job (KB)
+...
+006 (7727032.000.000) 07/12 14:27:58 Image size of job updated: 101448
+	19  -  MemoryUsage of job (MB)
+	18524  -  ResidentSetSize of job (KB)
+...
+006 (7727042.000.000) 07/12 14:32:57 Image size of job updated: 235408
+	149  -  MemoryUsage of job (MB)
+	151568  -  ResidentSetSize of job (KB)
+...
+006 (7727041.000.000) 07/12 14:32:58 Image size of job updated: 235392
+	150  -  MemoryUsage of job (MB)
+	153044  -  ResidentSetSize of job (KB)
+...
+006 (7727040.000.000) 07/12 14:32:58 Image size of job updated: 283752
+	197  -  MemoryUsage of job (MB)
+	201232  -  ResidentSetSize of job (KB)
+...
+006 (7727038.000.000) 07/12 14:32:59 Image size of job updated: 283380
+	197  -  MemoryUsage of job (MB)
+	200844  -  ResidentSetSize of job (KB)
+...
+006 (7727028.000.000) 07/12 14:32:59 Image size of job updated: 235848
+	150  -  MemoryUsage of job (MB)
+	153336  -  ResidentSetSize of job (KB)
+...
+006 (7727039.000.000) 07/12 14:32:59 Image size of job updated: 283752
+	197  -  MemoryUsage of job (MB)
+	201244  -  ResidentSetSize of job (KB)
+...
+006 (7727032.000.000) 07/12 14:32:59 Image size of job updated: 284156
+	197  -  MemoryUsage of job (MB)
+	201584  -  ResidentSetSize of job (KB)
+...
+006 (7727041.000.000) 07/12 14:37:59 Image size of job updated: 235392
+	150  -  MemoryUsage of job (MB)
+	153048  -  ResidentSetSize of job (KB)
+...
+006 (7727041.000.000) 07/12 14:42:59 Image size of job updated: 235392
+	150  -  MemoryUsage of job (MB)
+	153056  -  ResidentSetSize of job (KB)
+...
+006 (7727049.000.000) 07/12 14:43:01 Image size of job updated: 236424
+	150  -  MemoryUsage of job (MB)
+	153428  -  ResidentSetSize of job (KB)
+...
