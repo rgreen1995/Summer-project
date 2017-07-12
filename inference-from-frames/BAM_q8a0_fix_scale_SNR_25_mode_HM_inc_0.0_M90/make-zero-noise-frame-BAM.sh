@@ -14,7 +14,7 @@ PiBy3=1.0471975511965976
 PiBy2=1.5707963267948966
 #Add more, as needed...
 
-total_mass=90
+total_mass=45
 network_snr=25
 
 inclination=${FaceOn}
