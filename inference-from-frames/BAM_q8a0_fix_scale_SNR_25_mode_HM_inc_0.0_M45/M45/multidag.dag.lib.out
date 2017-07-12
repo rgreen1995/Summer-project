@@ -1,0 +1,11 @@
+
+-----------------------------------------------------------------------
+File for submitting this DAG to Condor           : /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub
+Log of DAGMan debugging messages                 : /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.dagman.out
+Log of Condor library output                     : /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.lib.out
+Log of Condor library error messages             : /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.lib.err
+Log of the life of condor_dagman itself          : /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.dagman.log
+
+-no_submit given, not submitting DAG to Condor.  You can do this with:
+"condor_submit /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub"
+-----------------------------------------------------------------------

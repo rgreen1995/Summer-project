@@ -1,0 +1,3 @@
+# Job 05aed3c798a5b45d8c926e1e49286b62
+condor_submit_dag /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag
+

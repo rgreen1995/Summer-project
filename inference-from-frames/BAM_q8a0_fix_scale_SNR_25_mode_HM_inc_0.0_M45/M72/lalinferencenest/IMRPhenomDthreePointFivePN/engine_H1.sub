@@ -1,0 +1,13 @@
+universe = vanilla
+executable = /home/spxfp1/opt/lalsuite/lalinference_o2_phenomHM/bin/lalinference_nest
+arguments = " --approx IMRPhenomDthreePointFivePN --psdlength $(macropsdlength) --nlive 512 --comp-max 120.0 --srate $(macrosrate) --H1-cache $(macroH1cache) --H1-timeslide $(macroH1timeslide) --neff 1000 --seglen $(macroseglen) --distance-max 2200 --trigtime $(macrotrigtime) --comp-min 1.0 --psdstart $(macropsdstart) --H1-fhigh $(macroH1fhigh) --progress --tolerance 0.1 --H1-flow $(macroH1flow) --L1-psd IFO1_psd.dat --resume --H1-psd IFO0_psd.dat --outfile $(macrooutfile) --aligned-spin --randomseed $(macrorandomseed) --H1-channel $(macroH1channel) --glob-frame-data $(macroargument0) $(macroargument1) $(macroargument2) "
+environment = OMP_NUM_THREADS=1
+request_memory = 2048
+getenv = true
+accounting_group_user = rhys.green
+accounting_group = ligo.sim.o2.cbc.pe.lalinference
+log = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_pipeline-06ad1f50-6705-11e7-a474-002590fc7bee.log
+error = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/lalinferencenest/IMRPhenomDthreePointFivePN/log/lalinference-$(cluster)-$(process)-$(node).err
+output = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M_changes/M72/lalinferencenest/IMRPhenomDthreePointFivePN/log/lalinference-$(cluster)-$(process)-$(node).out
+notification = never
+queue 1

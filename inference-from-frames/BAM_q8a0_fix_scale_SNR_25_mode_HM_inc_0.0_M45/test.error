@@ -1,0 +1,32 @@
+2017-07-12 14:54:55,806 Using seed 0
+2017-07-12 14:54:55,807 Running with CPU support: 1 threads
+2017-07-12 14:54:56,396 Loading data
+2017-07-12 14:54:56,397 Reading Frames
+2017-07-12 14:54:56,571 Highpass Filtering
+2017-07-12 14:54:56,587 Converting to float64
+2017-07-12 14:54:56,587 Resampling data
+2017-07-12 14:54:56,635 attempting to aquire lock '/tmp/Condor-execute.172.20.1.11-7289/dir_21634/1341829_python27_compiled/none/none/code_lockfile' for compiling code
+2017-07-12 14:54:56,635 we have aquired the lock
+2017-07-12 14:55:08,275 the lock has been released
+2017-07-12 14:55:09,108 Highpass Filtering
+2017-07-12 14:55:09,111 Remove Padding
+2017-07-12 14:55:09,112 Reading Frames
+2017-07-12 14:55:09,284 Highpass Filtering
+2017-07-12 14:55:09,289 Converting to float64
+2017-07-12 14:55:09,289 Resampling data
+2017-07-12 14:55:09,295 Highpass Filtering
+2017-07-12 14:55:09,298 Remove Padding
+2017-07-12 14:55:09,298 Applying gates to strain data
+2017-07-12 14:55:09,298 FFT strain
+/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/bwacfrm/lib/python2.7/site-packages/pycbc/types/array.py:357: RuntimeWarning: divide by zero encountered in divide
+  return self._data.__rdiv__(other)
+2017-07-12 14:55:09,388 Reading configuration file
+2017-07-12 14:55:09,576 Loading arguments
+2017-07-12 14:55:09,576 Setting up priors for each parameter
+2017-07-12 14:55:09,579 Setting up sampler
+2017-07-12 14:55:14,283 Writing command line and data to output file
+2017-07-12 14:55:15,316 Setting walkers initial conditions for varying parameters
+2017-07-12 14:55:17,267 Running sampler for 0 to 1000 out of 12000 iterations
+2017-07-12 14:55:18,053 attempting to aquire lock '/tmp/Condor-execute.172.20.1.11-7289/dir_21634/1341829_python27_compiled/none/none/code_lockfile' for compiling code
+2017-07-12 14:55:18,054 we have aquired the lock
+2017-07-12 14:55:19,408 the lock has been released
