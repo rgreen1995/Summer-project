@@ -1,0 +1,1617 @@
+07/17/17 12:34:49 ******************************************************
+07/17/17 12:34:49 ** condor_scheduniv_exec.7773836.0 (CONDOR_DAGMAN) STARTING UP
+07/17/17 12:34:49 ** /usr/bin/condor_dagman
+07/17/17 12:34:49 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/17/17 12:34:49 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/17/17 12:34:49 ** $CondorVersion: 8.4.9 Sep 29 2016 BuildID: 382747 $
+07/17/17 12:34:49 ** $CondorPlatform: x86_64_RedHat6 $
+07/17/17 12:34:49 ** PID = 1556708
+07/17/17 12:34:49 ** Log last touched time unavailable (No such file or directory)
+07/17/17 12:34:49 ******************************************************
+07/17/17 12:34:49 Using config source: /etc/condor/condor_config
+07/17/17 12:34:49 Using local config sources: 
+07/17/17 12:34:49    /etc/condor/config.d/00admin
+07/17/17 12:34:49    /etc/condor/config.d/20-limit-post-scripts
+07/17/17 12:34:49    /etc/condor/config.d/50-job-router
+07/17/17 12:34:49    /etc/condor/config.d/accounting
+07/17/17 12:34:49    /etc/condor/config.d/dags
+07/17/17 12:34:49    /etc/condor/config.d/logfile_nfs_locking
+07/17/17 12:34:49    /etc/condor/condor_config.local
+07/17/17 12:34:49 config Macros = 84, Sorted = 84, StringBytes = 2909, TablesBytes = 3104
+07/17/17 12:34:49 CLASSAD_CACHING is ENABLED
+07/17/17 12:34:49 Daemon Log is logging: D_ALWAYS D_ERROR
+07/17/17 12:34:49 DaemonCore: No command port requested.
+07/17/17 12:34:49 DAGMAN_USE_STRICT setting: 1
+07/17/17 12:34:49 DAGMAN_VERBOSITY setting: 3
+07/17/17 12:34:49 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/17/17 12:34:49 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/17/17 12:34:49 DAGMAN_SUBMIT_DELAY setting: 0
+07/17/17 12:34:49 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/17/17 12:34:49 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/17/17 12:34:49 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/17/17 12:34:49 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/17/17 12:34:49 DAGMAN_DEFAULT_PRIORITY setting: 0
+07/17/17 12:34:49 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/17/17 12:34:49 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/17/17 12:34:49 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/17/17 12:34:49 DAGMAN_RETRY_NODE_FIRST setting: False
+07/17/17 12:34:49 DAGMAN_MAX_JOBS_IDLE setting: 100
+07/17/17 12:34:49 DAGMAN_MAX_JOBS_SUBMITTED setting: 3000
+07/17/17 12:34:49 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/17/17 12:34:49 DAGMAN_MAX_POST_SCRIPTS setting: 10
+07/17/17 12:34:49 DAGMAN_ALLOW_LOG_ERROR setting: False
+07/17/17 12:34:49 DAGMAN_MUNGE_NODE_NAMES setting: True
+07/17/17 12:34:49 DAGMAN_PROHIBIT_MULTI_JOBS setting: True
+07/17/17 12:34:49 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/17/17 12:34:49 DAGMAN_ALWAYS_RUN_POST setting: True
+07/17/17 12:34:49 DAGMAN_ABORT_DUPLICATES setting: True
+07/17/17 12:34:49 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/17/17 12:34:49 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/17/17 12:34:49 DAGMAN_AUTO_RESCUE setting: True
+07/17/17 12:34:49 DAGMAN_MAX_RESCUE_NUM setting: 100
+07/17/17 12:34:49 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/17/17 12:34:49 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/17/17 12:34:49 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/17/17 12:34:49 DAGMAN_MAX_JOB_HOLDS setting: 100
+07/17/17 12:34:49 DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/17/17 12:34:49 ALL_DEBUG setting: 
+07/17/17 12:34:49 DAGMAN_DEBUG setting: 
+07/17/17 12:34:49 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/17/17 12:34:49 argv[0] == "condor_scheduniv_exec.7773836.0"
+07/17/17 12:34:49 argv[1] == "-Lockfile"
+07/17/17 12:34:49 argv[2] == "/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.lock"
+07/17/17 12:34:49 argv[3] == "-AutoRescue"
+07/17/17 12:34:49 argv[4] == "1"
+07/17/17 12:34:49 argv[5] == "-DoRescueFrom"
+07/17/17 12:34:49 argv[6] == "0"
+07/17/17 12:34:49 argv[7] == "-Dag"
+07/17/17 12:34:49 argv[8] == "/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag"
+07/17/17 12:34:49 argv[9] == "-Suppress_notification"
+07/17/17 12:34:49 argv[10] == "-CsdVersion"
+07/17/17 12:34:49 argv[11] == "$CondorVersion: 8.4.9 Sep 29 2016 BuildID: 382747 $"
+07/17/17 12:34:49 argv[12] == "-Dagman"
+07/17/17 12:34:49 argv[13] == "/usr/bin/condor_dagman"
+07/17/17 12:34:49 argv[14] == "-Update_submit"
+07/17/17 12:34:49 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/17/17 12:34:49 Default node log file is: </home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log>
+07/17/17 12:34:49 Note:  DAGMAN_MAX_JOBS_IDLE has been changed from the default setting; if your submit files create multiple procs, you should probably set DAGMAN_MAX_SUBMITS_PER_INTERVAL to 1
+07/17/17 12:34:49 DAG Lockfile will be written to /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.lock
+07/17/17 12:34:49 DAG Input file is /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag
+07/17/17 12:34:49 Parsing 1 dagfiles
+07/17/17 12:34:49 Parsing /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag ...
+07/17/17 12:34:49 Dag contains 24 total jobs
+07/17/17 12:34:49 Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/17/17 12:34:53 Bootstrapping...
+07/17/17 12:34:53 Number of pre-completed nodes: 0
+07/17/17 12:34:53 MultiLogFiles: truncating log file /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:34:53 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 12:34:53 Of 24 nodes total:
+07/17/17 12:34:53  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 12:34:53   ===     ===      ===     ===     ===        ===      ===
+07/17/17 12:34:53     0       0        0       0       2         22        0
+07/17/17 12:34:53 0 job proc(s) currently held
+07/17/17 12:34:53 Registering condor_event_timer...
+07/17/17 12:34:54 Submitting Condor Node cbb1ca342720e83d26c6d769f45dd24a job(s)...
+07/17/17 12:34:54 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:34:54 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:34:54 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:34:54 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'cbb1ca342720e83d26c6d769f45dd24a -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'cbb1ca342720e83d26c6d769f45dd24a -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrooutput' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macrogpsendtime' '=' '1167559697 -a macroobservatory' '=' 'H -a macrotype' '=' 'H1_HOFT_C01 -a macrogpsstarttime' '=' '1167559401 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/datafind.sub
+07/17/17 12:34:54 From submit: Submitting job(s).
+07/17/17 12:34:54 From submit: 1 job(s) submitted to cluster 7773837.
+07/17/17 12:34:54 	assigned Condor ID (7773837.0.0)
+07/17/17 12:34:54 Submitting Condor Node 4b1a92c03f2475edc7894c9b8168526d job(s)...
+07/17/17 12:34:54 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:34:54 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:34:54 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:34:54 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '4b1a92c03f2475edc7894c9b8168526d -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '4b1a92c03f2475edc7894c9b8168526d -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrooutput' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macrogpsendtime' '=' '1167559697 -a macroobservatory' '=' 'L -a macrotype' '=' 'L1_HOFT_C01 -a macrogpsstarttime' '=' '1167559401 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/datafind.sub
+07/17/17 12:34:54 From submit: Submitting job(s).
+07/17/17 12:34:54 From submit: 1 job(s) submitted to cluster 7773838.
+07/17/17 12:34:54 	assigned Condor ID (7773838.0.0)
+07/17/17 12:34:54 Just submitted 2 jobs this cycle...
+07/17/17 12:34:54 Currently monitoring 1 Condor log file(s)
+07/17/17 12:34:54 Reassigning the id of job cbb1ca342720e83d26c6d769f45dd24a from (7773837.0.0) to (7773837.0.0)
+07/17/17 12:34:54 Event: ULOG_SUBMIT for Condor Node cbb1ca342720e83d26c6d769f45dd24a (7773837.0.0)
+07/17/17 12:34:54 Number of idle job procs: 1
+07/17/17 12:34:54 Reassigning the id of job 4b1a92c03f2475edc7894c9b8168526d from (7773838.0.0) to (7773838.0.0)
+07/17/17 12:34:54 Event: ULOG_SUBMIT for Condor Node 4b1a92c03f2475edc7894c9b8168526d (7773838.0.0)
+07/17/17 12:34:54 Number of idle job procs: 2
+07/17/17 12:34:54 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 12:34:54 Of 24 nodes total:
+07/17/17 12:34:54  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 12:34:54   ===     ===      ===     ===     ===        ===      ===
+07/17/17 12:34:54     0       0        2       0       0         22        0
+07/17/17 12:34:54 0 job proc(s) currently held
+07/17/17 12:34:59 Currently monitoring 1 Condor log file(s)
+07/17/17 12:34:59 Event: ULOG_EXECUTE for Condor Node cbb1ca342720e83d26c6d769f45dd24a (7773837.0.0)
+07/17/17 12:34:59 Number of idle job procs: 1
+07/17/17 12:34:59 Event: ULOG_EXECUTE for Condor Node 4b1a92c03f2475edc7894c9b8168526d (7773838.0.0)
+07/17/17 12:34:59 Number of idle job procs: 0
+07/17/17 12:34:59 Event: ULOG_JOB_TERMINATED for Condor Node 4b1a92c03f2475edc7894c9b8168526d (7773838.0.0)
+07/17/17 12:34:59 Number of idle job procs: 0
+07/17/17 12:34:59 Node 4b1a92c03f2475edc7894c9b8168526d job proc (7773838.0.0) completed successfully.
+07/17/17 12:34:59 Node 4b1a92c03f2475edc7894c9b8168526d job completed
+07/17/17 12:34:59 Event: ULOG_JOB_TERMINATED for Condor Node cbb1ca342720e83d26c6d769f45dd24a (7773837.0.0)
+07/17/17 12:34:59 Number of idle job procs: 0
+07/17/17 12:34:59 Node cbb1ca342720e83d26c6d769f45dd24a job proc (7773837.0.0) completed successfully.
+07/17/17 12:34:59 Node cbb1ca342720e83d26c6d769f45dd24a job completed
+07/17/17 12:34:59 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 12:34:59 Of 24 nodes total:
+07/17/17 12:34:59  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 12:34:59   ===     ===      ===     ===     ===        ===      ===
+07/17/17 12:34:59     2       0        0       0      12         10        0
+07/17/17 12:34:59 0 job proc(s) currently held
+07/17/17 12:35:04 Submitting Condor Node 98c353d5121f762b52ce8e6ad8a19002 job(s)...
+07/17/17 12:35:04 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:04 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:04 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '98c353d5121f762b52ce8e6ad8a19002 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '98c353d5121f762b52ce8e6ad8a19002 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macrorandomseed' '=' '1015304434 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-8.hdf5 -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_L1.sub
+07/17/17 12:35:04 From submit: Submitting job(s).
+07/17/17 12:35:04 From submit: 1 job(s) submitted to cluster 7773839.
+07/17/17 12:35:04 	assigned Condor ID (7773839.0.0)
+07/17/17 12:35:04 Submitting Condor Node bb593d3e6079b4311f3993926b1b5e90 job(s)...
+07/17/17 12:35:04 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:04 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:04 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'bb593d3e6079b4311f3993926b1b5e90 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'bb593d3e6079b4311f3993926b1b5e90 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macrorandomseed' '=' '2054535360 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-9.hdf5 -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--dont-dump-extras -a macroargument2' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_L1.sub
+07/17/17 12:35:04 From submit: Submitting job(s).
+07/17/17 12:35:04 From submit: 1 job(s) submitted to cluster 7773840.
+07/17/17 12:35:04 	assigned Condor ID (7773840.0.0)
+07/17/17 12:35:04 Submitting Condor Node 8a38287b0bebb8fe0bbec7b9b71436ca job(s)...
+07/17/17 12:35:04 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:04 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:04 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '8a38287b0bebb8fe0bbec7b9b71436ca -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '8a38287b0bebb8fe0bbec7b9b71436ca -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macrorandomseed' '=' '944013604 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-10.hdf5 -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--dont-dump-extras -a macroargument2' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_L1.sub
+07/17/17 12:35:04 From submit: Submitting job(s).
+07/17/17 12:35:04 From submit: 1 job(s) submitted to cluster 7773841.
+07/17/17 12:35:04 	assigned Condor ID (7773841.0.0)
+07/17/17 12:35:04 Submitting Condor Node d71c0a965c171641c3ffdf38f4339cfe job(s)...
+07/17/17 12:35:04 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:04 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:04 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'd71c0a965c171641c3ffdf38f4339cfe -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'd71c0a965c171641c3ffdf38f4339cfe -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macrorandomseed' '=' '1553138063 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-11.hdf5 -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--dont-dump-extras -a macroargument2' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_L1.sub
+07/17/17 12:35:04 From submit: Submitting job(s).
+07/17/17 12:35:04 From submit: 1 job(s) submitted to cluster 7773842.
+07/17/17 12:35:04 	assigned Condor ID (7773842.0.0)
+07/17/17 12:35:04 Submitting Condor Node f632cf62264ea0528692ea3168570b68 job(s)...
+07/17/17 12:35:04 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:04 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:04 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'f632cf62264ea0528692ea3168570b68 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'f632cf62264ea0528692ea3168570b68 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '112519620 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-0.hdf5 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--ifo' 'H1 -a macroargument1' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a,4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1L1.sub
+07/17/17 12:35:04 From submit: Submitting job(s).
+07/17/17 12:35:04 From submit: 1 job(s) submitted to cluster 7773843.
+07/17/17 12:35:04 	assigned Condor ID (7773843.0.0)
+07/17/17 12:35:04 Just submitted 5 jobs this cycle...
+07/17/17 12:35:04 Currently monitoring 1 Condor log file(s)
+07/17/17 12:35:04 Reassigning the id of job 98c353d5121f762b52ce8e6ad8a19002 from (7773839.0.0) to (7773839.0.0)
+07/17/17 12:35:04 Event: ULOG_SUBMIT for Condor Node 98c353d5121f762b52ce8e6ad8a19002 (7773839.0.0)
+07/17/17 12:35:04 Number of idle job procs: 1
+07/17/17 12:35:04 Reassigning the id of job bb593d3e6079b4311f3993926b1b5e90 from (7773840.0.0) to (7773840.0.0)
+07/17/17 12:35:04 Event: ULOG_SUBMIT for Condor Node bb593d3e6079b4311f3993926b1b5e90 (7773840.0.0)
+07/17/17 12:35:04 Number of idle job procs: 2
+07/17/17 12:35:04 Reassigning the id of job 8a38287b0bebb8fe0bbec7b9b71436ca from (7773841.0.0) to (7773841.0.0)
+07/17/17 12:35:04 Event: ULOG_SUBMIT for Condor Node 8a38287b0bebb8fe0bbec7b9b71436ca (7773841.0.0)
+07/17/17 12:35:04 Number of idle job procs: 3
+07/17/17 12:35:04 Reassigning the id of job d71c0a965c171641c3ffdf38f4339cfe from (7773842.0.0) to (7773842.0.0)
+07/17/17 12:35:04 Event: ULOG_SUBMIT for Condor Node d71c0a965c171641c3ffdf38f4339cfe (7773842.0.0)
+07/17/17 12:35:04 Number of idle job procs: 4
+07/17/17 12:35:04 Reassigning the id of job f632cf62264ea0528692ea3168570b68 from (7773843.0.0) to (7773843.0.0)
+07/17/17 12:35:04 Event: ULOG_SUBMIT for Condor Node f632cf62264ea0528692ea3168570b68 (7773843.0.0)
+07/17/17 12:35:04 Number of idle job procs: 5
+07/17/17 12:35:04 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 12:35:04 Of 24 nodes total:
+07/17/17 12:35:04  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 12:35:04   ===     ===      ===     ===     ===        ===      ===
+07/17/17 12:35:04     2       0        5       0       7         10        0
+07/17/17 12:35:04 0 job proc(s) currently held
+07/17/17 12:35:09 Submitting Condor Node fae72e2762cdee96dda3c52d4c8be27d job(s)...
+07/17/17 12:35:09 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:09 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:09 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'fae72e2762cdee96dda3c52d4c8be27d -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'fae72e2762cdee96dda3c52d4c8be27d -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '460331306 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-1.hdf5 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--ifo' 'H1 -a macroargument2' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a,4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1L1.sub
+07/17/17 12:35:09 From submit: Submitting job(s).
+07/17/17 12:35:09 From submit: 1 job(s) submitted to cluster 7773844.
+07/17/17 12:35:09 	assigned Condor ID (7773844.0.0)
+07/17/17 12:35:09 Submitting Condor Node db038fa574a7e923bb72c64af7f628e5 job(s)...
+07/17/17 12:35:09 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:09 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:09 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'db038fa574a7e923bb72c64af7f628e5 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'db038fa574a7e923bb72c64af7f628e5 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '1541554137 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-2.hdf5 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--ifo' 'H1 -a macroargument2' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a,4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1L1.sub
+07/17/17 12:35:09 From submit: Submitting job(s).
+07/17/17 12:35:09 From submit: 1 job(s) submitted to cluster 7773845.
+07/17/17 12:35:09 	assigned Condor ID (7773845.0.0)
+07/17/17 12:35:09 Submitting Condor Node 5738ec499ac86eee18f2dcff0945f5c7 job(s)...
+07/17/17 12:35:09 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:09 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:09 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '5738ec499ac86eee18f2dcff0945f5c7 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '5738ec499ac86eee18f2dcff0945f5c7 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macroL1flow' '=' '20 -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '157358743 -a macropsdstart' '=' '1167559401 -a macroL1timeslide' '=' '0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macroL1fhigh' '=' '1023.875 -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-3.hdf5 -a macroL1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/L-L1_HOFT_C01_CACHE-1167559401-296.lcf -a macroL1channel' '=' 'L1:HWINJ_INJECTED -a macroseglen' '=' '8.0 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--ifo' 'H1 -a macroargument2' '=' '--ifo' 'L1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a,4b1a92c03f2475edc7894c9b8168526d" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1L1.sub
+07/17/17 12:35:09 From submit: Submitting job(s).
+07/17/17 12:35:09 From submit: 1 job(s) submitted to cluster 7773846.
+07/17/17 12:35:09 	assigned Condor ID (7773846.0.0)
+07/17/17 12:35:09 Submitting Condor Node d6ed4167b4e6ce25e754324db045182e job(s)...
+07/17/17 12:35:09 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:09 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:09 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'd6ed4167b4e6ce25e754324db045182e -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'd6ed4167b4e6ce25e754324db045182e -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '1227690881 -a macropsdstart' '=' '1167559401 -a macroseglen' '=' '8.0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-4.hdf5 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--ifo' 'H1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1.sub
+07/17/17 12:35:09 From submit: Submitting job(s).
+07/17/17 12:35:09 From submit: 1 job(s) submitted to cluster 7773847.
+07/17/17 12:35:09 	assigned Condor ID (7773847.0.0)
+07/17/17 12:35:09 Submitting Condor Node 171872b5e2a594ff8228a029fd680d1a job(s)...
+07/17/17 12:35:09 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:09 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:09 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '171872b5e2a594ff8228a029fd680d1a -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '171872b5e2a594ff8228a029fd680d1a -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '1486797879 -a macropsdstart' '=' '1167559401 -a macroseglen' '=' '8.0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-5.hdf5 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--dont-dump-extras -a macroargument2' '=' '--ifo' 'H1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1.sub
+07/17/17 12:35:09 From submit: Submitting job(s).
+07/17/17 12:35:09 From submit: 1 job(s) submitted to cluster 7773848.
+07/17/17 12:35:09 	assigned Condor ID (7773848.0.0)
+07/17/17 12:35:09 Just submitted 5 jobs this cycle...
+07/17/17 12:35:09 Currently monitoring 1 Condor log file(s)
+07/17/17 12:35:09 Reassigning the id of job fae72e2762cdee96dda3c52d4c8be27d from (7773844.0.0) to (7773844.0.0)
+07/17/17 12:35:09 Event: ULOG_SUBMIT for Condor Node fae72e2762cdee96dda3c52d4c8be27d (7773844.0.0)
+07/17/17 12:35:09 Number of idle job procs: 6
+07/17/17 12:35:09 Reassigning the id of job db038fa574a7e923bb72c64af7f628e5 from (7773845.0.0) to (7773845.0.0)
+07/17/17 12:35:09 Event: ULOG_SUBMIT for Condor Node db038fa574a7e923bb72c64af7f628e5 (7773845.0.0)
+07/17/17 12:35:09 Number of idle job procs: 7
+07/17/17 12:35:09 Reassigning the id of job 5738ec499ac86eee18f2dcff0945f5c7 from (7773846.0.0) to (7773846.0.0)
+07/17/17 12:35:09 Event: ULOG_SUBMIT for Condor Node 5738ec499ac86eee18f2dcff0945f5c7 (7773846.0.0)
+07/17/17 12:35:09 Number of idle job procs: 8
+07/17/17 12:35:09 Reassigning the id of job d6ed4167b4e6ce25e754324db045182e from (7773847.0.0) to (7773847.0.0)
+07/17/17 12:35:09 Event: ULOG_SUBMIT for Condor Node d6ed4167b4e6ce25e754324db045182e (7773847.0.0)
+07/17/17 12:35:09 Number of idle job procs: 9
+07/17/17 12:35:09 Reassigning the id of job 171872b5e2a594ff8228a029fd680d1a from (7773848.0.0) to (7773848.0.0)
+07/17/17 12:35:09 Event: ULOG_SUBMIT for Condor Node 171872b5e2a594ff8228a029fd680d1a (7773848.0.0)
+07/17/17 12:35:09 Number of idle job procs: 10
+07/17/17 12:35:09 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 12:35:09 Of 24 nodes total:
+07/17/17 12:35:09  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 12:35:09   ===     ===      ===     ===     ===        ===      ===
+07/17/17 12:35:09     2       0       10       0       2         10        0
+07/17/17 12:35:09 0 job proc(s) currently held
+07/17/17 12:35:14 Submitting Condor Node c03b69b8ad979005bfb7104eebe085fc job(s)...
+07/17/17 12:35:14 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:14 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:14 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:14 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'c03b69b8ad979005bfb7104eebe085fc -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'c03b69b8ad979005bfb7104eebe085fc -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '1333923052 -a macropsdstart' '=' '1167559401 -a macroseglen' '=' '8.0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-6.hdf5 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--dont-dump-extras -a macroargument2' '=' '--ifo' 'H1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1.sub
+07/17/17 12:35:14 From submit: Submitting job(s).
+07/17/17 12:35:14 From submit: 1 job(s) submitted to cluster 7773849.
+07/17/17 12:35:14 	assigned Condor ID (7773849.0.0)
+07/17/17 12:35:14 Submitting Condor Node 9f27d9c62bb1d9b85951eb4f536cddec job(s)...
+07/17/17 12:35:14 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 12:35:14 Masking the events recorded in the DAGMAN workflow log
+07/17/17 12:35:14 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 12:35:14 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '9f27d9c62bb1d9b85951eb4f536cddec -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '9f27d9c62bb1d9b85951eb4f536cddec -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosrate' '=' '2048.0 -a macroH1timeslide' '=' '0 -a macrorandomseed' '=' '230552354 -a macropsdstart' '=' '1167559401 -a macroseglen' '=' '8.0 -a macrotrigtime' '=' '1167559679.0 -a macroH1fhigh' '=' '1023.875 -a macroH1flow' '=' '20 -a macroH1channel' '=' 'H1:HWINJ_INJECTED -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-7.hdf5 -a macroH1cache' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/caches/H-H1_HOFT_C01_CACHE-1167559401-296.lcf -a macropsdlength' '=' '255.0 -a macroargument0' '=' '--dont-dump-extras -a macroargument1' '=' '--dont-dump-extras -a macroargument2' '=' '--ifo' 'H1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"cbb1ca342720e83d26c6d769f45dd24a" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine_H1.sub
+07/17/17 12:35:14 From submit: Submitting job(s).
+07/17/17 12:35:14 From submit: 1 job(s) submitted to cluster 7773850.
+07/17/17 12:35:14 	assigned Condor ID (7773850.0.0)
+07/17/17 12:35:14 Just submitted 2 jobs this cycle...
+07/17/17 12:35:14 Currently monitoring 1 Condor log file(s)
+07/17/17 12:35:14 Reassigning the id of job c03b69b8ad979005bfb7104eebe085fc from (7773849.0.0) to (7773849.0.0)
+07/17/17 12:35:14 Event: ULOG_SUBMIT for Condor Node c03b69b8ad979005bfb7104eebe085fc (7773849.0.0)
+07/17/17 12:35:14 Number of idle job procs: 11
+07/17/17 12:35:14 Reassigning the id of job 9f27d9c62bb1d9b85951eb4f536cddec from (7773850.0.0) to (7773850.0.0)
+07/17/17 12:35:14 Event: ULOG_SUBMIT for Condor Node 9f27d9c62bb1d9b85951eb4f536cddec (7773850.0.0)
+07/17/17 12:35:14 Number of idle job procs: 12
+07/17/17 12:35:14 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 12:35:14 Of 24 nodes total:
+07/17/17 12:35:14  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 12:35:14   ===     ===      ===     ===     ===        ===      ===
+07/17/17 12:35:14     2       0       12       0       0         10        0
+07/17/17 12:35:14 0 job proc(s) currently held
+07/17/17 12:35:24 Currently monitoring 1 Condor log file(s)
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node 98c353d5121f762b52ce8e6ad8a19002 (7773839.0.0)
+07/17/17 12:35:24 Number of idle job procs: 11
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node 5738ec499ac86eee18f2dcff0945f5c7 (7773846.0.0)
+07/17/17 12:35:24 Number of idle job procs: 10
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node bb593d3e6079b4311f3993926b1b5e90 (7773840.0.0)
+07/17/17 12:35:24 Number of idle job procs: 9
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node 8a38287b0bebb8fe0bbec7b9b71436ca (7773841.0.0)
+07/17/17 12:35:24 Number of idle job procs: 8
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node fae72e2762cdee96dda3c52d4c8be27d (7773844.0.0)
+07/17/17 12:35:24 Number of idle job procs: 7
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node d71c0a965c171641c3ffdf38f4339cfe (7773842.0.0)
+07/17/17 12:35:24 Number of idle job procs: 6
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node f632cf62264ea0528692ea3168570b68 (7773843.0.0)
+07/17/17 12:35:24 Number of idle job procs: 5
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node d6ed4167b4e6ce25e754324db045182e (7773847.0.0)
+07/17/17 12:35:24 Number of idle job procs: 4
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node db038fa574a7e923bb72c64af7f628e5 (7773845.0.0)
+07/17/17 12:35:24 Number of idle job procs: 3
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node 171872b5e2a594ff8228a029fd680d1a (7773848.0.0)
+07/17/17 12:35:24 Number of idle job procs: 2
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node c03b69b8ad979005bfb7104eebe085fc (7773849.0.0)
+07/17/17 12:35:24 Number of idle job procs: 1
+07/17/17 12:35:24 Event: ULOG_EXECUTE for Condor Node 9f27d9c62bb1d9b85951eb4f536cddec (7773850.0.0)
+07/17/17 12:35:24 Number of idle job procs: 0
+07/17/17 12:45:26 602 seconds since last log event
+07/17/17 12:45:26 Pending DAG nodes:
+07/17/17 12:45:26   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 12:45:26   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 12:55:27 1203 seconds since last log event
+07/17/17 12:55:27 Pending DAG nodes:
+07/17/17 12:55:27   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 12:55:27   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 13:05:27 1803 seconds since last log event
+07/17/17 13:05:27 Pending DAG nodes:
+07/17/17 13:05:27   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 13:05:27   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 13:15:29 2405 seconds since last log event
+07/17/17 13:15:29 Pending DAG nodes:
+07/17/17 13:15:29   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 13:15:29   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 13:25:30 3006 seconds since last log event
+07/17/17 13:25:30 Pending DAG nodes:
+07/17/17 13:25:30   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 13:25:30   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 13:35:31 3607 seconds since last log event
+07/17/17 13:35:31 Pending DAG nodes:
+07/17/17 13:35:31   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 13:35:31   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 13:45:32 4208 seconds since last log event
+07/17/17 13:45:32 Pending DAG nodes:
+07/17/17 13:45:32   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 13:45:32   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 13:55:32 4808 seconds since last log event
+07/17/17 13:55:32 Pending DAG nodes:
+07/17/17 13:55:32   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 13:55:32   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 14:05:33 5409 seconds since last log event
+07/17/17 14:05:33 Pending DAG nodes:
+07/17/17 14:05:33   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 14:05:33   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 14:15:33 6009 seconds since last log event
+07/17/17 14:15:33 Pending DAG nodes:
+07/17/17 14:15:33   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 14:15:33   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 14:25:34 6610 seconds since last log event
+07/17/17 14:25:34 Pending DAG nodes:
+07/17/17 14:25:34   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 14:25:34   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 14:35:37 7213 seconds since last log event
+07/17/17 14:35:37 Pending DAG nodes:
+07/17/17 14:35:37   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 14:35:37   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 14:45:38 7814 seconds since last log event
+07/17/17 14:45:38 Pending DAG nodes:
+07/17/17 14:45:38   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 14:45:38   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 14:55:39 8415 seconds since last log event
+07/17/17 14:55:39 Pending DAG nodes:
+07/17/17 14:55:39   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 14:55:39   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 15:05:39 9015 seconds since last log event
+07/17/17 15:05:39 Pending DAG nodes:
+07/17/17 15:05:39   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 15:05:39   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 15:15:40 9616 seconds since last log event
+07/17/17 15:15:40 Pending DAG nodes:
+07/17/17 15:15:40   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 15:15:40   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 15:25:43 10219 seconds since last log event
+07/17/17 15:25:43 Pending DAG nodes:
+07/17/17 15:25:43   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 15:25:43   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 15:35:43 10819 seconds since last log event
+07/17/17 15:35:43 Pending DAG nodes:
+07/17/17 15:35:43   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 15:35:43   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 15:45:44 11420 seconds since last log event
+07/17/17 15:45:44 Pending DAG nodes:
+07/17/17 15:45:44   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 15:45:44   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 15:55:44 12020 seconds since last log event
+07/17/17 15:55:44 Pending DAG nodes:
+07/17/17 15:55:44   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node 171872b5e2a594ff8228a029fd680d1a, Condor ID 7773848, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 15:55:44   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 16:03:45 Currently monitoring 1 Condor log file(s)
+07/17/17 16:03:45 Event: ULOG_JOB_TERMINATED for Condor Node 171872b5e2a594ff8228a029fd680d1a (7773848.0.0)
+07/17/17 16:03:45 Number of idle job procs: 0
+07/17/17 16:03:45 Node 171872b5e2a594ff8228a029fd680d1a job proc (7773848.0.0) completed successfully.
+07/17/17 16:03:45 Node 171872b5e2a594ff8228a029fd680d1a job completed
+07/17/17 16:03:45 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:03:45 Of 24 nodes total:
+07/17/17 16:03:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:03:45   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:03:45     3       0       11       0       0         10        0
+07/17/17 16:03:45 0 job proc(s) currently held
+07/17/17 16:13:45 600 seconds since last log event
+07/17/17 16:13:45 Pending DAG nodes:
+07/17/17 16:13:45   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node d6ed4167b4e6ce25e754324db045182e, Condor ID 7773847, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node c03b69b8ad979005bfb7104eebe085fc, Condor ID 7773849, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 16:13:45   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 16:15:21 Currently monitoring 1 Condor log file(s)
+07/17/17 16:15:21 Event: ULOG_JOB_TERMINATED for Condor Node d6ed4167b4e6ce25e754324db045182e (7773847.0.0)
+07/17/17 16:15:21 Number of idle job procs: 0
+07/17/17 16:15:21 Node d6ed4167b4e6ce25e754324db045182e job proc (7773847.0.0) completed successfully.
+07/17/17 16:15:21 Node d6ed4167b4e6ce25e754324db045182e job completed
+07/17/17 16:15:21 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:15:21 Of 24 nodes total:
+07/17/17 16:15:21  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:15:21   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:15:21     4       0       10       0       0         10        0
+07/17/17 16:15:21 0 job proc(s) currently held
+07/17/17 16:17:11 Currently monitoring 1 Condor log file(s)
+07/17/17 16:17:11 Event: ULOG_JOB_TERMINATED for Condor Node c03b69b8ad979005bfb7104eebe085fc (7773849.0.0)
+07/17/17 16:17:11 Number of idle job procs: 0
+07/17/17 16:17:11 Node c03b69b8ad979005bfb7104eebe085fc job proc (7773849.0.0) completed successfully.
+07/17/17 16:17:11 Node c03b69b8ad979005bfb7104eebe085fc job completed
+07/17/17 16:17:11 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:17:11 Of 24 nodes total:
+07/17/17 16:17:11  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:17:11   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:17:11     5       0        9       0       0         10        0
+07/17/17 16:17:11 0 job proc(s) currently held
+07/17/17 16:27:11 600 seconds since last log event
+07/17/17 16:27:11 Pending DAG nodes:
+07/17/17 16:27:11   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 16:27:11   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 16:37:12 1201 seconds since last log event
+07/17/17 16:37:12 Pending DAG nodes:
+07/17/17 16:37:12   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 16:37:12   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 16:47:13 1802 seconds since last log event
+07/17/17 16:47:13 Pending DAG nodes:
+07/17/17 16:47:13   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 16:47:13   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 16:57:14 2403 seconds since last log event
+07/17/17 16:57:14 Pending DAG nodes:
+07/17/17 16:57:14   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node 9f27d9c62bb1d9b85951eb4f536cddec, Condor ID 7773850, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 16:57:14   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 16:58:09 Currently monitoring 1 Condor log file(s)
+07/17/17 16:58:09 Event: ULOG_JOB_TERMINATED for Condor Node 9f27d9c62bb1d9b85951eb4f536cddec (7773850.0.0)
+07/17/17 16:58:09 Number of idle job procs: 0
+07/17/17 16:58:09 Node 9f27d9c62bb1d9b85951eb4f536cddec job proc (7773850.0.0) completed successfully.
+07/17/17 16:58:09 Node 9f27d9c62bb1d9b85951eb4f536cddec job completed
+07/17/17 16:58:09 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:58:09 Of 24 nodes total:
+07/17/17 16:58:09  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:58:09   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:58:09     6       0        8       0       1          9        0
+07/17/17 16:58:09 0 job proc(s) currently held
+07/17/17 16:58:14 Submitting Condor Node 73d3e98931558a851ae649c0b5abd3bc job(s)...
+07/17/17 16:58:14 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 16:58:14 Masking the events recorded in the DAGMAN workflow log
+07/17/17 16:58:14 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 16:58:14 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '73d3e98931558a851ae649c0b5abd3bc -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '73d3e98931558a851ae649c0b5abd3bc -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macropos' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_H1_1167559679.0-0.hdf5 -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-4.hdf5 -a macroargument1' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-5.hdf5 -a macroargument2' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-6.hdf5 -a macroargument3' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-7.hdf5 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"d6ed4167b4e6ce25e754324db045182e,171872b5e2a594ff8228a029fd680d1a,c03b69b8ad979005bfb7104eebe085fc,9f27d9c62bb1d9b85951eb4f536cddec" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/merge_runs_H1.sub
+07/17/17 16:58:15 From submit: Submitting job(s).
+07/17/17 16:58:15 From submit: 1 job(s) submitted to cluster 7773871.
+07/17/17 16:58:15 	assigned Condor ID (7773871.0.0)
+07/17/17 16:58:15 Just submitted 1 job this cycle...
+07/17/17 16:58:15 Currently monitoring 1 Condor log file(s)
+07/17/17 16:58:15 Reassigning the id of job 73d3e98931558a851ae649c0b5abd3bc from (7773871.0.0) to (7773871.0.0)
+07/17/17 16:58:15 Event: ULOG_SUBMIT for Condor Node 73d3e98931558a851ae649c0b5abd3bc (7773871.0.0)
+07/17/17 16:58:15 Number of idle job procs: 1
+07/17/17 16:58:15 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:58:15 Of 24 nodes total:
+07/17/17 16:58:15  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:58:15   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:58:15     6       0        9       0       0          9        0
+07/17/17 16:58:15 0 job proc(s) currently held
+07/17/17 16:58:30 Currently monitoring 1 Condor log file(s)
+07/17/17 16:58:30 Event: ULOG_EXECUTE for Condor Node 73d3e98931558a851ae649c0b5abd3bc (7773871.0.0)
+07/17/17 16:58:30 Number of idle job procs: 0
+07/17/17 16:58:35 Currently monitoring 1 Condor log file(s)
+07/17/17 16:58:35 Event: ULOG_JOB_TERMINATED for Condor Node 73d3e98931558a851ae649c0b5abd3bc (7773871.0.0)
+07/17/17 16:58:35 Number of idle job procs: 0
+07/17/17 16:58:35 Node 73d3e98931558a851ae649c0b5abd3bc job proc (7773871.0.0) completed successfully.
+07/17/17 16:58:35 Node 73d3e98931558a851ae649c0b5abd3bc job completed
+07/17/17 16:58:35 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:58:35 Of 24 nodes total:
+07/17/17 16:58:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:58:35   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:58:35     7       0        8       0       1          8        0
+07/17/17 16:58:35 0 job proc(s) currently held
+07/17/17 16:58:40 Submitting Condor Node 3973c78100b9759f6d2ee9dbdf912332 job(s)...
+07/17/17 16:58:40 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 16:58:40 Masking the events recorded in the DAGMAN workflow log
+07/17/17 16:58:40 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 16:58:40 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '3973c78100b9759f6d2ee9dbdf912332 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '3973c78100b9759f6d2ee9dbdf912332 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrooutpath' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/H1 -a macroarchive' '=' 'postproc_1167559679.0-0_H1.tar.gz -a macrosnr' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-4.hdf5_snr.txt -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_H1_1167559679.0-0.hdf5 -a macroargument1' '=' '--psdfiles' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1-1167559679.0-4.hdf5H1-PSD.dat -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"73d3e98931558a851ae649c0b5abd3bc" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/resultspage.sub
+07/17/17 16:58:40 From submit: Submitting job(s).
+07/17/17 16:58:40 From submit: 1 job(s) submitted to cluster 7773872.
+07/17/17 16:58:40 	assigned Condor ID (7773872.0.0)
+07/17/17 16:58:40 Just submitted 1 job this cycle...
+07/17/17 16:58:40 Currently monitoring 1 Condor log file(s)
+07/17/17 16:58:40 Reassigning the id of job 3973c78100b9759f6d2ee9dbdf912332 from (7773872.0.0) to (7773872.0.0)
+07/17/17 16:58:40 Event: ULOG_SUBMIT for Condor Node 3973c78100b9759f6d2ee9dbdf912332 (7773872.0.0)
+07/17/17 16:58:40 Number of idle job procs: 1
+07/17/17 16:58:40 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 16:58:40 Of 24 nodes total:
+07/17/17 16:58:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 16:58:40   ===     ===      ===     ===     ===        ===      ===
+07/17/17 16:58:40     7       0        9       0       0          8        0
+07/17/17 16:58:40 0 job proc(s) currently held
+07/17/17 16:58:50 Currently monitoring 1 Condor log file(s)
+07/17/17 16:58:50 Event: ULOG_EXECUTE for Condor Node 3973c78100b9759f6d2ee9dbdf912332 (7773872.0.0)
+07/17/17 16:58:50 Number of idle job procs: 0
+07/17/17 17:00:20 Currently monitoring 1 Condor log file(s)
+07/17/17 17:00:20 Event: ULOG_JOB_TERMINATED for Condor Node 3973c78100b9759f6d2ee9dbdf912332 (7773872.0.0)
+07/17/17 17:00:20 Number of idle job procs: 0
+07/17/17 17:00:20 Node 3973c78100b9759f6d2ee9dbdf912332 job proc (7773872.0.0) completed successfully.
+07/17/17 17:00:20 Node 3973c78100b9759f6d2ee9dbdf912332 job completed
+07/17/17 17:00:20 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 17:00:20 Of 24 nodes total:
+07/17/17 17:00:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 17:00:20   ===     ===      ===     ===     ===        ===      ===
+07/17/17 17:00:20     8       0        8       0       1          7        0
+07/17/17 17:00:20 0 job proc(s) currently held
+07/17/17 17:00:25 Submitting Condor Node 737f5d319918187dd367fb50f01c1068 job(s)...
+07/17/17 17:00:25 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 17:00:25 Masking the events recorded in the DAGMAN workflow log
+07/17/17 17:00:25 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 17:00:25 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '737f5d319918187dd367fb50f01c1068 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '737f5d319918187dd367fb50f01c1068 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosamples' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/H1/posterior_samples.dat -a macroobjid' '=' '0 -a macrofitsoutname' '=' 'LALInference_.fits.gz -a macrooutdir' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/H1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"3973c78100b9759f6d2ee9dbdf912332" -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/skyarea.sub
+07/17/17 17:00:26 From submit: Submitting job(s).
+07/17/17 17:00:26 From submit: 1 job(s) submitted to cluster 7773873.
+07/17/17 17:00:26 	assigned Condor ID (7773873.0.0)
+07/17/17 17:00:26 Just submitted 1 job this cycle...
+07/17/17 17:00:26 Currently monitoring 1 Condor log file(s)
+07/17/17 17:00:26 Reassigning the id of job 737f5d319918187dd367fb50f01c1068 from (7773873.0.0) to (7773873.0.0)
+07/17/17 17:00:26 Event: ULOG_SUBMIT for Condor Node 737f5d319918187dd367fb50f01c1068 (7773873.0.0)
+07/17/17 17:00:26 Number of idle job procs: 1
+07/17/17 17:00:26 DAG status: 0 (DAG_STATUS_OK)
+07/17/17 17:00:26 Of 24 nodes total:
+07/17/17 17:00:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 17:00:26   ===     ===      ===     ===     ===        ===      ===
+07/17/17 17:00:26     8       0        9       0       0          7        0
+07/17/17 17:00:26 0 job proc(s) currently held
+07/17/17 17:00:31 Currently monitoring 1 Condor log file(s)
+07/17/17 17:00:31 Event: ULOG_EXECUTE for Condor Node 737f5d319918187dd367fb50f01c1068 (7773873.0.0)
+07/17/17 17:00:31 Number of idle job procs: 0
+07/17/17 17:00:36 Currently monitoring 1 Condor log file(s)
+07/17/17 17:00:36 Event: ULOG_JOB_TERMINATED for Condor Node 737f5d319918187dd367fb50f01c1068 (7773873.0.0)
+07/17/17 17:00:36 Number of idle job procs: 0
+07/17/17 17:00:36 Node 737f5d319918187dd367fb50f01c1068 job proc (7773873.0.0) failed with status 1.
+07/17/17 17:00:36 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 17:00:36 Of 24 nodes total:
+07/17/17 17:00:36  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 17:00:36   ===     ===      ===     ===     ===        ===      ===
+07/17/17 17:00:36     8       0        8       0       0          7        1
+07/17/17 17:00:36 0 job proc(s) currently held
+07/17/17 17:10:36 600 seconds since last log event
+07/17/17 17:10:36 Pending DAG nodes:
+07/17/17 17:10:36   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 17:10:36   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 17:20:37 1201 seconds since last log event
+07/17/17 17:20:37 Pending DAG nodes:
+07/17/17 17:20:37   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 17:20:37   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 17:30:38 1802 seconds since last log event
+07/17/17 17:30:38 Pending DAG nodes:
+07/17/17 17:30:38   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 17:30:38   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 17:40:39 2403 seconds since last log event
+07/17/17 17:40:39 Pending DAG nodes:
+07/17/17 17:40:39   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 17:40:39   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 17:50:39 3003 seconds since last log event
+07/17/17 17:50:39 Pending DAG nodes:
+07/17/17 17:50:39   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 17:50:39   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 18:00:40 3604 seconds since last log event
+07/17/17 18:00:40 Pending DAG nodes:
+07/17/17 18:00:40   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 18:00:40   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 18:10:41 4205 seconds since last log event
+07/17/17 18:10:41 Pending DAG nodes:
+07/17/17 18:10:41   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 18:10:41   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 18:20:42 4806 seconds since last log event
+07/17/17 18:20:42 Pending DAG nodes:
+07/17/17 18:20:42   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 18:20:42   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 18:30:42 5406 seconds since last log event
+07/17/17 18:30:42 Pending DAG nodes:
+07/17/17 18:30:42   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 18:30:42   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 18:40:43 6007 seconds since last log event
+07/17/17 18:40:43 Pending DAG nodes:
+07/17/17 18:40:43   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 18:40:43   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 18:50:43 6607 seconds since last log event
+07/17/17 18:50:43 Pending DAG nodes:
+07/17/17 18:50:43   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 18:50:43   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 19:00:44 7208 seconds since last log event
+07/17/17 19:00:44 Pending DAG nodes:
+07/17/17 19:00:44   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 19:00:44   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 19:10:45 7809 seconds since last log event
+07/17/17 19:10:45 Pending DAG nodes:
+07/17/17 19:10:45   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 19:10:45   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 19:20:46 8410 seconds since last log event
+07/17/17 19:20:46 Pending DAG nodes:
+07/17/17 19:20:46   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 19:20:46   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 19:30:46 9010 seconds since last log event
+07/17/17 19:30:46 Pending DAG nodes:
+07/17/17 19:30:46   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 19:30:46   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 19:40:47 9611 seconds since last log event
+07/17/17 19:40:47 Pending DAG nodes:
+07/17/17 19:40:47   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 19:40:47   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 19:50:48 10212 seconds since last log event
+07/17/17 19:50:48 Pending DAG nodes:
+07/17/17 19:50:48   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 19:50:48   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 20:00:49 10813 seconds since last log event
+07/17/17 20:00:49 Pending DAG nodes:
+07/17/17 20:00:49   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 20:00:49   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 20:10:50 11414 seconds since last log event
+07/17/17 20:10:50 Pending DAG nodes:
+07/17/17 20:10:50   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 20:10:50   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 20:20:51 12015 seconds since last log event
+07/17/17 20:20:51 Pending DAG nodes:
+07/17/17 20:20:51   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 20:20:51   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 20:30:53 12617 seconds since last log event
+07/17/17 20:30:53 Pending DAG nodes:
+07/17/17 20:30:53   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 20:30:53   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 20:40:53 13217 seconds since last log event
+07/17/17 20:40:53 Pending DAG nodes:
+07/17/17 20:40:53   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 20:40:53   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 20:50:57 13821 seconds since last log event
+07/17/17 20:50:57 Pending DAG nodes:
+07/17/17 20:50:57   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 20:50:57   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:00:59 14423 seconds since last log event
+07/17/17 21:00:59 Pending DAG nodes:
+07/17/17 21:00:59   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 21:00:59   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:11:01 15025 seconds since last log event
+07/17/17 21:11:01 Pending DAG nodes:
+07/17/17 21:11:01   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 21:11:01   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:21:02 15626 seconds since last log event
+07/17/17 21:21:02 Pending DAG nodes:
+07/17/17 21:21:02   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 21:21:02   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:31:04 16228 seconds since last log event
+07/17/17 21:31:04 Pending DAG nodes:
+07/17/17 21:31:04   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 21:31:04   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:41:05 16829 seconds since last log event
+07/17/17 21:41:05 Pending DAG nodes:
+07/17/17 21:41:05   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 21:41:05   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:51:09 17433 seconds since last log event
+07/17/17 21:51:09 Pending DAG nodes:
+07/17/17 21:51:09   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node 98c353d5121f762b52ce8e6ad8a19002, Condor ID 7773839, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 21:51:09   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 21:59:24 Currently monitoring 1 Condor log file(s)
+07/17/17 21:59:24 Event: ULOG_JOB_TERMINATED for Condor Node 98c353d5121f762b52ce8e6ad8a19002 (7773839.0.0)
+07/17/17 21:59:24 Number of idle job procs: 0
+07/17/17 21:59:24 Node 98c353d5121f762b52ce8e6ad8a19002 job proc (7773839.0.0) completed successfully.
+07/17/17 21:59:24 Node 98c353d5121f762b52ce8e6ad8a19002 job completed
+07/17/17 21:59:24 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 21:59:24 Of 24 nodes total:
+07/17/17 21:59:24  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 21:59:24   ===     ===      ===     ===     ===        ===      ===
+07/17/17 21:59:24     9       0        7       0       0          7        1
+07/17/17 21:59:24 0 job proc(s) currently held
+07/17/17 22:09:25 601 seconds since last log event
+07/17/17 22:09:25 Pending DAG nodes:
+07/17/17 22:09:25   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 22:09:25   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 22:09:25   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 22:09:25   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 22:09:25   Node bb593d3e6079b4311f3993926b1b5e90, Condor ID 7773840, status STATUS_SUBMITTED
+07/17/17 22:09:25   Node 8a38287b0bebb8fe0bbec7b9b71436ca, Condor ID 7773841, status STATUS_SUBMITTED
+07/17/17 22:09:25   Node d71c0a965c171641c3ffdf38f4339cfe, Condor ID 7773842, status STATUS_SUBMITTED
+07/17/17 22:19:15 Currently monitoring 1 Condor log file(s)
+07/17/17 22:19:15 Event: ULOG_JOB_TERMINATED for Condor Node bb593d3e6079b4311f3993926b1b5e90 (7773840.0.0)
+07/17/17 22:19:15 Number of idle job procs: 0
+07/17/17 22:19:15 Node bb593d3e6079b4311f3993926b1b5e90 job proc (7773840.0.0) completed successfully.
+07/17/17 22:19:15 Node bb593d3e6079b4311f3993926b1b5e90 job completed
+07/17/17 22:19:15 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:19:15 Of 24 nodes total:
+07/17/17 22:19:15  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:19:15   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:19:15    10       0        6       0       0          7        1
+07/17/17 22:19:15 0 job proc(s) currently held
+07/17/17 22:20:45 Currently monitoring 1 Condor log file(s)
+07/17/17 22:20:45 Event: ULOG_JOB_TERMINATED for Condor Node d71c0a965c171641c3ffdf38f4339cfe (7773842.0.0)
+07/17/17 22:20:45 Number of idle job procs: 0
+07/17/17 22:20:45 Node d71c0a965c171641c3ffdf38f4339cfe job proc (7773842.0.0) completed successfully.
+07/17/17 22:20:45 Node d71c0a965c171641c3ffdf38f4339cfe job completed
+07/17/17 22:20:45 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:20:45 Of 24 nodes total:
+07/17/17 22:20:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:20:45   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:20:45    11       0        5       0       0          7        1
+07/17/17 22:20:45 0 job proc(s) currently held
+07/17/17 22:22:00 Currently monitoring 1 Condor log file(s)
+07/17/17 22:22:00 Event: ULOG_JOB_TERMINATED for Condor Node 8a38287b0bebb8fe0bbec7b9b71436ca (7773841.0.0)
+07/17/17 22:22:00 Number of idle job procs: 0
+07/17/17 22:22:00 Node 8a38287b0bebb8fe0bbec7b9b71436ca job proc (7773841.0.0) completed successfully.
+07/17/17 22:22:00 Node 8a38287b0bebb8fe0bbec7b9b71436ca job completed
+07/17/17 22:22:00 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:22:00 Of 24 nodes total:
+07/17/17 22:22:00  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:22:00   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:22:00    12       0        4       0       1          6        1
+07/17/17 22:22:00 0 job proc(s) currently held
+07/17/17 22:22:05 Submitting Condor Node 7d445a1513d4865d1c6cbfe5c9550e1f job(s)...
+07/17/17 22:22:05 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 22:22:05 Masking the events recorded in the DAGMAN workflow log
+07/17/17 22:22:05 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 22:22:05 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '7d445a1513d4865d1c6cbfe5c9550e1f -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '7d445a1513d4865d1c6cbfe5c9550e1f -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macropos' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_L1_1167559679.0-0.hdf5 -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-8.hdf5 -a macroargument1' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-9.hdf5 -a macroargument2' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-10.hdf5 -a macroargument3' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-11.hdf5 -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"98c353d5121f762b52ce8e6ad8a19002,bb593d3e6079b4311f3993926b1b5e90,8a38287b0bebb8fe0bbec7b9b71436ca,d71c0a965c171641c3ffdf38f4339cfe" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/merge_runs_L1.sub
+07/17/17 22:22:06 From submit: Submitting job(s).
+07/17/17 22:22:06 From submit: 1 job(s) submitted to cluster 7774010.
+07/17/17 22:22:06 	assigned Condor ID (7774010.0.0)
+07/17/17 22:22:06 Just submitted 1 job this cycle...
+07/17/17 22:22:06 Currently monitoring 1 Condor log file(s)
+07/17/17 22:22:06 Reassigning the id of job 7d445a1513d4865d1c6cbfe5c9550e1f from (7774010.0.0) to (7774010.0.0)
+07/17/17 22:22:06 Event: ULOG_SUBMIT for Condor Node 7d445a1513d4865d1c6cbfe5c9550e1f (7774010.0.0)
+07/17/17 22:22:06 Number of idle job procs: 1
+07/17/17 22:22:06 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:22:06 Of 24 nodes total:
+07/17/17 22:22:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:22:06   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:22:06    12       0        5       0       0          6        1
+07/17/17 22:22:06 0 job proc(s) currently held
+07/17/17 22:22:31 Currently monitoring 1 Condor log file(s)
+07/17/17 22:22:31 Event: ULOG_EXECUTE for Condor Node 7d445a1513d4865d1c6cbfe5c9550e1f (7774010.0.0)
+07/17/17 22:22:31 Number of idle job procs: 0
+07/17/17 22:22:41 Currently monitoring 1 Condor log file(s)
+07/17/17 22:22:41 Event: ULOG_JOB_TERMINATED for Condor Node 7d445a1513d4865d1c6cbfe5c9550e1f (7774010.0.0)
+07/17/17 22:22:41 Number of idle job procs: 0
+07/17/17 22:22:41 Node 7d445a1513d4865d1c6cbfe5c9550e1f job proc (7774010.0.0) completed successfully.
+07/17/17 22:22:41 Node 7d445a1513d4865d1c6cbfe5c9550e1f job completed
+07/17/17 22:22:41 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:22:41 Of 24 nodes total:
+07/17/17 22:22:41  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:22:41   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:22:41    13       0        4       0       1          5        1
+07/17/17 22:22:41 0 job proc(s) currently held
+07/17/17 22:22:46 Submitting Condor Node f0e5940644162ee0e590cd3d100ee438 job(s)...
+07/17/17 22:22:46 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 22:22:46 Masking the events recorded in the DAGMAN workflow log
+07/17/17 22:22:46 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 22:22:46 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'f0e5940644162ee0e590cd3d100ee438 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'f0e5940644162ee0e590cd3d100ee438 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrooutpath' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/L1 -a macroarchive' '=' 'postproc_1167559679.0-0_L1.tar.gz -a macrosnr' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-8.hdf5_snr.txt -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_L1_1167559679.0-0.hdf5 -a macroargument1' '=' '--psdfiles' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-L1-1167559679.0-8.hdf5L1-PSD.dat -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"7d445a1513d4865d1c6cbfe5c9550e1f" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/resultspage.sub
+07/17/17 22:22:46 From submit: Submitting job(s).
+07/17/17 22:22:46 From submit: 1 job(s) submitted to cluster 7774011.
+07/17/17 22:22:46 	assigned Condor ID (7774011.0.0)
+07/17/17 22:22:46 Just submitted 1 job this cycle...
+07/17/17 22:22:46 Currently monitoring 1 Condor log file(s)
+07/17/17 22:22:46 Reassigning the id of job f0e5940644162ee0e590cd3d100ee438 from (7774011.0.0) to (7774011.0.0)
+07/17/17 22:22:46 Event: ULOG_SUBMIT for Condor Node f0e5940644162ee0e590cd3d100ee438 (7774011.0.0)
+07/17/17 22:22:46 Number of idle job procs: 1
+07/17/17 22:22:46 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:22:46 Of 24 nodes total:
+07/17/17 22:22:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:22:46   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:22:46    13       0        5       0       0          5        1
+07/17/17 22:22:46 0 job proc(s) currently held
+07/17/17 22:22:51 Currently monitoring 1 Condor log file(s)
+07/17/17 22:22:51 Event: ULOG_EXECUTE for Condor Node f0e5940644162ee0e590cd3d100ee438 (7774011.0.0)
+07/17/17 22:22:51 Number of idle job procs: 0
+07/17/17 22:24:46 Currently monitoring 1 Condor log file(s)
+07/17/17 22:24:46 Event: ULOG_JOB_TERMINATED for Condor Node f0e5940644162ee0e590cd3d100ee438 (7774011.0.0)
+07/17/17 22:24:46 Number of idle job procs: 0
+07/17/17 22:24:46 Node f0e5940644162ee0e590cd3d100ee438 job proc (7774011.0.0) completed successfully.
+07/17/17 22:24:46 Node f0e5940644162ee0e590cd3d100ee438 job completed
+07/17/17 22:24:46 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:24:46 Of 24 nodes total:
+07/17/17 22:24:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:24:46   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:24:46    14       0        4       0       1          4        1
+07/17/17 22:24:46 0 job proc(s) currently held
+07/17/17 22:24:51 Submitting Condor Node 7cc8073b0d206b92c0a053c6b29f8aae job(s)...
+07/17/17 22:24:51 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/17/17 22:24:51 Masking the events recorded in the DAGMAN workflow log
+07/17/17 22:24:51 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/17/17 22:24:51 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '7cc8073b0d206b92c0a053c6b29f8aae -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '7cc8073b0d206b92c0a053c6b29f8aae -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosamples' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/L1/posterior_samples.dat -a macroobjid' '=' '0 -a macrofitsoutname' '=' 'LALInference_.fits.gz -a macrooutdir' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/L1 -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"f0e5940644162ee0e590cd3d100ee438" -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/skyarea.sub
+07/17/17 22:24:52 From submit: Submitting job(s).
+07/17/17 22:24:52 From submit: 1 job(s) submitted to cluster 7774012.
+07/17/17 22:24:52 	assigned Condor ID (7774012.0.0)
+07/17/17 22:24:52 Just submitted 1 job this cycle...
+07/17/17 22:24:52 Currently monitoring 1 Condor log file(s)
+07/17/17 22:24:52 Reassigning the id of job 7cc8073b0d206b92c0a053c6b29f8aae from (7774012.0.0) to (7774012.0.0)
+07/17/17 22:24:52 Event: ULOG_SUBMIT for Condor Node 7cc8073b0d206b92c0a053c6b29f8aae (7774012.0.0)
+07/17/17 22:24:52 Number of idle job procs: 1
+07/17/17 22:24:52 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:24:52 Of 24 nodes total:
+07/17/17 22:24:52  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:24:52   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:24:52    14       0        5       0       0          4        1
+07/17/17 22:24:52 0 job proc(s) currently held
+07/17/17 22:24:57 Currently monitoring 1 Condor log file(s)
+07/17/17 22:24:57 Event: ULOG_EXECUTE for Condor Node 7cc8073b0d206b92c0a053c6b29f8aae (7774012.0.0)
+07/17/17 22:24:57 Number of idle job procs: 0
+07/17/17 22:24:57 Event: ULOG_JOB_TERMINATED for Condor Node 7cc8073b0d206b92c0a053c6b29f8aae (7774012.0.0)
+07/17/17 22:24:57 Number of idle job procs: 0
+07/17/17 22:24:57 Node 7cc8073b0d206b92c0a053c6b29f8aae job proc (7774012.0.0) failed with status 1.
+07/17/17 22:24:57 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/17/17 22:24:57 Of 24 nodes total:
+07/17/17 22:24:57  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/17/17 22:24:57   ===     ===      ===     ===     ===        ===      ===
+07/17/17 22:24:57    14       0        4       0       0          4        2
+07/17/17 22:24:57 0 job proc(s) currently held
+07/17/17 22:34:57 600 seconds since last log event
+07/17/17 22:34:57 Pending DAG nodes:
+07/17/17 22:34:57   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 22:34:57   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 22:34:57   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 22:34:57   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 22:44:58 1201 seconds since last log event
+07/17/17 22:44:58 Pending DAG nodes:
+07/17/17 22:44:58   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 22:44:58   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 22:44:58   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 22:44:58   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 22:55:02 1805 seconds since last log event
+07/17/17 22:55:02 Pending DAG nodes:
+07/17/17 22:55:02   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 22:55:02   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 22:55:02   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 22:55:02   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 23:05:02 2405 seconds since last log event
+07/17/17 23:05:02 Pending DAG nodes:
+07/17/17 23:05:02   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 23:05:02   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 23:05:02   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 23:05:02   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 23:15:03 3006 seconds since last log event
+07/17/17 23:15:03 Pending DAG nodes:
+07/17/17 23:15:03   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 23:15:03   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 23:15:03   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 23:15:03   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 23:25:04 3607 seconds since last log event
+07/17/17 23:25:04 Pending DAG nodes:
+07/17/17 23:25:04   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 23:25:04   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 23:25:04   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 23:25:04   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 23:35:05 4208 seconds since last log event
+07/17/17 23:35:05 Pending DAG nodes:
+07/17/17 23:35:05   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 23:35:05   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 23:35:05   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 23:35:05   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 23:45:05 4808 seconds since last log event
+07/17/17 23:45:05 Pending DAG nodes:
+07/17/17 23:45:05   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 23:45:05   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 23:45:05   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 23:45:05   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/17/17 23:55:06 5409 seconds since last log event
+07/17/17 23:55:06 Pending DAG nodes:
+07/17/17 23:55:06   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/17/17 23:55:06   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/17/17 23:55:06   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/17/17 23:55:06   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 00:05:07 6010 seconds since last log event
+07/18/17 00:05:07 Pending DAG nodes:
+07/18/17 00:05:07   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 00:05:07   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 00:05:07   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 00:05:07   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 00:15:08 6611 seconds since last log event
+07/18/17 00:15:08 Pending DAG nodes:
+07/18/17 00:15:08   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 00:15:08   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 00:15:08   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 00:15:08   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 00:25:10 7213 seconds since last log event
+07/18/17 00:25:10 Pending DAG nodes:
+07/18/17 00:25:10   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 00:25:10   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 00:25:10   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 00:25:10   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 00:35:11 7814 seconds since last log event
+07/18/17 00:35:11 Pending DAG nodes:
+07/18/17 00:35:11   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 00:35:11   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 00:35:11   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 00:35:11   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 00:45:12 8415 seconds since last log event
+07/18/17 00:45:12 Pending DAG nodes:
+07/18/17 00:45:12   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 00:45:12   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 00:45:12   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 00:45:12   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 00:55:13 9016 seconds since last log event
+07/18/17 00:55:13 Pending DAG nodes:
+07/18/17 00:55:13   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 00:55:13   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 00:55:13   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 00:55:13   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 01:05:14 9617 seconds since last log event
+07/18/17 01:05:14 Pending DAG nodes:
+07/18/17 01:05:14   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 01:05:14   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 01:05:14   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 01:05:14   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 01:15:14 10217 seconds since last log event
+07/18/17 01:15:14 Pending DAG nodes:
+07/18/17 01:15:14   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 01:15:14   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 01:15:14   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 01:15:14   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 01:25:17 10820 seconds since last log event
+07/18/17 01:25:17 Pending DAG nodes:
+07/18/17 01:25:17   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 01:25:17   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 01:25:17   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 01:25:17   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 01:35:17 11420 seconds since last log event
+07/18/17 01:35:17 Pending DAG nodes:
+07/18/17 01:35:17   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 01:35:17   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 01:35:17   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 01:35:17   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 01:45:18 12021 seconds since last log event
+07/18/17 01:45:18 Pending DAG nodes:
+07/18/17 01:45:18   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 01:45:18   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 01:45:18   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 01:45:18   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 01:55:19 12622 seconds since last log event
+07/18/17 01:55:19 Pending DAG nodes:
+07/18/17 01:55:19   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 01:55:19   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 01:55:19   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 01:55:19   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 02:05:19 13222 seconds since last log event
+07/18/17 02:05:19 Pending DAG nodes:
+07/18/17 02:05:19   Node f632cf62264ea0528692ea3168570b68, Condor ID 7773843, status STATUS_SUBMITTED
+07/18/17 02:05:19   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 02:05:19   Node db038fa574a7e923bb72c64af7f628e5, Condor ID 7773845, status STATUS_SUBMITTED
+07/18/17 02:05:19   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 02:14:55 Currently monitoring 1 Condor log file(s)
+07/18/17 02:14:55 Event: ULOG_JOB_TERMINATED for Condor Node db038fa574a7e923bb72c64af7f628e5 (7773845.0.0)
+07/18/17 02:14:55 Number of idle job procs: 0
+07/18/17 02:14:55 Node db038fa574a7e923bb72c64af7f628e5 job proc (7773845.0.0) completed successfully.
+07/18/17 02:14:55 Node db038fa574a7e923bb72c64af7f628e5 job completed
+07/18/17 02:14:55 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:14:55 Of 24 nodes total:
+07/18/17 02:14:55  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:14:55   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:14:55    15       0        3       0       0          4        2
+07/18/17 02:14:55 0 job proc(s) currently held
+07/18/17 02:21:10 Currently monitoring 1 Condor log file(s)
+07/18/17 02:21:10 Event: ULOG_JOB_TERMINATED for Condor Node f632cf62264ea0528692ea3168570b68 (7773843.0.0)
+07/18/17 02:21:10 Number of idle job procs: 0
+07/18/17 02:21:10 Node f632cf62264ea0528692ea3168570b68 job proc (7773843.0.0) completed successfully.
+07/18/17 02:21:10 Node f632cf62264ea0528692ea3168570b68 job completed
+07/18/17 02:21:10 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:21:10 Of 24 nodes total:
+07/18/17 02:21:10  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:21:10   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:21:10    16       0        2       0       0          4        2
+07/18/17 02:21:10 0 job proc(s) currently held
+07/18/17 02:31:11 601 seconds since last log event
+07/18/17 02:31:11 Pending DAG nodes:
+07/18/17 02:31:11   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 02:31:11   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 02:41:11 1201 seconds since last log event
+07/18/17 02:41:11 Pending DAG nodes:
+07/18/17 02:41:11   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 02:41:11   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 02:51:12 1802 seconds since last log event
+07/18/17 02:51:12 Pending DAG nodes:
+07/18/17 02:51:12   Node fae72e2762cdee96dda3c52d4c8be27d, Condor ID 7773844, status STATUS_SUBMITTED
+07/18/17 02:51:12   Node 5738ec499ac86eee18f2dcff0945f5c7, Condor ID 7773846, status STATUS_SUBMITTED
+07/18/17 02:54:02 Currently monitoring 1 Condor log file(s)
+07/18/17 02:54:02 Event: ULOG_JOB_TERMINATED for Condor Node 5738ec499ac86eee18f2dcff0945f5c7 (7773846.0.0)
+07/18/17 02:54:02 Number of idle job procs: 0
+07/18/17 02:54:02 Node 5738ec499ac86eee18f2dcff0945f5c7 job proc (7773846.0.0) completed successfully.
+07/18/17 02:54:02 Node 5738ec499ac86eee18f2dcff0945f5c7 job completed
+07/18/17 02:54:02 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:54:02 Of 24 nodes total:
+07/18/17 02:54:02  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:54:02   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:54:02    17       0        1       0       0          4        2
+07/18/17 02:54:02 0 job proc(s) currently held
+07/18/17 02:57:28 Currently monitoring 1 Condor log file(s)
+07/18/17 02:57:28 Event: ULOG_JOB_TERMINATED for Condor Node fae72e2762cdee96dda3c52d4c8be27d (7773844.0.0)
+07/18/17 02:57:28 Number of idle job procs: 0
+07/18/17 02:57:28 Node fae72e2762cdee96dda3c52d4c8be27d job proc (7773844.0.0) completed successfully.
+07/18/17 02:57:28 Node fae72e2762cdee96dda3c52d4c8be27d job completed
+07/18/17 02:57:28 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:57:28 Of 24 nodes total:
+07/18/17 02:57:28  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:57:28   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:57:28    18       0        0       0       1          3        2
+07/18/17 02:57:28 0 job proc(s) currently held
+07/18/17 02:57:33 Submitting Condor Node 8eb1bc73a6543b95c4f8bf5fa515d688 job(s)...
+07/18/17 02:57:33 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/18/17 02:57:33 Masking the events recorded in the DAGMAN workflow log
+07/18/17 02:57:33 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/18/17 02:57:33 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '8eb1bc73a6543b95c4f8bf5fa515d688 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '8eb1bc73a6543b95c4f8bf5fa515d688 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macropos' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_H1L1_1167559679.0-0.hdf5 -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-0.hdf5 -a macroargument1' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-1.hdf5 -a macroargument2' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-2.hdf5 -a macroargument3' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-3.hdf5 -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"f632cf62264ea0528692ea3168570b68,fae72e2762cdee96dda3c52d4c8be27d,db038fa574a7e923bb72c64af7f628e5,5738ec499ac86eee18f2dcff0945f5c7" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/merge_runs.sub
+07/18/17 02:57:33 From submit: Submitting job(s).
+07/18/17 02:57:33 From submit: 1 job(s) submitted to cluster 7774047.
+07/18/17 02:57:33 	assigned Condor ID (7774047.0.0)
+07/18/17 02:57:33 Just submitted 1 job this cycle...
+07/18/17 02:57:33 Currently monitoring 1 Condor log file(s)
+07/18/17 02:57:33 Reassigning the id of job 8eb1bc73a6543b95c4f8bf5fa515d688 from (7774047.0.0) to (7774047.0.0)
+07/18/17 02:57:33 Event: ULOG_SUBMIT for Condor Node 8eb1bc73a6543b95c4f8bf5fa515d688 (7774047.0.0)
+07/18/17 02:57:33 Number of idle job procs: 1
+07/18/17 02:57:33 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:57:33 Of 24 nodes total:
+07/18/17 02:57:33  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:57:33   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:57:33    18       0        1       0       0          3        2
+07/18/17 02:57:33 0 job proc(s) currently held
+07/18/17 02:57:49 Currently monitoring 1 Condor log file(s)
+07/18/17 02:57:49 Event: ULOG_EXECUTE for Condor Node 8eb1bc73a6543b95c4f8bf5fa515d688 (7774047.0.0)
+07/18/17 02:57:49 Number of idle job procs: 0
+07/18/17 02:57:59 Currently monitoring 1 Condor log file(s)
+07/18/17 02:57:59 Event: ULOG_JOB_TERMINATED for Condor Node 8eb1bc73a6543b95c4f8bf5fa515d688 (7774047.0.0)
+07/18/17 02:57:59 Number of idle job procs: 0
+07/18/17 02:57:59 Node 8eb1bc73a6543b95c4f8bf5fa515d688 job proc (7774047.0.0) completed successfully.
+07/18/17 02:57:59 Node 8eb1bc73a6543b95c4f8bf5fa515d688 job completed
+07/18/17 02:57:59 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:57:59 Of 24 nodes total:
+07/18/17 02:57:59  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:57:59   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:57:59    19       0        0       0       1          2        2
+07/18/17 02:57:59 0 job proc(s) currently held
+07/18/17 02:58:04 Submitting Condor Node 33ac069ff3b56d5bdd87a62033d20c82 job(s)...
+07/18/17 02:58:04 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/18/17 02:58:04 Masking the events recorded in the DAGMAN workflow log
+07/18/17 02:58:04 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/18/17 02:58:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '33ac069ff3b56d5bdd87a62033d20c82 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '33ac069ff3b56d5bdd87a62033d20c82 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrooutfile' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/coherence_test/coherence_test_H1L1_1167559679.0-0.dat -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_H1L1_1167559679.0-0.hdf5 -a macroargument1' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_H1_1167559679.0-0.hdf5 -a macroargument2' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_L1_1167559679.0-0.hdf5 -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"8eb1bc73a6543b95c4f8bf5fa515d688,73d3e98931558a851ae649c0b5abd3bc,7d445a1513d4865d1c6cbfe5c9550e1f" -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/coherence_test.sub
+07/18/17 02:58:04 From submit: Submitting job(s).
+07/18/17 02:58:04 From submit: 1 job(s) submitted to cluster 7774048.
+07/18/17 02:58:04 	assigned Condor ID (7774048.0.0)
+07/18/17 02:58:04 Just submitted 1 job this cycle...
+07/18/17 02:58:04 Currently monitoring 1 Condor log file(s)
+07/18/17 02:58:04 Reassigning the id of job 33ac069ff3b56d5bdd87a62033d20c82 from (7774048.0.0) to (7774048.0.0)
+07/18/17 02:58:04 Event: ULOG_SUBMIT for Condor Node 33ac069ff3b56d5bdd87a62033d20c82 (7774048.0.0)
+07/18/17 02:58:04 Number of idle job procs: 1
+07/18/17 02:58:04 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:58:04 Of 24 nodes total:
+07/18/17 02:58:04  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:58:04   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:58:04    19       0        1       0       0          2        2
+07/18/17 02:58:04 0 job proc(s) currently held
+07/18/17 02:58:09 Currently monitoring 1 Condor log file(s)
+07/18/17 02:58:09 Event: ULOG_EXECUTE for Condor Node 33ac069ff3b56d5bdd87a62033d20c82 (7774048.0.0)
+07/18/17 02:58:09 Number of idle job procs: 0
+07/18/17 02:58:09 Event: ULOG_JOB_TERMINATED for Condor Node 33ac069ff3b56d5bdd87a62033d20c82 (7774048.0.0)
+07/18/17 02:58:09 Number of idle job procs: 0
+07/18/17 02:58:09 Node 33ac069ff3b56d5bdd87a62033d20c82 job proc (7774048.0.0) completed successfully.
+07/18/17 02:58:09 Node 33ac069ff3b56d5bdd87a62033d20c82 job completed
+07/18/17 02:58:09 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:58:09 Of 24 nodes total:
+07/18/17 02:58:09  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:58:09   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:58:09    20       0        0       0       1          1        2
+07/18/17 02:58:09 0 job proc(s) currently held
+07/18/17 02:58:14 Submitting Condor Node f38defb0a54e1f1e24afdeac0d088c77 job(s)...
+07/18/17 02:58:14 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/18/17 02:58:14 Masking the events recorded in the DAGMAN workflow log
+07/18/17 02:58:14 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/18/17 02:58:14 Warning: node f38defb0a54e1f1e24afdeac0d088c77 has too many parents to list in its classad; leaving its DAGParentNodeNames attribute undefined
+07/18/17 02:58:14 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'f38defb0a54e1f1e24afdeac0d088c77 -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' 'f38defb0a54e1f1e24afdeac0d088c77 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrooutpath' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1 -a macroarchive' '=' 'postproc_1167559679.0-0.tar.gz -a macrosnr' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-0.hdf5_snr.txt -a macrobci' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/coherence_test/coherence_test_H1L1_1167559679.0-0.dat -a macroargument0' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/posterior_samples/posterior_H1L1_1167559679.0-0.hdf5 -a macroargument1' '=' '--psdfiles' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-0.hdf5H1-PSD.dat,/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/engine/lalinferencenest-0-H1L1-1167559679.0-0.hdf5L1-PSD.dat -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/resultspagecoherent.sub
+07/18/17 02:58:14 From submit: Submitting job(s).
+07/18/17 02:58:14 From submit: 1 job(s) submitted to cluster 7774049.
+07/18/17 02:58:14 	assigned Condor ID (7774049.0.0)
+07/18/17 02:58:14 Just submitted 1 job this cycle...
+07/18/17 02:58:14 Currently monitoring 1 Condor log file(s)
+07/18/17 02:58:14 Reassigning the id of job f38defb0a54e1f1e24afdeac0d088c77 from (7774049.0.0) to (7774049.0.0)
+07/18/17 02:58:14 Event: ULOG_SUBMIT for Condor Node f38defb0a54e1f1e24afdeac0d088c77 (7774049.0.0)
+07/18/17 02:58:14 Number of idle job procs: 1
+07/18/17 02:58:14 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 02:58:14 Of 24 nodes total:
+07/18/17 02:58:14  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 02:58:14   ===     ===      ===     ===     ===        ===      ===
+07/18/17 02:58:14    20       0        1       0       0          1        2
+07/18/17 02:58:14 0 job proc(s) currently held
+07/18/17 02:58:34 Currently monitoring 1 Condor log file(s)
+07/18/17 02:58:34 Event: ULOG_EXECUTE for Condor Node f38defb0a54e1f1e24afdeac0d088c77 (7774049.0.0)
+07/18/17 02:58:34 Number of idle job procs: 0
+07/18/17 03:00:39 Currently monitoring 1 Condor log file(s)
+07/18/17 03:00:39 Event: ULOG_JOB_TERMINATED for Condor Node f38defb0a54e1f1e24afdeac0d088c77 (7774049.0.0)
+07/18/17 03:00:39 Number of idle job procs: 0
+07/18/17 03:00:39 Node f38defb0a54e1f1e24afdeac0d088c77 job proc (7774049.0.0) completed successfully.
+07/18/17 03:00:39 Node f38defb0a54e1f1e24afdeac0d088c77 job completed
+07/18/17 03:00:39 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 03:00:39 Of 24 nodes total:
+07/18/17 03:00:39  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 03:00:39   ===     ===      ===     ===     ===        ===      ===
+07/18/17 03:00:39    21       0        0       0       1          0        2
+07/18/17 03:00:39 0 job proc(s) currently held
+07/18/17 03:00:44 Submitting Condor Node 66dbce4f180dc9135eb41e88eac4214b job(s)...
+07/18/17 03:00:44 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log
+07/18/17 03:00:44 Masking the events recorded in the DAGMAN workflow log
+07/18/17 03:00:44 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/18/17 03:00:44 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '66dbce4f180dc9135eb41e88eac4214b -a +DAGManJobId' '=' '7773836 -a DAGManJobId' '=' '7773836 -a submit_event_notes' '=' 'DAG' 'Node:' '66dbce4f180dc9135eb41e88eac4214b -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a macrosamples' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1/posterior_samples.dat -a macroobjid' '=' '0 -a macrofitsoutname' '=' 'LALInference_.fits.gz -a macrooutdir' '=' '/home/c1572221/public_html/LVC/GW150914_like/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/lalinferencenest/IMRPhenomDthreePointFivePN/1167559679.0-0/H1L1 -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"f38defb0a54e1f1e24afdeac0d088c77" -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/skyarea.sub
+07/18/17 03:00:44 From submit: Submitting job(s).
+07/18/17 03:00:44 From submit: 1 job(s) submitted to cluster 7774050.
+07/18/17 03:00:44 	assigned Condor ID (7774050.0.0)
+07/18/17 03:00:44 Just submitted 1 job this cycle...
+07/18/17 03:00:44 Currently monitoring 1 Condor log file(s)
+07/18/17 03:00:44 Reassigning the id of job 66dbce4f180dc9135eb41e88eac4214b from (7774050.0.0) to (7774050.0.0)
+07/18/17 03:00:44 Event: ULOG_SUBMIT for Condor Node 66dbce4f180dc9135eb41e88eac4214b (7774050.0.0)
+07/18/17 03:00:44 Number of idle job procs: 1
+07/18/17 03:00:44 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 03:00:44 Of 24 nodes total:
+07/18/17 03:00:44  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 03:00:44   ===     ===      ===     ===     ===        ===      ===
+07/18/17 03:00:44    21       0        1       0       0          0        2
+07/18/17 03:00:44 0 job proc(s) currently held
+07/18/17 03:00:50 Currently monitoring 1 Condor log file(s)
+07/18/17 03:00:50 Event: ULOG_EXECUTE for Condor Node 66dbce4f180dc9135eb41e88eac4214b (7774050.0.0)
+07/18/17 03:00:50 Number of idle job procs: 0
+07/18/17 03:00:50 Event: ULOG_JOB_TERMINATED for Condor Node 66dbce4f180dc9135eb41e88eac4214b (7774050.0.0)
+07/18/17 03:00:50 Number of idle job procs: 0
+07/18/17 03:00:50 Node 66dbce4f180dc9135eb41e88eac4214b job proc (7774050.0.0) failed with status 1.
+07/18/17 03:00:50 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 03:00:50 Of 24 nodes total:
+07/18/17 03:00:50  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 03:00:50   ===     ===      ===     ===     ===        ===      ===
+07/18/17 03:00:50    21       0        0       0       0          0        3
+07/18/17 03:00:50 0 job proc(s) currently held
+07/18/17 03:00:50 ERROR: the following job(s) failed:
+07/18/17 03:00:50 ---------------------- Job ----------------------
+07/18/17 03:00:50       Node Name: 66dbce4f180dc9135eb41e88eac4214b
+07/18/17 03:00:50            Noop: false
+07/18/17 03:00:50          NodeID: 21
+07/18/17 03:00:50     Node Status: STATUS_ERROR    
+07/18/17 03:00:50 Node return val: 1
+07/18/17 03:00:50           Error: Job proc (7774050.0.0) failed with status 1
+07/18/17 03:00:50 Job Submit File: /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/skyarea.sub
+07/18/17 03:00:50   Condor Job ID: (7774050.0.0)
+07/18/17 03:00:50       Q_PARENTS: f38defb0a54e1f1e24afdeac0d088c77, <END>
+07/18/17 03:00:50       Q_WAITING: <END>
+07/18/17 03:00:50      Q_CHILDREN: <END>
+07/18/17 03:00:50 ---------------------- Job ----------------------
+07/18/17 03:00:50       Node Name: 737f5d319918187dd367fb50f01c1068
+07/18/17 03:00:50            Noop: false
+07/18/17 03:00:50          NodeID: 22
+07/18/17 03:00:50     Node Status: STATUS_ERROR    
+07/18/17 03:00:50 Node return val: 1
+07/18/17 03:00:50           Error: Job proc (7773873.0.0) failed with status 1
+07/18/17 03:00:50 Job Submit File: /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/skyarea.sub
+07/18/17 03:00:50   Condor Job ID: (7773873.0.0)
+07/18/17 03:00:50       Q_PARENTS: 3973c78100b9759f6d2ee9dbdf912332, <END>
+07/18/17 03:00:50       Q_WAITING: <END>
+07/18/17 03:00:50      Q_CHILDREN: <END>
+07/18/17 03:00:50 ---------------------- Job ----------------------
+07/18/17 03:00:50       Node Name: 7cc8073b0d206b92c0a053c6b29f8aae
+07/18/17 03:00:50            Noop: false
+07/18/17 03:00:50          NodeID: 23
+07/18/17 03:00:50     Node Status: STATUS_ERROR    
+07/18/17 03:00:50 Node return val: 1
+07/18/17 03:00:50           Error: Job proc (7774012.0.0) failed with status 1
+07/18/17 03:00:50 Job Submit File: /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/skyarea.sub
+07/18/17 03:00:50   Condor Job ID: (7774012.0.0)
+07/18/17 03:00:50       Q_PARENTS: f0e5940644162ee0e590cd3d100ee438, <END>
+07/18/17 03:00:50       Q_WAITING: <END>
+07/18/17 03:00:50      Q_CHILDREN: <END>
+07/18/17 03:00:50 ---------------------------------------	<END>
+07/18/17 03:00:50 Aborting DAG...
+07/18/17 03:00:50 Writing Rescue DAG to /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.rescue001...
+07/18/17 03:00:50 Removing submitted jobs...
+07/18/17 03:00:50 Removing any/all submitted Condor jobs...
+07/18/17 03:00:50 Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '7773836
+07/18/17 03:00:50 Note: 0 total job deferrals because of -MaxJobs limit (3000)
+07/18/17 03:00:50 Note: 0 total job deferrals because of -MaxIdle limit (100)
+07/18/17 03:00:50 Note: 0 total job deferrals because of node category throttles
+07/18/17 03:00:50 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/18/17 03:00:50 Note: 0 total POST script deferrals because of -MaxPost limit (10) or DEFER
+07/18/17 03:00:50 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/18/17 03:00:50 Of 24 nodes total:
+07/18/17 03:00:50  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/18/17 03:00:50   ===     ===      ===     ===     ===        ===      ===
+07/18/17 03:00:50    21       0        0       0       0          0        3
+07/18/17 03:00:50 0 job proc(s) currently held
+07/18/17 03:00:50 Wrote metrics file /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.metrics.
+07/18/17 03:00:50 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/18/17 03:00:50 **** condor_scheduniv_exec.7773836.0 (condor_DAGMAN) pid 1556708 EXITING WITH STATUS 1

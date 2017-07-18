@@ -1,0 +1,7 @@
+/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/ndjed33/lib/python2.7/site-packages/matplotlib-1.5.3-py2.7-linux-x86_64.egg/matplotlib/__init__.py:878: UserWarning: text.fontsize is deprecated and replaced with font.size; please use the latter.
+  warnings.warn(self.msg_depr % (key, alt_key))
+/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/ndjed33/lib/python2.7/site-packages/matplotlib-1.5.3-py2.7-linux-x86_64.egg/matplotlib/font_manager.py:1288: UserWarning: findfont: Font family [u'serif'] not found. Falling back to Bitstream Vera Sans
+  (prop.get_family(), self.defaultFamily[fontext]))
+/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/ndjed33/lib/python2.7/site-packages/matplotlib-1.5.3-py2.7-linux-x86_64.egg/matplotlib/axes/_axes.py:531: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
+  warnings.warn("No labelled objects found. "
+tar: Removing leading `/' from member names
