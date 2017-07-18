@@ -1,0 +1,9 @@
+executable     =/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M45/frame_inference.sh
+universe       = vanilla
+getenv         = True
+output         = test.out
+error          = test.error
+log            = test.log
+request_cpus = 12
+accounting_group = aluk.dev.o2.cbc.explore.test
+queue

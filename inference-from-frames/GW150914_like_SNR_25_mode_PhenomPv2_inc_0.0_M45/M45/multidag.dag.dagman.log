@@ -1,0 +1,13 @@
+000 (7773851.000.000) 07/17 12:54:50 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+...
+001 (7773851.000.000) 07/17 12:54:50 Job executing on host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+...
+004 (7773851.000.000) 07/18 08:50:30 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+001 (7773851.000.000) 07/18 08:52:59 Job executing on host: <172.21.0.15:9618?addrs=172.21.0.15-9618&noUDP&sock=4660_f36c_3>
+...

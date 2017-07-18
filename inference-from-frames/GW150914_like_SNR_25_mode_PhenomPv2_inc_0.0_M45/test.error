@@ -1,0 +1,84 @@
+2017-07-17 13:29:27,142 Using seed 0
+2017-07-17 13:29:27,142 Running with CPU support: 1 threads
+2017-07-17 13:29:27,592 Loading data
+2017-07-17 13:29:27,593 Reading Frames
+2017-07-17 13:29:27,706 Highpass Filtering
+2017-07-17 13:29:27,714 Converting to float64
+2017-07-17 13:29:27,715 Resampling data
+2017-07-17 13:29:27,732 attempting to aquire lock '/tmp/Condor-execute.172.20.1.56-5485/dir_25099/1341829_python27_compiled/none/none/code_lockfile' for compiling code
+2017-07-17 13:29:27,732 we have aquired the lock
+2017-07-17 13:29:28,855 the lock has been released
+2017-07-17 13:29:28,899 Highpass Filtering
+2017-07-17 13:29:28,901 Remove Padding
+2017-07-17 13:29:28,902 Reading Frames
+2017-07-17 13:29:29,008 Highpass Filtering
+2017-07-17 13:29:29,016 Converting to float64
+2017-07-17 13:29:29,017 Resampling data
+2017-07-17 13:29:29,023 Highpass Filtering
+2017-07-17 13:29:29,025 Remove Padding
+2017-07-17 13:29:29,025 Applying gates to strain data
+2017-07-17 13:29:29,025 FFT strain
+/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/bwacfrm/lib/python2.7/site-packages/pycbc/types/array.py:357: RuntimeWarning: divide by zero encountered in divide
+  return self._data.__rdiv__(other)
+2017-07-17 13:29:29,093 Reading configuration file
+2017-07-17 13:29:29,096 Loading arguments
+2017-07-17 13:29:29,096 Setting up priors for each parameter
+2017-07-17 13:29:29,099 Setting up sampler
+2017-07-17 13:29:31,442 Writing command line and data to output file
+2017-07-17 13:29:32,420 Setting walkers initial conditions for varying parameters
+2017-07-17 13:29:34,395 Running sampler for 0 to 1000 out of 12000 iterations
+2017-07-17 13:29:34,407 attempting to aquire lock '/tmp/Condor-execute.172.20.1.56-5485/dir_25099/1341829_python27_compiled/none/none/code_lockfile' for compiling code
+2017-07-17 13:29:34,407 we have aquired the lock
+2017-07-17 13:29:35,380 the lock has been released
+2017-07-17 14:07:51,718 Writing results to file
+2017-07-17 14:09:06,626 Writing state to file
+2017-07-17 14:09:06,635 Clearing chain
+2017-07-17 14:09:07,363 Running sampler for 1000 to 2000 out of 12000 iterations
+2017-07-17 14:58:36,221 Writing results to file
+2017-07-17 15:00:09,805 Writing state to file
+2017-07-17 15:00:09,819 Clearing chain
+2017-07-17 15:00:13,574 Running sampler for 2000 to 3000 out of 12000 iterations
+2017-07-17 15:52:40,901 Writing results to file
+2017-07-17 15:54:15,049 Writing state to file
+2017-07-17 15:54:15,104 Clearing chain
+2017-07-17 15:54:20,337 Running sampler for 3000 to 4000 out of 12000 iterations
+2017-07-17 16:54:16,575 Writing results to file
+2017-07-17 16:55:51,785 Writing state to file
+2017-07-17 16:55:52,404 Clearing chain
+2017-07-17 16:55:56,751 Running sampler for 4000 to 5000 out of 12000 iterations
+2017-07-17 18:14:00,278 Writing results to file
+2017-07-17 18:15:29,052 Writing state to file
+2017-07-17 18:15:29,122 Clearing chain
+2017-07-17 18:15:30,247 Running sampler for 5000 to 6000 out of 12000 iterations
+2017-07-17 19:41:53,736 Writing results to file
+2017-07-17 19:43:24,370 Writing state to file
+2017-07-17 19:43:24,463 Clearing chain
+2017-07-17 19:43:34,607 Running sampler for 6000 to 7000 out of 12000 iterations
+2017-07-17 21:12:20,223 Writing results to file
+2017-07-17 21:14:06,297 Writing state to file
+2017-07-17 21:14:06,410 Clearing chain
+2017-07-17 21:14:13,132 Running sampler for 7000 to 8000 out of 12000 iterations
+2017-07-17 22:43:51,042 Writing results to file
+2017-07-17 22:45:19,115 Writing state to file
+2017-07-17 22:45:19,760 Clearing chain
+2017-07-17 22:45:23,074 Running sampler for 8000 to 9000 out of 12000 iterations
+2017-07-18 00:14:25,767 Writing results to file
+2017-07-18 00:16:01,095 Writing state to file
+2017-07-18 00:16:01,325 Clearing chain
+2017-07-18 00:16:02,339 Running sampler for 9000 to 10000 out of 12000 iterations
+2017-07-18 01:45:26,683 Writing results to file
+2017-07-18 01:46:57,044 Writing state to file
+2017-07-18 01:46:57,661 Clearing chain
+2017-07-18 01:46:59,507 Running sampler for 10000 to 11000 out of 12000 iterations
+2017-07-18 03:18:57,812 Writing results to file
+2017-07-18 03:20:42,908 Writing state to file
+2017-07-18 03:20:43,488 Clearing chain
+2017-07-18 03:20:47,352 Running sampler for 11000 to 12000 out of 12000 iterations
+2017-07-18 04:54:52,904 Writing results to file
+2017-07-18 04:56:34,173 Writing state to file
+2017-07-18 04:56:34,522 Computing acls
+2017-07-18 04:56:35,037 attempting to aquire lock '/tmp/Condor-execute.172.20.1.56-5485/dir_25099/1341829_python27_compiled/none/none/code_lockfile' for compiling code
+2017-07-18 04:56:35,037 we have aquired the lock
+2017-07-18 04:56:45,796 the lock has been released
+2017-07-18 05:12:30,189 Clearing chain
+2017-07-18 05:13:08,704 Done
