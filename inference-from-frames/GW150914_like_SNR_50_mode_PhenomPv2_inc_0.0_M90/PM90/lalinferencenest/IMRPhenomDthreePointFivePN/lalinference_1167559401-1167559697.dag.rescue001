@@ -1,0 +1,31 @@
+# Rescue DAG file, created after running
+#   the /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag DAG file
+# Created 7/21/2017 03:52:43 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 24
+# Nodes premarked DONE: 21
+# Nodes that failed: 3
+#   13edc5b1bdab77611b1136f5ac02857d,b56c40de310e1c4cf77eda27353c831c,f02fc35e7ecc6e28b5c980c6b9bcf8e8,<ENDLIST>
+
+DONE 2f80650c6482d5295f5eec476baf78d3
+DONE 9bf7f5409dc18bbee4761e92dede6289
+DONE 79057d41b38c40b5484bd4e8220061db
+DONE c3303845d1c34d4d29232fb23636ec31
+DONE b3e5b7c04a163a8cf9d16b5ddcf6cbb3
+DONE 7f361dffa1722977909165be81e1b8ea
+DONE 3fa8fd74cc865f9e527136b7163d5d1d
+DONE ee9b721f3f9fa2fb9152fe0bcc577094
+DONE accbf771337ac0d33901b6b2479f5a20
+DONE 9c0f8ac376058164edc9c035bd62a396
+DONE d92ee368389b86ed1fbe737b2901d2ba
+DONE 59d689c8b4cf3a74df39ed57b9a4b02f
+DONE 438f4db0dbd4038b59776dda21177be3
+DONE 41733242a8e3b8db70740b3cfa40ce0b
+DONE 6958e22a831bb23f2dc308ffe9bd9a3d
+DONE 99c6a8e299b815a4651cb1fc55b3242e
+DONE 7643cdd2a738b9b47363326d1b79cd4a
+DONE 2e5b9aea1ecc9198803b83e3bd58524d
+DONE e44506dc09a44f0bdea7e9f2eecb3d65
+DONE 0bf94f7018c05eed858ae4f11ba71af1
+DONE 01047dd11c256a0805f61c475da348c1

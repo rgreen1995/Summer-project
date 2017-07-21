@@ -4,8 +4,9 @@ arguments = " --approx IMRPhenomDthreePointFivePN --psdlength $(macropsdlength) 
 environment = OMP_NUM_THREADS=1
 request_memory = 2048
 getenv = true
+accounting_group_user = rhys.green
 accounting_group = ligo.sim.o2.cbc.pe.lalinference
-log = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_pipeline-0c2801ec-66f2-11e7-9c94-002590fc7bee.log
+log = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_pipeline-41cf1ac8-6ad6-11e7-b548-002590fc7bee.log
 error = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/log/lalinference-$(cluster)-$(process)-$(node).err
 output = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/lalinferencenest/IMRPhenomDthreePointFivePN/log/lalinference-$(cluster)-$(process)-$(node).out
 notification = never

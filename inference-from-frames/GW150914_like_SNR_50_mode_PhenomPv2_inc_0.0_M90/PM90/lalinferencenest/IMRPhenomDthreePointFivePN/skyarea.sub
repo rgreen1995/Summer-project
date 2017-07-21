@@ -1,0 +1,10 @@
+universe = vanilla
+executable = /software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/pickxdy/bin/run_sky_area
+arguments = " --fitsoutname $(macrofitsoutname) --objid $(macroobjid) --samples $(macrosamples) --outdir $(macrooutdir) "
+getenv = True
+accounting_group = ligo.sim.o2.cbc.pe.lalinference
+log = /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_pipeline-1413ca3e-6d29-11e7-a3af-002590fc7bee.log
+error = /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/log/skyarea-$(cluster)-$(process).err
+output = /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/log/skyarea-$(cluster)-$(process).out
+notification = never
+queue 1

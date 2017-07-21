@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag DAG file
+# Created 7/21/2017 03:52:48 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 1
+# Nodes premarked DONE: 0
+# Nodes that failed: 1
+#   b762b23d96c78f11ab5a6b3141eb1c44,<ENDLIST>
+

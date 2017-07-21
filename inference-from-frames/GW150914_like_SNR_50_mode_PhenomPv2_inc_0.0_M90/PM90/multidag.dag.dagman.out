@@ -1,0 +1,502 @@
+07/20/17 09:54:59 ******************************************************
+07/20/17 09:54:59 ** condor_scheduniv_exec.7776957.0 (CONDOR_DAGMAN) STARTING UP
+07/20/17 09:54:59 ** /usr/bin/condor_dagman
+07/20/17 09:54:59 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/20/17 09:54:59 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/20/17 09:54:59 ** $CondorVersion: 8.6.4 Jun 21 2017 BuildID: 408625 $
+07/20/17 09:54:59 ** $CondorPlatform: x86_64_RedHat6 $
+07/20/17 09:54:59 ** PID = 3607134
+07/20/17 09:54:59 ** Log last touched time unavailable (No such file or directory)
+07/20/17 09:54:59 ******************************************************
+07/20/17 09:54:59 Using config source: /etc/condor/condor_config
+07/20/17 09:54:59 Using local config sources: 
+07/20/17 09:54:59    /etc/condor/config.d/00admin
+07/20/17 09:54:59    /etc/condor/config.d/01-transform_accounting
+07/20/17 09:54:59    /etc/condor/config.d/20-limit-post-scripts
+07/20/17 09:54:59    /etc/condor/config.d/50-job-router
+07/20/17 09:54:59    /etc/condor/config.d/accounting
+07/20/17 09:54:59    /etc/condor/config.d/dags
+07/20/17 09:54:59    /etc/condor/config.d/logfile_nfs_locking
+07/20/17 09:54:59    /etc/condor/condor_config.local
+07/20/17 09:54:59 config Macros = 97, Sorted = 97, StringBytes = 4223, TablesBytes = 3580
+07/20/17 09:54:59 CLASSAD_CACHING is ENABLED
+07/20/17 09:54:59 Daemon Log is logging: D_ALWAYS D_ERROR
+07/20/17 09:54:59 DaemonCore: No command port requested.
+07/20/17 09:54:59 DAGMAN_USE_STRICT setting: 1
+07/20/17 09:54:59 DAGMAN_VERBOSITY setting: 3
+07/20/17 09:54:59 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/20/17 09:54:59 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/20/17 09:54:59 DAGMAN_SUBMIT_DELAY setting: 0
+07/20/17 09:54:59 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/20/17 09:54:59 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/20/17 09:54:59 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/20/17 09:54:59 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/20/17 09:54:59 DAGMAN_DEFAULT_PRIORITY setting: 0
+07/20/17 09:54:59 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/20/17 09:54:59 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/20/17 09:54:59 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/20/17 09:54:59 DAGMAN_RETRY_NODE_FIRST setting: False
+07/20/17 09:54:59 DAGMAN_MAX_JOBS_IDLE setting: 100
+07/20/17 09:54:59 DAGMAN_MAX_JOBS_SUBMITTED setting: 3000
+07/20/17 09:54:59 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/20/17 09:54:59 DAGMAN_MAX_POST_SCRIPTS setting: 10
+07/20/17 09:54:59 DAGMAN_MUNGE_NODE_NAMES setting: True
+07/20/17 09:54:59 DAGMAN_PROHIBIT_MULTI_JOBS setting: True
+07/20/17 09:54:59 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/20/17 09:54:59 DAGMAN_ALWAYS_RUN_POST setting: False
+07/20/17 09:54:59 DAGMAN_ABORT_DUPLICATES setting: True
+07/20/17 09:54:59 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/20/17 09:54:59 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/20/17 09:54:59 DAGMAN_AUTO_RESCUE setting: True
+07/20/17 09:54:59 DAGMAN_MAX_RESCUE_NUM setting: 100
+07/20/17 09:54:59 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/20/17 09:54:59 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/20/17 09:54:59 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/20/17 09:54:59 DAGMAN_MAX_JOB_HOLDS setting: 100
+07/20/17 09:54:59 DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/20/17 09:54:59 ALL_DEBUG setting: 
+07/20/17 09:54:59 DAGMAN_DEBUG setting: 
+07/20/17 09:54:59 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/20/17 09:54:59 DAGMAN_REMOVE_NODE_JOBS setting: True
+07/20/17 09:54:59 argv[0] == "condor_scheduniv_exec.7776957.0"
+07/20/17 09:54:59 argv[1] == "-Lockfile"
+07/20/17 09:54:59 argv[2] == "/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.lock"
+07/20/17 09:54:59 argv[3] == "-AutoRescue"
+07/20/17 09:54:59 argv[4] == "1"
+07/20/17 09:54:59 argv[5] == "-DoRescueFrom"
+07/20/17 09:54:59 argv[6] == "0"
+07/20/17 09:54:59 argv[7] == "-Dag"
+07/20/17 09:54:59 argv[8] == "/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag"
+07/20/17 09:54:59 argv[9] == "-Suppress_notification"
+07/20/17 09:54:59 argv[10] == "-CsdVersion"
+07/20/17 09:54:59 argv[11] == "$CondorVersion: 8.6.4 Jun 21 2017 BuildID: 408625 $"
+07/20/17 09:54:59 argv[12] == "-Dagman"
+07/20/17 09:54:59 argv[13] == "/usr/bin/condor_dagman"
+07/20/17 09:54:59 Workflow batch-name: <multidag.dag+7776957>
+07/20/17 09:54:59 Workflow accounting_group: <>
+07/20/17 09:54:59 Workflow accounting_group_user: <>
+07/20/17 09:54:59 Warning: failed to get attribute DAGNodeName
+07/20/17 09:54:59 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/20/17 09:54:59 Default node log file is: </home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.nodes.log>
+07/20/17 09:54:59 Note:  DAGMAN_MAX_JOBS_IDLE has been changed from the default setting; if your submit files create multiple procs, you should probably set DAGMAN_MAX_SUBMITS_PER_INTERVAL to 1
+07/20/17 09:54:59 DAG Lockfile will be written to /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.lock
+07/20/17 09:54:59 DAG Input file is /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag
+07/20/17 09:54:59 Parsing 1 dagfiles
+07/20/17 09:54:59 Parsing /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag ...
+07/20/17 09:54:59 Dag contains 1 total jobs
+07/20/17 09:54:59 Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/20/17 09:55:03 Bootstrapping...
+07/20/17 09:55:03 Number of pre-completed nodes: 0
+07/20/17 09:55:07 MultiLogFiles: truncating log file /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.nodes.log
+07/20/17 09:55:07 DAG status: 0 (DAG_STATUS_OK)
+07/20/17 09:55:07 Of 1 nodes total:
+07/20/17 09:55:07  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/20/17 09:55:07   ===     ===      ===     ===     ===        ===      ===
+07/20/17 09:55:07     0       0        0       0       1          0        0
+07/20/17 09:55:07 0 job proc(s) currently held
+07/20/17 09:55:07 Registering condor_event_timer...
+07/20/17 09:55:08 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag>
+07/20/17 09:55:09 Submitting HTCondor Node b762b23d96c78f11ab5a6b3141eb1c44 job(s)...
+07/20/17 09:55:09 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.nodes.log
+07/20/17 09:55:09 Masking the events recorded in the DAGMAN workflow log
+07/20/17 09:55:09 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/20/17 09:55:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'b762b23d96c78f11ab5a6b3141eb1c44 -a +DAGManJobId' '=' '7776957 -a DAGManJobId' '=' '7776957 -batch-name multidag.dag+7776957 -a submit_event_notes' '=' 'DAG' 'Node:' 'b762b23d96c78f11ab5a6b3141eb1c44 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub
+07/20/17 09:55:09 From submit: Submitting job(s).
+07/20/17 09:55:09 From submit: 1 job(s) submitted to cluster 7776958.
+07/20/17 09:55:09 	assigned HTCondor ID (7776958.0.0)
+07/20/17 09:55:09 Just submitted 1 job this cycle...
+07/20/17 09:55:09 Currently monitoring 1 HTCondor log file(s)
+07/20/17 09:55:09 Reassigning the id of job b762b23d96c78f11ab5a6b3141eb1c44 from (7776958.0.0) to (7776958.0.0)
+07/20/17 09:55:09 Event: ULOG_SUBMIT for HTCondor Node b762b23d96c78f11ab5a6b3141eb1c44 (7776958.0.0) {07/20/17 09:55:09}
+07/20/17 09:55:09 Number of idle job procs: 1
+07/20/17 09:55:09 DAG status: 0 (DAG_STATUS_OK)
+07/20/17 09:55:09 Of 1 nodes total:
+07/20/17 09:55:09  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/20/17 09:55:09   ===     ===      ===     ===     ===        ===      ===
+07/20/17 09:55:09     0       0        1       0       0          0        0
+07/20/17 09:55:09 0 job proc(s) currently held
+07/20/17 09:55:14 Currently monitoring 1 HTCondor log file(s)
+07/20/17 09:55:14 Event: ULOG_EXECUTE for HTCondor Node b762b23d96c78f11ab5a6b3141eb1c44 (7776958.0.0) {07/20/17 09:55:09}
+07/20/17 09:55:14 Number of idle job procs: 0
+07/20/17 10:05:16 602 seconds since last log event
+07/20/17 10:05:16 Pending DAG nodes:
+07/20/17 10:05:16   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 10:15:19 1205 seconds since last log event
+07/20/17 10:15:19 Pending DAG nodes:
+07/20/17 10:15:19   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 10:25:23 1809 seconds since last log event
+07/20/17 10:25:23 Pending DAG nodes:
+07/20/17 10:25:23   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 10:35:28 2414 seconds since last log event
+07/20/17 10:35:28 Pending DAG nodes:
+07/20/17 10:35:28   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 10:45:31 3017 seconds since last log event
+07/20/17 10:45:31 Pending DAG nodes:
+07/20/17 10:45:31   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 10:55:32 3618 seconds since last log event
+07/20/17 10:55:32 Pending DAG nodes:
+07/20/17 10:55:32   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 11:05:32 4218 seconds since last log event
+07/20/17 11:05:32 Pending DAG nodes:
+07/20/17 11:05:32   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 11:15:36 4822 seconds since last log event
+07/20/17 11:15:36 Pending DAG nodes:
+07/20/17 11:15:36   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 11:25:40 5426 seconds since last log event
+07/20/17 11:25:40 Pending DAG nodes:
+07/20/17 11:25:40   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 11:35:43 6029 seconds since last log event
+07/20/17 11:35:43 Pending DAG nodes:
+07/20/17 11:35:43   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 11:45:43 6629 seconds since last log event
+07/20/17 11:45:43 Pending DAG nodes:
+07/20/17 11:45:43   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 11:55:46 7232 seconds since last log event
+07/20/17 11:55:46 Pending DAG nodes:
+07/20/17 11:55:46   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 12:05:48 7834 seconds since last log event
+07/20/17 12:05:48 Pending DAG nodes:
+07/20/17 12:05:48   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 12:15:52 8438 seconds since last log event
+07/20/17 12:15:52 Pending DAG nodes:
+07/20/17 12:15:52   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 12:25:56 9042 seconds since last log event
+07/20/17 12:25:56 Pending DAG nodes:
+07/20/17 12:25:56   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 12:35:56 9642 seconds since last log event
+07/20/17 12:35:56 Pending DAG nodes:
+07/20/17 12:35:56   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 12:45:59 10245 seconds since last log event
+07/20/17 12:45:59 Pending DAG nodes:
+07/20/17 12:45:59   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 12:55:59 10845 seconds since last log event
+07/20/17 12:55:59 Pending DAG nodes:
+07/20/17 12:55:59   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 13:06:02 11448 seconds since last log event
+07/20/17 13:06:02 Pending DAG nodes:
+07/20/17 13:06:02   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 13:16:06 12052 seconds since last log event
+07/20/17 13:16:06 Pending DAG nodes:
+07/20/17 13:16:06   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 13:26:08 12654 seconds since last log event
+07/20/17 13:26:08 Pending DAG nodes:
+07/20/17 13:26:08   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 13:36:09 13255 seconds since last log event
+07/20/17 13:36:09 Pending DAG nodes:
+07/20/17 13:36:09   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 13:46:13 13859 seconds since last log event
+07/20/17 13:46:13 Pending DAG nodes:
+07/20/17 13:46:13   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 13:56:13 14459 seconds since last log event
+07/20/17 13:56:13 Pending DAG nodes:
+07/20/17 13:56:13   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 14:06:15 15061 seconds since last log event
+07/20/17 14:06:15 Pending DAG nodes:
+07/20/17 14:06:15   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 14:16:16 15662 seconds since last log event
+07/20/17 14:16:16 Pending DAG nodes:
+07/20/17 14:16:16   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 14:26:17 16263 seconds since last log event
+07/20/17 14:26:17 Pending DAG nodes:
+07/20/17 14:26:17   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 14:36:17 16863 seconds since last log event
+07/20/17 14:36:17 Pending DAG nodes:
+07/20/17 14:36:17   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 14:46:19 17465 seconds since last log event
+07/20/17 14:46:19 Pending DAG nodes:
+07/20/17 14:46:19   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 14:56:20 18066 seconds since last log event
+07/20/17 14:56:20 Pending DAG nodes:
+07/20/17 14:56:20   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 15:06:21 18667 seconds since last log event
+07/20/17 15:06:21 Pending DAG nodes:
+07/20/17 15:06:21   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 15:16:23 19269 seconds since last log event
+07/20/17 15:16:23 Pending DAG nodes:
+07/20/17 15:16:23   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 15:26:23 19869 seconds since last log event
+07/20/17 15:26:23 Pending DAG nodes:
+07/20/17 15:26:23   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 15:36:24 20470 seconds since last log event
+07/20/17 15:36:24 Pending DAG nodes:
+07/20/17 15:36:24   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 15:46:25 21071 seconds since last log event
+07/20/17 15:46:25 Pending DAG nodes:
+07/20/17 15:46:25   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 15:56:26 21672 seconds since last log event
+07/20/17 15:56:26 Pending DAG nodes:
+07/20/17 15:56:26   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 16:06:27 22273 seconds since last log event
+07/20/17 16:06:27 Pending DAG nodes:
+07/20/17 16:06:27   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 16:16:30 22876 seconds since last log event
+07/20/17 16:16:30 Pending DAG nodes:
+07/20/17 16:16:30   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 16:26:32 23478 seconds since last log event
+07/20/17 16:26:32 Pending DAG nodes:
+07/20/17 16:26:32   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 16:36:35 24081 seconds since last log event
+07/20/17 16:36:35 Pending DAG nodes:
+07/20/17 16:36:35   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 16:46:37 24683 seconds since last log event
+07/20/17 16:46:37 Pending DAG nodes:
+07/20/17 16:46:37   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 16:56:41 25287 seconds since last log event
+07/20/17 16:56:41 Pending DAG nodes:
+07/20/17 16:56:41   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 17:06:43 25889 seconds since last log event
+07/20/17 17:06:44 Pending DAG nodes:
+07/20/17 17:06:44   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 17:16:43 26489 seconds since last log event
+07/20/17 17:16:43 Pending DAG nodes:
+07/20/17 17:16:43   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 17:26:46 27092 seconds since last log event
+07/20/17 17:26:46 Pending DAG nodes:
+07/20/17 17:26:46   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 17:36:49 27695 seconds since last log event
+07/20/17 17:36:49 Pending DAG nodes:
+07/20/17 17:36:49   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 17:46:50 28296 seconds since last log event
+07/20/17 17:46:50 Pending DAG nodes:
+07/20/17 17:46:50   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 17:56:50 28896 seconds since last log event
+07/20/17 17:56:50 Pending DAG nodes:
+07/20/17 17:56:50   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 18:06:52 29498 seconds since last log event
+07/20/17 18:06:52 Pending DAG nodes:
+07/20/17 18:06:52   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 18:16:56 30102 seconds since last log event
+07/20/17 18:16:56 Pending DAG nodes:
+07/20/17 18:16:56   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 18:26:57 30703 seconds since last log event
+07/20/17 18:26:57 Pending DAG nodes:
+07/20/17 18:26:57   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 18:36:58 31304 seconds since last log event
+07/20/17 18:36:58 Pending DAG nodes:
+07/20/17 18:36:58   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 18:47:00 31906 seconds since last log event
+07/20/17 18:47:00 Pending DAG nodes:
+07/20/17 18:47:00   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 18:57:04 32510 seconds since last log event
+07/20/17 18:57:04 Pending DAG nodes:
+07/20/17 18:57:04   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 19:07:07 33113 seconds since last log event
+07/20/17 19:07:07 Pending DAG nodes:
+07/20/17 19:07:07   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 19:17:08 33714 seconds since last log event
+07/20/17 19:17:08 Pending DAG nodes:
+07/20/17 19:17:08   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 19:27:09 34315 seconds since last log event
+07/20/17 19:27:09 Pending DAG nodes:
+07/20/17 19:27:09   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 19:37:11 34917 seconds since last log event
+07/20/17 19:37:11 Pending DAG nodes:
+07/20/17 19:37:11   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 19:47:12 35518 seconds since last log event
+07/20/17 19:47:12 Pending DAG nodes:
+07/20/17 19:47:12   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 19:57:14 36120 seconds since last log event
+07/20/17 19:57:14 Pending DAG nodes:
+07/20/17 19:57:14   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 20:07:17 36723 seconds since last log event
+07/20/17 20:07:17 Pending DAG nodes:
+07/20/17 20:07:17   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 20:17:19 37325 seconds since last log event
+07/20/17 20:17:19 Pending DAG nodes:
+07/20/17 20:17:19   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 20:27:21 37927 seconds since last log event
+07/20/17 20:27:21 Pending DAG nodes:
+07/20/17 20:27:21   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 20:37:22 38528 seconds since last log event
+07/20/17 20:37:22 Pending DAG nodes:
+07/20/17 20:37:22   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 20:47:23 39129 seconds since last log event
+07/20/17 20:47:23 Pending DAG nodes:
+07/20/17 20:47:23   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 20:57:25 39731 seconds since last log event
+07/20/17 20:57:25 Pending DAG nodes:
+07/20/17 20:57:25   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 21:07:27 40333 seconds since last log event
+07/20/17 21:07:27 Pending DAG nodes:
+07/20/17 21:07:27   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 21:17:30 40936 seconds since last log event
+07/20/17 21:17:30 Pending DAG nodes:
+07/20/17 21:17:30   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 21:27:31 41537 seconds since last log event
+07/20/17 21:27:31 Pending DAG nodes:
+07/20/17 21:27:31   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 21:37:33 42139 seconds since last log event
+07/20/17 21:37:33 Pending DAG nodes:
+07/20/17 21:37:33   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 21:47:34 42740 seconds since last log event
+07/20/17 21:47:34 Pending DAG nodes:
+07/20/17 21:47:34   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 21:57:37 43343 seconds since last log event
+07/20/17 21:57:37 Pending DAG nodes:
+07/20/17 21:57:37   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 22:07:39 43945 seconds since last log event
+07/20/17 22:07:39 Pending DAG nodes:
+07/20/17 22:07:39   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 22:17:40 44546 seconds since last log event
+07/20/17 22:17:40 Pending DAG nodes:
+07/20/17 22:17:40   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 22:27:44 45150 seconds since last log event
+07/20/17 22:27:44 Pending DAG nodes:
+07/20/17 22:27:44   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 22:37:47 45753 seconds since last log event
+07/20/17 22:37:47 Pending DAG nodes:
+07/20/17 22:37:47   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 22:47:48 46354 seconds since last log event
+07/20/17 22:47:48 Pending DAG nodes:
+07/20/17 22:47:48   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 22:57:51 46957 seconds since last log event
+07/20/17 22:57:51 Pending DAG nodes:
+07/20/17 22:57:51   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 23:07:55 47561 seconds since last log event
+07/20/17 23:07:55 Pending DAG nodes:
+07/20/17 23:07:55   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 23:17:56 48162 seconds since last log event
+07/20/17 23:17:56 Pending DAG nodes:
+07/20/17 23:17:56   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 23:27:58 48764 seconds since last log event
+07/20/17 23:27:58 Pending DAG nodes:
+07/20/17 23:27:58   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 23:38:00 49366 seconds since last log event
+07/20/17 23:38:00 Pending DAG nodes:
+07/20/17 23:38:00   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 23:48:01 49967 seconds since last log event
+07/20/17 23:48:01 Pending DAG nodes:
+07/20/17 23:48:01   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/20/17 23:58:03 50569 seconds since last log event
+07/20/17 23:58:03 Pending DAG nodes:
+07/20/17 23:58:03   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 00:08:05 51171 seconds since last log event
+07/21/17 00:08:05 Pending DAG nodes:
+07/21/17 00:08:05   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 00:18:06 51772 seconds since last log event
+07/21/17 00:18:06 Pending DAG nodes:
+07/21/17 00:18:06   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 00:28:08 52374 seconds since last log event
+07/21/17 00:28:08 Pending DAG nodes:
+07/21/17 00:28:08   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 00:38:08 52974 seconds since last log event
+07/21/17 00:38:08 Pending DAG nodes:
+07/21/17 00:38:08   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 00:48:09 53575 seconds since last log event
+07/21/17 00:48:09 Pending DAG nodes:
+07/21/17 00:48:09   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 00:58:10 54176 seconds since last log event
+07/21/17 00:58:10 Pending DAG nodes:
+07/21/17 00:58:10   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 01:08:12 54778 seconds since last log event
+07/21/17 01:08:12 Pending DAG nodes:
+07/21/17 01:08:12   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 01:18:15 55381 seconds since last log event
+07/21/17 01:18:15 Pending DAG nodes:
+07/21/17 01:18:15   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 01:28:17 55983 seconds since last log event
+07/21/17 01:28:17 Pending DAG nodes:
+07/21/17 01:28:17   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 01:38:21 56587 seconds since last log event
+07/21/17 01:38:21 Pending DAG nodes:
+07/21/17 01:38:21   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 01:48:23 57189 seconds since last log event
+07/21/17 01:48:23 Pending DAG nodes:
+07/21/17 01:48:23   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 01:58:24 57790 seconds since last log event
+07/21/17 01:58:24 Pending DAG nodes:
+07/21/17 01:58:24   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 02:08:26 58392 seconds since last log event
+07/21/17 02:08:26 Pending DAG nodes:
+07/21/17 02:08:26   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 02:18:27 58993 seconds since last log event
+07/21/17 02:18:27 Pending DAG nodes:
+07/21/17 02:18:27   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 02:28:28 59594 seconds since last log event
+07/21/17 02:28:28 Pending DAG nodes:
+07/21/17 02:28:28   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 02:38:29 60195 seconds since last log event
+07/21/17 02:38:29 Pending DAG nodes:
+07/21/17 02:38:29   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 02:48:30 60796 seconds since last log event
+07/21/17 02:48:30 Pending DAG nodes:
+07/21/17 02:48:30   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 02:58:30 61396 seconds since last log event
+07/21/17 02:58:30 Pending DAG nodes:
+07/21/17 02:58:30   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 03:08:32 61998 seconds since last log event
+07/21/17 03:08:32 Pending DAG nodes:
+07/21/17 03:08:32   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 03:18:34 62600 seconds since last log event
+07/21/17 03:18:34 Pending DAG nodes:
+07/21/17 03:18:34   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 03:28:36 63202 seconds since last log event
+07/21/17 03:28:36 Pending DAG nodes:
+07/21/17 03:28:36   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 03:38:37 63803 seconds since last log event
+07/21/17 03:38:37 Pending DAG nodes:
+07/21/17 03:38:37   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 03:48:39 64405 seconds since last log event
+07/21/17 03:48:39 Pending DAG nodes:
+07/21/17 03:48:39   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 03:58:39 65005 seconds since last log event
+07/21/17 03:58:39 Pending DAG nodes:
+07/21/17 03:58:39   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 04:08:41 65607 seconds since last log event
+07/21/17 04:08:41 Pending DAG nodes:
+07/21/17 04:08:41   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 04:18:43 66209 seconds since last log event
+07/21/17 04:18:43 Pending DAG nodes:
+07/21/17 04:18:43   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 04:28:44 66810 seconds since last log event
+07/21/17 04:28:44 Pending DAG nodes:
+07/21/17 04:28:44   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 04:38:44 67410 seconds since last log event
+07/21/17 04:38:44 Pending DAG nodes:
+07/21/17 04:38:44   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 04:48:47 68013 seconds since last log event
+07/21/17 04:48:47 Pending DAG nodes:
+07/21/17 04:48:47   Node b762b23d96c78f11ab5a6b3141eb1c44, HTCondor ID 7776958, status STATUS_SUBMITTED
+07/21/17 04:52:47 Currently monitoring 1 HTCondor log file(s)
+07/21/17 04:52:47 Event: ULOG_JOB_TERMINATED for HTCondor Node b762b23d96c78f11ab5a6b3141eb1c44 (7776958.0.0) {07/21/17 04:52:43}
+07/21/17 04:52:47 Number of idle job procs: 0
+07/21/17 04:52:47 Node b762b23d96c78f11ab5a6b3141eb1c44 job proc (7776958.0.0) failed with status 1.
+07/21/17 04:52:47 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/21/17 04:52:47 Of 1 nodes total:
+07/21/17 04:52:47  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/21/17 04:52:47   ===     ===      ===     ===     ===        ===      ===
+07/21/17 04:52:47     0       0        0       0       0          0        1
+07/21/17 04:52:47 0 job proc(s) currently held
+07/21/17 04:52:47 ERROR: the following job(s) failed:
+07/21/17 04:52:47 ---------------------- Job ----------------------
+07/21/17 04:52:47       Node Name: b762b23d96c78f11ab5a6b3141eb1c44
+07/21/17 04:52:47            Noop: false
+07/21/17 04:52:47          NodeID: 0
+07/21/17 04:52:47     Node Status: STATUS_ERROR    
+07/21/17 04:52:47 Node return val: 1
+07/21/17 04:52:47           Error: Job proc (7776958.0.0) failed with status 1
+07/21/17 04:52:47 Job Submit File: /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub
+07/21/17 04:52:47  HTCondor Job ID: (7776958.0.0)
+07/21/17 04:52:47       Q_PARENTS: <END>
+07/21/17 04:52:47       Q_WAITING: <END>
+07/21/17 04:52:47      Q_CHILDREN: <END>
+07/21/17 04:52:47 ---------------------------------------	<END>
+07/21/17 04:52:47 Aborting DAG...
+07/21/17 04:52:47 Writing Rescue DAG to /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.rescue001...
+07/21/17 04:52:48 Removing submitted jobs...
+07/21/17 04:52:48 Removing any/all submitted HTCondor jobs...
+07/21/17 04:52:48 Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '7776957
+07/21/17 04:52:48 Note: 0 total job deferrals because of -MaxJobs limit (3000)
+07/21/17 04:52:48 Note: 0 total job deferrals because of -MaxIdle limit (100)
+07/21/17 04:52:48 Note: 0 total job deferrals because of node category throttles
+07/21/17 04:52:48 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/21/17 04:52:48 Note: 0 total POST script deferrals because of -MaxPost limit (10) or DEFER
+07/21/17 04:52:48 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/21/17 04:52:48 Of 1 nodes total:
+07/21/17 04:52:48  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/21/17 04:52:48   ===     ===      ===     ===     ===        ===      ===
+07/21/17 04:52:48     0       0        0       0       0          0        1
+07/21/17 04:52:48 0 job proc(s) currently held
+07/21/17 04:52:52 Wrote metrics file /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_50_mode_PhenomPv2_inc_0.0_M90/PM90/multidag.dag.metrics.
+07/21/17 04:52:52 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/21/17 04:52:52 **** condor_scheduniv_exec.7776957.0 (condor_DAGMAN) pid 3607134 EXITING WITH STATUS 1

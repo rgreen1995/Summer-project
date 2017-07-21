@@ -1,0 +1,11 @@
+universe = local
+executable = /home/spxfp1/opt/lalsuite/lalinference_o2_phenomHM/bin/gw_data_find
+arguments = " --observatory $(macroobservatory) --url-type file --gps-start-time $(macrogpsstarttime) --gps-end-time $(macrogpsendtime) --output $(macrooutput) --lal-cache --type $(macrotype) "
+accounting_group = ligo.sim.o2.cbc.pe.lalinference
+accounting_group_user = rhys.green
+getenv = True
+log = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_pipeline-5b130144-67b5-11e7-a0c9-002590fc7bee.log
+error = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/lalinferencenest/IMRPhenomDthreePointFivePN/log/datafind-$(macroobservatory)-$(macrotype)-$(macrogpsstarttime)-$(macrogpsendtime)-$(cluster)-$(process).err
+output = /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/lalinferencenest/IMRPhenomDthreePointFivePN/log/datafind-$(macroobservatory)-$(macrotype)-$(macrogpsstarttime)-$(macrogpsendtime)-$(cluster)-$(process).out
+notification = never
+queue 1

@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M45/M45/multidag.dag DAG file
+# Created 7/18/2017 11:40:33 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 1
+# Nodes premarked DONE: 0
+# Nodes that failed: 1
+#   30873f500d0118cd5abf92ef87bc7fc3,<ENDLIST>
+

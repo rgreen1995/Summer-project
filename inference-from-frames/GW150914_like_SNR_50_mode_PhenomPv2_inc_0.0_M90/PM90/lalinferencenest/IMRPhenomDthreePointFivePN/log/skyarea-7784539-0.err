@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/pickxdy/bin/run_sky_area", line 4, in <module>
+    __import__('pkg_resources').run_script('skyarea==0.2.1', 'run_sky_area')
+  File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 719, in run_script
+    
+  File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 1512, in run_script
+    
+  File "/software/physics/ligo/spack/000/linux-redhat6-x86_64/gcc-5.4.0/ldg/pickxdy/lib/python2.7/site-packages/skyarea-0.2.1-py2.7.egg/EGG-INFO/scripts/run_sky_area", line 13, in <module>
+    
+ImportError: No module named cmap

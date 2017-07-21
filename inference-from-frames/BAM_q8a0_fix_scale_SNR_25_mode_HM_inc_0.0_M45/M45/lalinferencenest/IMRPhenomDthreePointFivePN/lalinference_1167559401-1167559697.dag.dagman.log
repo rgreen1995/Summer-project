@@ -1,5 +1,25 @@
-000 (7721426.000.000) 07/12 12:06:03 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 05aed3c798a5b45d8c926e1e49286b62
+000 (7773812.000.000) 07/17 10:57:08 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 30873f500d0118cd5abf92ef87bc7fc3
 ...
-001 (7721426.000.000) 07/12 12:06:05 Job executing on host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+001 (7773812.000.000) 07/17 10:57:10 Job executing on host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+...
+004 (7773812.000.000) 07/18 08:50:43 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+001 (7773812.000.000) 07/18 08:52:58 Job executing on host: <172.21.0.15:9618?addrs=172.21.0.15-9618&noUDP&sock=4660_f36c_3>
+...
+005 (7773812.000.000) 07/18 12:40:32 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
 ...

@@ -1,0 +1,705 @@
+07/13/17 11:24:03 ******************************************************
+07/13/17 11:24:03 ** condor_scheduniv_exec.7742146.0 (CONDOR_DAGMAN) STARTING UP
+07/13/17 11:24:03 ** /usr/bin/condor_dagman
+07/13/17 11:24:03 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/13/17 11:24:03 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/13/17 11:24:03 ** $CondorVersion: 8.4.9 Sep 29 2016 BuildID: 382747 $
+07/13/17 11:24:03 ** $CondorPlatform: x86_64_RedHat6 $
+07/13/17 11:24:03 ** PID = 3939532
+07/13/17 11:24:03 ** Log last touched time unavailable (No such file or directory)
+07/13/17 11:24:03 ******************************************************
+07/13/17 11:24:03 Using config source: /etc/condor/condor_config
+07/13/17 11:24:03 Using local config sources: 
+07/13/17 11:24:03    /etc/condor/config.d/00admin
+07/13/17 11:24:03    /etc/condor/config.d/20-limit-post-scripts
+07/13/17 11:24:03    /etc/condor/config.d/50-job-router
+07/13/17 11:24:03    /etc/condor/config.d/accounting
+07/13/17 11:24:03    /etc/condor/config.d/dags
+07/13/17 11:24:03    /etc/condor/config.d/logfile_nfs_locking
+07/13/17 11:24:03    /etc/condor/condor_config.local
+07/13/17 11:24:03 config Macros = 84, Sorted = 84, StringBytes = 2830, TablesBytes = 3104
+07/13/17 11:24:03 CLASSAD_CACHING is ENABLED
+07/13/17 11:24:03 Daemon Log is logging: D_ALWAYS D_ERROR
+07/13/17 11:24:03 DaemonCore: No command port requested.
+07/13/17 11:24:03 DAGMAN_USE_STRICT setting: 1
+07/13/17 11:24:03 DAGMAN_VERBOSITY setting: 3
+07/13/17 11:24:03 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/13/17 11:24:03 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/13/17 11:24:03 DAGMAN_SUBMIT_DELAY setting: 0
+07/13/17 11:24:03 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/13/17 11:24:03 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/13/17 11:24:03 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/13/17 11:24:03 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/13/17 11:24:03 DAGMAN_DEFAULT_PRIORITY setting: 0
+07/13/17 11:24:03 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/13/17 11:24:03 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/13/17 11:24:03 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/13/17 11:24:03 DAGMAN_RETRY_NODE_FIRST setting: False
+07/13/17 11:24:03 DAGMAN_MAX_JOBS_IDLE setting: 100
+07/13/17 11:24:03 DAGMAN_MAX_JOBS_SUBMITTED setting: 3000
+07/13/17 11:24:03 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/13/17 11:24:03 DAGMAN_MAX_POST_SCRIPTS setting: 10
+07/13/17 11:24:03 DAGMAN_ALLOW_LOG_ERROR setting: False
+07/13/17 11:24:03 DAGMAN_MUNGE_NODE_NAMES setting: True
+07/13/17 11:24:03 DAGMAN_PROHIBIT_MULTI_JOBS setting: True
+07/13/17 11:24:03 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/13/17 11:24:03 DAGMAN_ALWAYS_RUN_POST setting: True
+07/13/17 11:24:03 DAGMAN_ABORT_DUPLICATES setting: True
+07/13/17 11:24:03 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/13/17 11:24:03 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/13/17 11:24:03 DAGMAN_AUTO_RESCUE setting: True
+07/13/17 11:24:03 DAGMAN_MAX_RESCUE_NUM setting: 100
+07/13/17 11:24:03 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/13/17 11:24:03 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/13/17 11:24:03 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/13/17 11:24:03 DAGMAN_MAX_JOB_HOLDS setting: 100
+07/13/17 11:24:03 DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/13/17 11:24:03 ALL_DEBUG setting: 
+07/13/17 11:24:03 DAGMAN_DEBUG setting: 
+07/13/17 11:24:03 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/13/17 11:24:03 argv[0] == "condor_scheduniv_exec.7742146.0"
+07/13/17 11:24:03 argv[1] == "-Lockfile"
+07/13/17 11:24:03 argv[2] == "/home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.lock"
+07/13/17 11:24:03 argv[3] == "-AutoRescue"
+07/13/17 11:24:03 argv[4] == "1"
+07/13/17 11:24:03 argv[5] == "-DoRescueFrom"
+07/13/17 11:24:03 argv[6] == "0"
+07/13/17 11:24:03 argv[7] == "-Dag"
+07/13/17 11:24:03 argv[8] == "/home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag"
+07/13/17 11:24:03 argv[9] == "-Suppress_notification"
+07/13/17 11:24:03 argv[10] == "-CsdVersion"
+07/13/17 11:24:03 argv[11] == "$CondorVersion: 8.4.9 Sep 29 2016 BuildID: 382747 $"
+07/13/17 11:24:03 argv[12] == "-Dagman"
+07/13/17 11:24:03 argv[13] == "/usr/bin/condor_dagman"
+07/13/17 11:24:03 Warning: failed to get attribute DAGNodeName
+07/13/17 11:24:03 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/13/17 11:24:03 Default node log file is: </home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.nodes.log>
+07/13/17 11:24:03 Note:  DAGMAN_MAX_JOBS_IDLE has been changed from the default setting; if your submit files create multiple procs, you should probably set DAGMAN_MAX_SUBMITS_PER_INTERVAL to 1
+07/13/17 11:24:03 DAG Lockfile will be written to /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.lock
+07/13/17 11:24:03 DAG Input file is /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag
+07/13/17 11:24:03 Parsing 1 dagfiles
+07/13/17 11:24:03 Parsing /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag ...
+07/13/17 11:24:03 Dag contains 1 total jobs
+07/13/17 11:24:03 Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/13/17 11:24:06 Bootstrapping...
+07/13/17 11:24:06 Number of pre-completed nodes: 0
+07/13/17 11:24:06 MultiLogFiles: truncating log file /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.nodes.log
+07/13/17 11:24:06 DAG status: 0 (DAG_STATUS_OK)
+07/13/17 11:24:06 Of 1 nodes total:
+07/13/17 11:24:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/13/17 11:24:06   ===     ===      ===     ===     ===        ===      ===
+07/13/17 11:24:06     0       0        0       0       1          0        0
+07/13/17 11:24:06 0 job proc(s) currently held
+07/13/17 11:24:06 Registering condor_event_timer...
+07/13/17 11:24:07 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag>
+07/13/17 11:24:07 Submitting Condor Node 2ea1cc42df4ddb3d17458fe6913f7c30 job(s)...
+07/13/17 11:24:07 Adding a DAGMan workflow log /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.nodes.log
+07/13/17 11:24:07 Masking the events recorded in the DAGMAN workflow log
+07/13/17 11:24:07 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/13/17 11:24:07 submitting: /usr/bin/condor_submit -a dag_node_name' '=' '2ea1cc42df4ddb3d17458fe6913f7c30 -a +DAGManJobId' '=' '7742146 -a DAGManJobId' '=' '7742146 -a submit_event_notes' '=' 'DAG' 'Node:' '2ea1cc42df4ddb3d17458fe6913f7c30 -a dagman_log' '=' '/home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub
+07/13/17 11:24:07 From submit: Submitting job(s).
+07/13/17 11:24:07 From submit: 1 job(s) submitted to cluster 7742152.
+07/13/17 11:24:07 	assigned Condor ID (7742152.0.0)
+07/13/17 11:24:07 Just submitted 1 job this cycle...
+07/13/17 11:24:07 Currently monitoring 1 Condor log file(s)
+07/13/17 11:24:07 Reassigning the id of job 2ea1cc42df4ddb3d17458fe6913f7c30 from (7742152.0.0) to (7742152.0.0)
+07/13/17 11:24:07 Event: ULOG_SUBMIT for Condor Node 2ea1cc42df4ddb3d17458fe6913f7c30 (7742152.0.0)
+07/13/17 11:24:07 Number of idle job procs: 1
+07/13/17 11:24:07 DAG status: 0 (DAG_STATUS_OK)
+07/13/17 11:24:07 Of 1 nodes total:
+07/13/17 11:24:07  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/13/17 11:24:07   ===     ===      ===     ===     ===        ===      ===
+07/13/17 11:24:07     0       0        1       0       0          0        0
+07/13/17 11:24:07 0 job proc(s) currently held
+07/13/17 11:24:12 Currently monitoring 1 Condor log file(s)
+07/13/17 11:24:12 Event: ULOG_EXECUTE for Condor Node 2ea1cc42df4ddb3d17458fe6913f7c30 (7742152.0.0)
+07/13/17 11:24:12 Number of idle job procs: 0
+07/13/17 11:34:14 602 seconds since last log event
+07/13/17 11:34:14 Pending DAG nodes:
+07/13/17 11:34:14   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 11:44:14 1202 seconds since last log event
+07/13/17 11:44:14 Pending DAG nodes:
+07/13/17 11:44:14   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 11:54:15 1803 seconds since last log event
+07/13/17 11:54:15 Pending DAG nodes:
+07/13/17 11:54:15   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 12:04:16 2404 seconds since last log event
+07/13/17 12:04:16 Pending DAG nodes:
+07/13/17 12:04:16   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 12:14:18 3006 seconds since last log event
+07/13/17 12:14:18 Pending DAG nodes:
+07/13/17 12:14:18   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 12:24:19 3607 seconds since last log event
+07/13/17 12:24:19 Pending DAG nodes:
+07/13/17 12:24:19   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 12:34:22 4210 seconds since last log event
+07/13/17 12:34:22 Pending DAG nodes:
+07/13/17 12:34:22   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 12:44:24 4812 seconds since last log event
+07/13/17 12:44:24 Pending DAG nodes:
+07/13/17 12:44:24   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 12:54:26 5414 seconds since last log event
+07/13/17 12:54:26 Pending DAG nodes:
+07/13/17 12:54:26   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 13:04:28 6016 seconds since last log event
+07/13/17 13:04:28 Pending DAG nodes:
+07/13/17 13:04:28   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 13:14:31 6619 seconds since last log event
+07/13/17 13:14:31 Pending DAG nodes:
+07/13/17 13:14:31   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 13:24:33 7221 seconds since last log event
+07/13/17 13:24:33 Pending DAG nodes:
+07/13/17 13:24:33   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 13:34:33 7821 seconds since last log event
+07/13/17 13:34:33 Pending DAG nodes:
+07/13/17 13:34:33   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 13:44:35 8423 seconds since last log event
+07/13/17 13:44:35 Pending DAG nodes:
+07/13/17 13:44:35   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 13:54:38 9026 seconds since last log event
+07/13/17 13:54:38 Pending DAG nodes:
+07/13/17 13:54:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 14:04:39 9627 seconds since last log event
+07/13/17 14:04:39 Pending DAG nodes:
+07/13/17 14:04:39   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 14:14:39 10227 seconds since last log event
+07/13/17 14:14:39 Pending DAG nodes:
+07/13/17 14:14:39   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 14:24:42 10830 seconds since last log event
+07/13/17 14:24:42 Pending DAG nodes:
+07/13/17 14:24:42   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 14:34:43 11431 seconds since last log event
+07/13/17 14:34:43 Pending DAG nodes:
+07/13/17 14:34:43   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 14:44:43 12031 seconds since last log event
+07/13/17 14:44:43 Pending DAG nodes:
+07/13/17 14:44:43   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 14:54:46 12634 seconds since last log event
+07/13/17 14:54:46 Pending DAG nodes:
+07/13/17 14:54:46   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 15:04:49 13237 seconds since last log event
+07/13/17 15:04:49 Pending DAG nodes:
+07/13/17 15:04:49   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 15:14:50 13838 seconds since last log event
+07/13/17 15:14:50 Pending DAG nodes:
+07/13/17 15:14:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 15:24:51 14439 seconds since last log event
+07/13/17 15:24:51 Pending DAG nodes:
+07/13/17 15:24:51   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 15:34:52 15040 seconds since last log event
+07/13/17 15:34:52 Pending DAG nodes:
+07/13/17 15:34:52   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 15:44:52 15640 seconds since last log event
+07/13/17 15:44:52 Pending DAG nodes:
+07/13/17 15:44:52   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 15:54:53 16241 seconds since last log event
+07/13/17 15:54:53 Pending DAG nodes:
+07/13/17 15:54:53   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 16:04:54 16842 seconds since last log event
+07/13/17 16:04:54 Pending DAG nodes:
+07/13/17 16:04:54   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 16:14:55 17443 seconds since last log event
+07/13/17 16:14:55 Pending DAG nodes:
+07/13/17 16:14:55   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 16:24:58 18046 seconds since last log event
+07/13/17 16:24:58 Pending DAG nodes:
+07/13/17 16:24:58   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 16:34:59 18647 seconds since last log event
+07/13/17 16:34:59 Pending DAG nodes:
+07/13/17 16:34:59   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 16:44:59 19247 seconds since last log event
+07/13/17 16:44:59 Pending DAG nodes:
+07/13/17 16:44:59   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 16:55:01 19849 seconds since last log event
+07/13/17 16:55:01 Pending DAG nodes:
+07/13/17 16:55:01   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 17:05:01 20449 seconds since last log event
+07/13/17 17:05:01 Pending DAG nodes:
+07/13/17 17:05:01   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 17:15:01 21049 seconds since last log event
+07/13/17 17:15:01 Pending DAG nodes:
+07/13/17 17:15:01   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 17:25:02 21650 seconds since last log event
+07/13/17 17:25:02 Pending DAG nodes:
+07/13/17 17:25:02   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 17:35:04 22252 seconds since last log event
+07/13/17 17:35:04 Pending DAG nodes:
+07/13/17 17:35:04   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 17:45:07 22855 seconds since last log event
+07/13/17 17:45:07 Pending DAG nodes:
+07/13/17 17:45:07   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 17:55:07 23455 seconds since last log event
+07/13/17 17:55:07 Pending DAG nodes:
+07/13/17 17:55:07   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 18:05:09 24057 seconds since last log event
+07/13/17 18:05:10 Pending DAG nodes:
+07/13/17 18:05:10   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 18:15:11 24659 seconds since last log event
+07/13/17 18:15:11 Pending DAG nodes:
+07/13/17 18:15:11   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 18:25:12 25260 seconds since last log event
+07/13/17 18:25:12 Pending DAG nodes:
+07/13/17 18:25:12   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 18:35:13 25861 seconds since last log event
+07/13/17 18:35:13 Pending DAG nodes:
+07/13/17 18:35:13   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 18:45:14 26462 seconds since last log event
+07/13/17 18:45:14 Pending DAG nodes:
+07/13/17 18:45:14   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 18:55:15 27063 seconds since last log event
+07/13/17 18:55:15 Pending DAG nodes:
+07/13/17 18:55:15   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 19:05:16 27664 seconds since last log event
+07/13/17 19:05:16 Pending DAG nodes:
+07/13/17 19:05:16   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 19:15:16 28264 seconds since last log event
+07/13/17 19:15:16 Pending DAG nodes:
+07/13/17 19:15:16   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 19:25:19 28867 seconds since last log event
+07/13/17 19:25:19 Pending DAG nodes:
+07/13/17 19:25:19   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 19:35:22 29470 seconds since last log event
+07/13/17 19:35:22 Pending DAG nodes:
+07/13/17 19:35:22   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 19:45:23 30071 seconds since last log event
+07/13/17 19:45:23 Pending DAG nodes:
+07/13/17 19:45:23   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 19:55:23 30671 seconds since last log event
+07/13/17 19:55:23 Pending DAG nodes:
+07/13/17 19:55:23   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 20:05:23 31271 seconds since last log event
+07/13/17 20:05:23 Pending DAG nodes:
+07/13/17 20:05:23   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 20:15:25 31873 seconds since last log event
+07/13/17 20:15:25 Pending DAG nodes:
+07/13/17 20:15:25   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 20:25:26 32474 seconds since last log event
+07/13/17 20:25:26 Pending DAG nodes:
+07/13/17 20:25:26   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 20:35:26 33074 seconds since last log event
+07/13/17 20:35:26 Pending DAG nodes:
+07/13/17 20:35:26   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 20:45:27 33675 seconds since last log event
+07/13/17 20:45:27 Pending DAG nodes:
+07/13/17 20:45:27   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 20:55:29 34277 seconds since last log event
+07/13/17 20:55:30 Pending DAG nodes:
+07/13/17 20:55:30   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 21:05:30 34878 seconds since last log event
+07/13/17 21:05:30 Pending DAG nodes:
+07/13/17 21:05:30   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 21:15:31 35479 seconds since last log event
+07/13/17 21:15:31 Pending DAG nodes:
+07/13/17 21:15:31   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 21:25:31 36079 seconds since last log event
+07/13/17 21:25:31 Pending DAG nodes:
+07/13/17 21:25:31   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 21:35:31 36679 seconds since last log event
+07/13/17 21:35:31 Pending DAG nodes:
+07/13/17 21:35:31   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 21:45:33 37281 seconds since last log event
+07/13/17 21:45:33 Pending DAG nodes:
+07/13/17 21:45:33   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 21:55:33 37881 seconds since last log event
+07/13/17 21:55:33 Pending DAG nodes:
+07/13/17 21:55:33   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 22:05:34 38482 seconds since last log event
+07/13/17 22:05:34 Pending DAG nodes:
+07/13/17 22:05:34   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 22:15:34 39082 seconds since last log event
+07/13/17 22:15:34 Pending DAG nodes:
+07/13/17 22:15:34   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 22:25:34 39682 seconds since last log event
+07/13/17 22:25:34 Pending DAG nodes:
+07/13/17 22:25:34   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 22:35:35 40283 seconds since last log event
+07/13/17 22:35:35 Pending DAG nodes:
+07/13/17 22:35:35   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 22:45:35 40883 seconds since last log event
+07/13/17 22:45:35 Pending DAG nodes:
+07/13/17 22:45:35   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 22:55:35 41483 seconds since last log event
+07/13/17 22:55:35 Pending DAG nodes:
+07/13/17 22:55:35   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 23:05:37 42085 seconds since last log event
+07/13/17 23:05:38 Pending DAG nodes:
+07/13/17 23:05:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 23:15:38 42686 seconds since last log event
+07/13/17 23:15:38 Pending DAG nodes:
+07/13/17 23:15:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 23:25:38 43286 seconds since last log event
+07/13/17 23:25:38 Pending DAG nodes:
+07/13/17 23:25:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 23:35:38 43886 seconds since last log event
+07/13/17 23:35:38 Pending DAG nodes:
+07/13/17 23:35:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 23:45:39 44487 seconds since last log event
+07/13/17 23:45:39 Pending DAG nodes:
+07/13/17 23:45:39   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/13/17 23:55:39 45087 seconds since last log event
+07/13/17 23:55:39 Pending DAG nodes:
+07/13/17 23:55:39   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 00:05:40 45688 seconds since last log event
+07/14/17 00:05:40 Pending DAG nodes:
+07/14/17 00:05:40   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 00:15:40 46288 seconds since last log event
+07/14/17 00:15:40 Pending DAG nodes:
+07/14/17 00:15:40   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 00:25:41 46889 seconds since last log event
+07/14/17 00:25:41 Pending DAG nodes:
+07/14/17 00:25:41   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 00:35:42 47490 seconds since last log event
+07/14/17 00:35:42 Pending DAG nodes:
+07/14/17 00:35:42   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 00:45:45 48093 seconds since last log event
+07/14/17 00:45:45 Pending DAG nodes:
+07/14/17 00:45:45   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 00:55:46 48694 seconds since last log event
+07/14/17 00:55:46 Pending DAG nodes:
+07/14/17 00:55:46   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 01:05:47 49295 seconds since last log event
+07/14/17 01:05:47 Pending DAG nodes:
+07/14/17 01:05:47   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 01:15:48 49896 seconds since last log event
+07/14/17 01:15:48 Pending DAG nodes:
+07/14/17 01:15:48   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 01:25:49 50497 seconds since last log event
+07/14/17 01:25:49 Pending DAG nodes:
+07/14/17 01:25:49   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 01:35:49 51097 seconds since last log event
+07/14/17 01:35:49 Pending DAG nodes:
+07/14/17 01:35:49   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 01:45:49 51697 seconds since last log event
+07/14/17 01:45:49 Pending DAG nodes:
+07/14/17 01:45:49   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 01:55:50 52298 seconds since last log event
+07/14/17 01:55:50 Pending DAG nodes:
+07/14/17 01:55:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 02:05:50 52898 seconds since last log event
+07/14/17 02:05:50 Pending DAG nodes:
+07/14/17 02:05:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 02:15:50 53498 seconds since last log event
+07/14/17 02:15:50 Pending DAG nodes:
+07/14/17 02:15:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 02:25:50 54098 seconds since last log event
+07/14/17 02:25:50 Pending DAG nodes:
+07/14/17 02:25:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 02:35:50 54698 seconds since last log event
+07/14/17 02:35:50 Pending DAG nodes:
+07/14/17 02:35:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 02:45:50 55298 seconds since last log event
+07/14/17 02:45:50 Pending DAG nodes:
+07/14/17 02:45:50   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 02:55:51 55899 seconds since last log event
+07/14/17 02:55:51 Pending DAG nodes:
+07/14/17 02:55:51   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 03:05:52 56500 seconds since last log event
+07/14/17 03:05:52 Pending DAG nodes:
+07/14/17 03:05:52   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 03:15:52 57100 seconds since last log event
+07/14/17 03:15:52 Pending DAG nodes:
+07/14/17 03:15:52   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 03:25:53 57701 seconds since last log event
+07/14/17 03:25:53 Pending DAG nodes:
+07/14/17 03:25:53   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 03:35:54 58302 seconds since last log event
+07/14/17 03:35:54 Pending DAG nodes:
+07/14/17 03:35:54   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 03:45:54 58902 seconds since last log event
+07/14/17 03:45:54 Pending DAG nodes:
+07/14/17 03:45:54   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 03:55:55 59503 seconds since last log event
+07/14/17 03:55:55 Pending DAG nodes:
+07/14/17 03:55:55   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 04:05:56 60104 seconds since last log event
+07/14/17 04:05:56 Pending DAG nodes:
+07/14/17 04:05:56   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 04:15:57 60705 seconds since last log event
+07/14/17 04:15:57 Pending DAG nodes:
+07/14/17 04:15:57   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 04:25:58 61306 seconds since last log event
+07/14/17 04:25:58 Pending DAG nodes:
+07/14/17 04:25:58   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 04:35:59 61907 seconds since last log event
+07/14/17 04:35:59 Pending DAG nodes:
+07/14/17 04:35:59   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 04:46:01 62509 seconds since last log event
+07/14/17 04:46:01 Pending DAG nodes:
+07/14/17 04:46:01   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 04:56:02 63110 seconds since last log event
+07/14/17 04:56:02 Pending DAG nodes:
+07/14/17 04:56:02   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 05:06:03 63711 seconds since last log event
+07/14/17 05:06:03 Pending DAG nodes:
+07/14/17 05:06:03   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 05:16:05 64313 seconds since last log event
+07/14/17 05:16:05 Pending DAG nodes:
+07/14/17 05:16:05   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 05:26:06 64914 seconds since last log event
+07/14/17 05:26:06 Pending DAG nodes:
+07/14/17 05:26:06   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 05:36:09 65517 seconds since last log event
+07/14/17 05:36:09 Pending DAG nodes:
+07/14/17 05:36:09   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 05:46:10 66118 seconds since last log event
+07/14/17 05:46:10 Pending DAG nodes:
+07/14/17 05:46:10   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 05:56:11 66719 seconds since last log event
+07/14/17 05:56:11 Pending DAG nodes:
+07/14/17 05:56:11   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 06:06:12 67320 seconds since last log event
+07/14/17 06:06:12 Pending DAG nodes:
+07/14/17 06:06:12   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 06:16:12 67920 seconds since last log event
+07/14/17 06:16:12 Pending DAG nodes:
+07/14/17 06:16:12   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 06:26:13 68521 seconds since last log event
+07/14/17 06:26:13 Pending DAG nodes:
+07/14/17 06:26:13   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 06:36:14 69122 seconds since last log event
+07/14/17 06:36:14 Pending DAG nodes:
+07/14/17 06:36:14   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 06:46:15 69723 seconds since last log event
+07/14/17 06:46:15 Pending DAG nodes:
+07/14/17 06:46:15   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 06:56:16 70324 seconds since last log event
+07/14/17 06:56:16 Pending DAG nodes:
+07/14/17 06:56:16   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 07:06:18 70926 seconds since last log event
+07/14/17 07:06:18 Pending DAG nodes:
+07/14/17 07:06:18   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 07:16:18 71526 seconds since last log event
+07/14/17 07:16:18 Pending DAG nodes:
+07/14/17 07:16:18   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 07:26:19 72127 seconds since last log event
+07/14/17 07:26:19 Pending DAG nodes:
+07/14/17 07:26:19   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 07:36:20 72728 seconds since last log event
+07/14/17 07:36:20 Pending DAG nodes:
+07/14/17 07:36:20   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 07:46:21 73329 seconds since last log event
+07/14/17 07:46:21 Pending DAG nodes:
+07/14/17 07:46:21   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 07:56:21 73929 seconds since last log event
+07/14/17 07:56:21 Pending DAG nodes:
+07/14/17 07:56:21   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 08:06:22 74530 seconds since last log event
+07/14/17 08:06:22 Pending DAG nodes:
+07/14/17 08:06:22   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 08:16:23 75131 seconds since last log event
+07/14/17 08:16:23 Pending DAG nodes:
+07/14/17 08:16:23   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 08:26:23 75731 seconds since last log event
+07/14/17 08:26:23 Pending DAG nodes:
+07/14/17 08:26:23   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 08:36:25 76333 seconds since last log event
+07/14/17 08:36:25 Pending DAG nodes:
+07/14/17 08:36:25   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 08:46:26 76934 seconds since last log event
+07/14/17 08:46:26 Pending DAG nodes:
+07/14/17 08:46:26   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 08:56:26 77534 seconds since last log event
+07/14/17 08:56:26 Pending DAG nodes:
+07/14/17 08:56:26   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 09:06:27 78135 seconds since last log event
+07/14/17 09:06:27 Pending DAG nodes:
+07/14/17 09:06:27   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 09:16:28 78736 seconds since last log event
+07/14/17 09:16:28 Pending DAG nodes:
+07/14/17 09:16:28   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 09:26:28 79336 seconds since last log event
+07/14/17 09:26:28 Pending DAG nodes:
+07/14/17 09:26:28   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 09:36:29 79937 seconds since last log event
+07/14/17 09:36:29 Pending DAG nodes:
+07/14/17 09:36:29   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 09:46:30 80538 seconds since last log event
+07/14/17 09:46:30 Pending DAG nodes:
+07/14/17 09:46:30   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 09:56:31 81139 seconds since last log event
+07/14/17 09:56:31 Pending DAG nodes:
+07/14/17 09:56:31   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 10:06:31 81739 seconds since last log event
+07/14/17 10:06:31 Pending DAG nodes:
+07/14/17 10:06:31   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 10:16:32 82340 seconds since last log event
+07/14/17 10:16:32 Pending DAG nodes:
+07/14/17 10:16:32   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 10:26:33 82941 seconds since last log event
+07/14/17 10:26:33 Pending DAG nodes:
+07/14/17 10:26:33   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 10:36:33 83541 seconds since last log event
+07/14/17 10:36:33 Pending DAG nodes:
+07/14/17 10:36:33   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 10:46:34 84142 seconds since last log event
+07/14/17 10:46:34 Pending DAG nodes:
+07/14/17 10:46:34   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 10:56:34 84742 seconds since last log event
+07/14/17 10:56:34 Pending DAG nodes:
+07/14/17 10:56:34   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 11:06:35 85343 seconds since last log event
+07/14/17 11:06:35 Pending DAG nodes:
+07/14/17 11:06:35   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 11:16:36 85944 seconds since last log event
+07/14/17 11:16:36 Pending DAG nodes:
+07/14/17 11:16:36   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 11:26:36 86544 seconds since last log event
+07/14/17 11:26:36 Pending DAG nodes:
+07/14/17 11:26:36   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 11:36:37 87145 seconds since last log event
+07/14/17 11:36:37 Pending DAG nodes:
+07/14/17 11:36:37   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 11:46:38 87746 seconds since last log event
+07/14/17 11:46:38 Pending DAG nodes:
+07/14/17 11:46:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 11:56:38 88346 seconds since last log event
+07/14/17 11:56:38 Pending DAG nodes:
+07/14/17 11:56:38   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 12:06:39 88947 seconds since last log event
+07/14/17 12:06:39 Pending DAG nodes:
+07/14/17 12:06:39   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 12:16:39 89547 seconds since last log event
+07/14/17 12:16:39 Pending DAG nodes:
+07/14/17 12:16:39   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 12:26:40 90148 seconds since last log event
+07/14/17 12:26:40 Pending DAG nodes:
+07/14/17 12:26:40   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 12:36:40 90748 seconds since last log event
+07/14/17 12:36:40 Pending DAG nodes:
+07/14/17 12:36:40   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 12:46:41 91349 seconds since last log event
+07/14/17 12:46:41 Pending DAG nodes:
+07/14/17 12:46:41   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 12:56:42 91950 seconds since last log event
+07/14/17 12:56:42 Pending DAG nodes:
+07/14/17 12:56:42   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 13:06:42 92550 seconds since last log event
+07/14/17 13:06:42 Pending DAG nodes:
+07/14/17 13:06:42   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 13:16:43 93151 seconds since last log event
+07/14/17 13:16:43 Pending DAG nodes:
+07/14/17 13:16:43   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 13:26:44 93752 seconds since last log event
+07/14/17 13:26:44 Pending DAG nodes:
+07/14/17 13:26:44   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 13:36:44 94352 seconds since last log event
+07/14/17 13:36:44 Pending DAG nodes:
+07/14/17 13:36:44   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 13:46:46 94954 seconds since last log event
+07/14/17 13:46:46 Pending DAG nodes:
+07/14/17 13:46:46   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 13:56:46 95554 seconds since last log event
+07/14/17 13:56:46 Pending DAG nodes:
+07/14/17 13:56:46   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 14:06:47 96155 seconds since last log event
+07/14/17 14:06:47 Pending DAG nodes:
+07/14/17 14:06:47   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 14:16:48 96756 seconds since last log event
+07/14/17 14:16:48 Pending DAG nodes:
+07/14/17 14:16:48   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 14:26:51 97359 seconds since last log event
+07/14/17 14:26:51 Pending DAG nodes:
+07/14/17 14:26:51   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 14:36:52 97960 seconds since last log event
+07/14/17 14:36:52 Pending DAG nodes:
+07/14/17 14:36:52   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 14:46:53 98561 seconds since last log event
+07/14/17 14:46:53 Pending DAG nodes:
+07/14/17 14:46:53   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 14:56:55 99163 seconds since last log event
+07/14/17 14:56:55 Pending DAG nodes:
+07/14/17 14:56:55   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 15:06:55 99763 seconds since last log event
+07/14/17 15:06:55 Pending DAG nodes:
+07/14/17 15:06:55   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 15:16:56 100364 seconds since last log event
+07/14/17 15:16:56 Pending DAG nodes:
+07/14/17 15:16:56   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 15:26:57 100965 seconds since last log event
+07/14/17 15:26:57 Pending DAG nodes:
+07/14/17 15:26:57   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 15:36:57 101565 seconds since last log event
+07/14/17 15:36:57 Pending DAG nodes:
+07/14/17 15:36:57   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 15:46:58 102166 seconds since last log event
+07/14/17 15:46:58 Pending DAG nodes:
+07/14/17 15:46:58   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 15:56:58 102766 seconds since last log event
+07/14/17 15:56:58 Pending DAG nodes:
+07/14/17 15:56:58   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 16:06:59 103367 seconds since last log event
+07/14/17 16:06:59 Pending DAG nodes:
+07/14/17 16:06:59   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 16:17:00 103968 seconds since last log event
+07/14/17 16:17:00 Pending DAG nodes:
+07/14/17 16:17:00   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 16:27:01 104569 seconds since last log event
+07/14/17 16:27:01 Pending DAG nodes:
+07/14/17 16:27:01   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 16:37:01 105169 seconds since last log event
+07/14/17 16:37:01 Pending DAG nodes:
+07/14/17 16:37:01   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 16:47:02 105770 seconds since last log event
+07/14/17 16:47:02 Pending DAG nodes:
+07/14/17 16:47:02   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 16:57:02 106370 seconds since last log event
+07/14/17 16:57:02 Pending DAG nodes:
+07/14/17 16:57:02   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 17:07:03 106971 seconds since last log event
+07/14/17 17:07:03 Pending DAG nodes:
+07/14/17 17:07:03   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 17:17:04 107572 seconds since last log event
+07/14/17 17:17:04 Pending DAG nodes:
+07/14/17 17:17:04   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 17:27:04 108172 seconds since last log event
+07/14/17 17:27:04 Pending DAG nodes:
+07/14/17 17:27:04   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 17:37:05 108773 seconds since last log event
+07/14/17 17:37:05 Pending DAG nodes:
+07/14/17 17:37:05   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 17:47:06 109374 seconds since last log event
+07/14/17 17:47:06 Pending DAG nodes:
+07/14/17 17:47:06   Node 2ea1cc42df4ddb3d17458fe6913f7c30, Condor ID 7742152, status STATUS_SUBMITTED
+07/14/17 17:52:41 Currently monitoring 1 Condor log file(s)
+07/14/17 17:52:41 Event: ULOG_JOB_TERMINATED for Condor Node 2ea1cc42df4ddb3d17458fe6913f7c30 (7742152.0.0)
+07/14/17 17:52:41 Number of idle job procs: 0
+07/14/17 17:52:41 Node 2ea1cc42df4ddb3d17458fe6913f7c30 job proc (7742152.0.0) failed with status 1.
+07/14/17 17:52:41 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/14/17 17:52:41 Of 1 nodes total:
+07/14/17 17:52:41  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/14/17 17:52:41   ===     ===      ===     ===     ===        ===      ===
+07/14/17 17:52:41     0       0        0       0       0          0        1
+07/14/17 17:52:41 0 job proc(s) currently held
+07/14/17 17:52:41 ERROR: the following job(s) failed:
+07/14/17 17:52:41 ---------------------- Job ----------------------
+07/14/17 17:52:41       Node Name: 2ea1cc42df4ddb3d17458fe6913f7c30
+07/14/17 17:52:41            Noop: false
+07/14/17 17:52:41          NodeID: 0
+07/14/17 17:52:41     Node Status: STATUS_ERROR    
+07/14/17 17:52:41 Node return val: 1
+07/14/17 17:52:41           Error: Job proc (7742152.0.0) failed with status 1
+07/14/17 17:52:41 Job Submit File: /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag.condor.sub
+07/14/17 17:52:41   Condor Job ID: (7742152.0.0)
+07/14/17 17:52:41       Q_PARENTS: <END>
+07/14/17 17:52:41       Q_WAITING: <END>
+07/14/17 17:52:41      Q_CHILDREN: <END>
+07/14/17 17:52:41 ---------------------------------------	<END>
+07/14/17 17:52:41 Aborting DAG...
+07/14/17 17:52:41 Writing Rescue DAG to /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.rescue001...
+07/14/17 17:52:41 Removing submitted jobs...
+07/14/17 17:52:41 Removing any/all submitted Condor jobs...
+07/14/17 17:52:41 Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '7742146
+07/14/17 17:52:41 Note: 0 total job deferrals because of -MaxJobs limit (3000)
+07/14/17 17:52:41 Note: 0 total job deferrals because of -MaxIdle limit (100)
+07/14/17 17:52:41 Note: 0 total job deferrals because of node category throttles
+07/14/17 17:52:41 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/14/17 17:52:41 Note: 0 total POST script deferrals because of -MaxPost limit (10) or DEFER
+07/14/17 17:52:41 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/14/17 17:52:41 Of 1 nodes total:
+07/14/17 17:52:41  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/14/17 17:52:41   ===     ===      ===     ===     ===        ===      ===
+07/14/17 17:52:41     0       0        0       0       0          0        1
+07/14/17 17:52:41 0 job proc(s) currently held
+07/14/17 17:52:41 Wrote metrics file /home/c1572221/Summer-project/inference-from-frames/BAM_q8a0_fix_scale_SNR_25_mode_HM_inc_0.0_M27/M27/multidag.dag.metrics.
+07/14/17 17:52:41 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/14/17 17:52:41 **** condor_scheduniv_exec.7742146.0 (condor_DAGMAN) pid 3939532 EXITING WITH STATUS 1

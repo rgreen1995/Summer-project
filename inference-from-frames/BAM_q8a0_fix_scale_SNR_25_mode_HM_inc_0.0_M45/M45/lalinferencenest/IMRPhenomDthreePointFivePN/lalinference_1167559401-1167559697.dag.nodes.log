@@ -1,14 +1,12 @@
-000 (7721427.000.000) 07/12 12:06:10 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 2ece205df3f85d7218822fb7d4b715e0
+000 (7773813.000.000) 07/17 10:57:17 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: d9fd438de86358926934a0d16b9bd253
 ...
-000 (7721428.000.000) 07/12 12:06:10 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: f6a9420ba5b10df582018047fbc4d1bd
+001 (7773813.000.000) 07/17 10:57:17 Job executing on host: <172.21.0.15:7169?addrs=172.21.0.15-7169>
 ...
-001 (7721427.000.000) 07/12 12:06:11 Job executing on host: <172.21.0.15:58796?addrs=172.21.0.15-58796>
+000 (7773814.000.000) 07/17 10:57:17 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 76cb9888a58096aa93f39ccd1626cac5
 ...
-001 (7721428.000.000) 07/12 12:06:11 Job executing on host: <172.21.0.15:36367?addrs=172.21.0.15-36367>
-...
-005 (7721427.000.000) 07/12 12:06:12 Job terminated.
+005 (7773813.000.000) 07/17 10:57:17 Job terminated.
 	(1) Normal termination (return value 0)
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
@@ -19,7 +17,9 @@
 	0  -  Total Bytes Sent By Job
 	0  -  Total Bytes Received By Job
 ...
-005 (7721428.000.000) 07/12 12:06:12 Job terminated.
+001 (7773814.000.000) 07/17 10:57:17 Job executing on host: <172.21.0.15:47148?addrs=172.21.0.15-47148>
+...
+005 (7773814.000.000) 07/17 10:57:17 Job terminated.
 	(1) Normal termination (return value 0)
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
@@ -30,71 +30,71 @@
 	0  -  Total Bytes Sent By Job
 	0  -  Total Bytes Received By Job
 ...
-000 (7721429.000.000) 07/12 12:06:21 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: c890a64f733b6943f8925b783b8074a6
+000 (7773815.000.000) 07/17 10:57:27 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 2406d3eaace1043b9cbd2da5fbc64738
 ...
-000 (7721430.000.000) 07/12 12:06:21 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 3a1f58e018ba554d73ced3178d557508
+000 (7773816.000.000) 07/17 10:57:27 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: ff4a2913811d6a6ea7d080e74157dcf1
 ...
-000 (7721431.000.000) 07/12 12:06:21 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 60280819ec92fe38a07bbb39e7a4a8cb
+000 (7773817.000.000) 07/17 10:57:27 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 7c3c109373af1484595ad00cba32d631
 ...
-000 (7721432.000.000) 07/12 12:06:21 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 6973eff746a680e03f7cadafbaa35cdb
+000 (7773818.000.000) 07/17 10:57:27 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 4be630268bd3768b7e67b13be0b08486
 ...
-000 (7721433.000.000) 07/12 12:06:28 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 63bf4aedc109ad36938f48edd4c445d8
+000 (7773819.000.000) 07/17 10:57:27 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 466ea6b2b35ddd198fc329023b86c409
 ...
-000 (7721434.000.000) 07/12 12:06:36 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: af9699a1e48388171a46f0d335ebadeb
+001 (7773816.000.000) 07/17 10:57:28 Job executing on host: <172.20.1.29:57523?addrs=172.20.1.29-57523>
 ...
-000 (7721435.000.000) 07/12 12:06:37 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 39daeba3050469fc56bb3d6f111bec81
+001 (7773817.000.000) 07/17 10:57:28 Job executing on host: <172.20.1.56:57645?addrs=172.20.1.56-57645>
 ...
-000 (7721436.000.000) 07/12 12:06:37 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 54e9735defb0ae3773402b7853dd06d4
+001 (7773815.000.000) 07/17 10:57:28 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
 ...
-000 (7721437.000.000) 07/12 12:06:37 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: d9f6b36021faf736fa780f8ead2073ac
+001 (7773818.000.000) 07/17 10:57:28 Job executing on host: <172.20.1.39:39146?addrs=172.20.1.39-39146>
 ...
-000 (7721438.000.000) 07/12 12:06:37 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: a368652d4e2468a130fa57f3e9efc322
+001 (7773819.000.000) 07/17 10:57:28 Job executing on host: <172.20.1.16:36195?addrs=172.20.1.16-36195>
 ...
-001 (7721430.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.10:40265?addrs=172.20.1.10-40265>
+000 (7773820.000.000) 07/17 10:57:32 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 546121e31b294f9e4d04b73d1299cdd6
 ...
-001 (7721429.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.57:44281?addrs=172.20.1.57-44281>
+000 (7773821.000.000) 07/17 10:57:32 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: f3187797acb0944ad096042038485966
 ...
-001 (7721432.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.29:58996?addrs=172.20.1.29-58996>
+000 (7773822.000.000) 07/17 10:57:32 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 5e206440b9cd58b56be91eeb4587a9eb
 ...
-001 (7721433.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.31:50950?addrs=172.20.1.31-50950>
+000 (7773823.000.000) 07/17 10:57:32 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: a4dac64803e418c004a717eefacfe50d
 ...
-001 (7721438.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.54:52970?addrs=172.20.1.54-52970>
+000 (7773824.000.000) 07/17 10:57:32 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 1609c669aedd80c46ec3165d116104db
 ...
-001 (7721434.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.42:52724?addrs=172.20.1.42-52724>
+000 (7773825.000.000) 07/17 10:57:37 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 1538aeb8110e02efe6c13d38671c0c72
 ...
-001 (7721435.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.9:57053?addrs=172.20.1.9-57053>
+000 (7773826.000.000) 07/17 10:57:37 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 4d86618bbdeb8b0c07e40c12530a0ffb
 ...
-001 (7721437.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.13:51272?addrs=172.20.1.13-51272>
+001 (7773820.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
 ...
-001 (7721436.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.47:35354?addrs=172.20.1.47-35354>
+001 (7773821.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.29:57523?addrs=172.20.1.29-57523>
 ...
-001 (7721431.000.000) 07/12 12:06:40 Job executing on host: <172.20.1.59:34021?addrs=172.20.1.59-34021>
+001 (7773822.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.56:57645?addrs=172.20.1.56-57645>
 ...
-000 (7721439.000.000) 07/12 12:06:43 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: 68ff85be4da30ab2150a8155814134d5
+001 (7773823.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.39:39146?addrs=172.20.1.39-39146>
 ...
-000 (7721440.000.000) 07/12 12:06:44 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
-    DAG Node: a7009d376bdbd76fc0220e6da523a444
+001 (7773825.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.4:48169?addrs=172.20.1.4-48169>
 ...
-001 (7721440.000.000) 07/12 12:07:00 Job executing on host: <172.20.1.10:40265?addrs=172.20.1.10-40265>
+001 (7773824.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.16:36195?addrs=172.20.1.16-36195>
 ...
-001 (7721439.000.000) 07/12 12:07:00 Job executing on host: <172.20.1.57:44281?addrs=172.20.1.57-44281>
+001 (7773826.000.000) 07/17 10:57:48 Job executing on host: <172.20.1.54:37223?addrs=172.20.1.54-37223>
 ...
-005 (7721435.000.000) 07/12 13:15:04 Job terminated.
-	(1) Normal termination (return value 1)
-		Usr 0 00:59:54, Sys 0 00:00:00  -  Run Remote Usage
+005 (7773826.000.000) 07/18 00:11:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 13:14:06, Sys 0 00:00:01  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
-		Usr 0 00:59:54, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 13:14:06, Sys 0 00:00:01  -  Total Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
 	0  -  Run Bytes Sent By Job
 	0  -  Run Bytes Received By Job
@@ -102,14 +102,14 @@
 	0  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       40       40    609796
-	   Memory (MB)          :      219     2048      2048
+	   Disk (KB)            :       40       40    609130
+	   Memory (MB)          :      237     2048      2048
 ...
-005 (7721436.000.000) 07/12 13:37:30 Job terminated.
-	(1) Normal termination (return value 1)
-		Usr 0 01:30:05, Sys 0 00:00:00  -  Run Remote Usage
+005 (7773825.000.000) 07/18 00:16:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 13:19:26, Sys 0 00:00:01  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
-		Usr 0 01:30:05, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 13:19:26, Sys 0 00:00:01  -  Total Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
 	0  -  Run Bytes Sent By Job
 	0  -  Run Bytes Received By Job
@@ -117,14 +117,14 @@
 	0  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       40       40    609534
-	   Memory (MB)          :      250     2048      2048
+	   Disk (KB)            :       40       40    608998
+	   Memory (MB)          :      239     2048      2048
 ...
-005 (7721434.000.000) 07/12 13:37:49 Job terminated.
-	(1) Normal termination (return value 1)
-		Usr 0 01:30:39, Sys 0 00:00:00  -  Run Remote Usage
+005 (7773823.000.000) 07/18 00:18:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 13:20:54, Sys 0 00:00:01  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
-		Usr 0 01:30:39, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 13:20:54, Sys 0 00:00:01  -  Total Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
 	0  -  Run Bytes Sent By Job
 	0  -  Run Bytes Received By Job
@@ -132,14 +132,14 @@
 	0  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       40       40    609599
-	   Memory (MB)          :      250     2048      2048
+	   Disk (KB)            :       40       40    609209
+	   Memory (MB)          :      238     2048      2048
 ...
-005 (7721433.000.000) 07/12 13:37:56 Job terminated.
-	(1) Normal termination (return value 1)
-		Usr 0 01:30:43, Sys 0 00:00:00  -  Run Remote Usage
+005 (7773824.000.000) 07/18 00:28:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 13:31:20, Sys 0 00:00:01  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
-		Usr 0 01:30:43, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 13:31:20, Sys 0 00:00:01  -  Total Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
 	0  -  Run Bytes Sent By Job
 	0  -  Run Bytes Received By Job
@@ -147,12 +147,326 @@
 	0  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       40       40    609111
-	   Memory (MB)          :      252     2048      2048
+	   Disk (KB)            :       40       40    609152
+	   Memory (MB)          :      240     2048      2048
 ...
-024 (7721431.000.000) 07/12 14:43:00 Job reconnection failed
-    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
-    Can not reconnect to slot1@24198@raven358.bullx, rescheduling job
+000 (7774013.000.000) 07/18 00:29:01 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 203bb20c452817f794853ddf59ccbb68
 ...
-001 (7721431.000.000) 07/12 14:43:09 Job executing on host: <172.20.1.10:40265?addrs=172.20.1.10-40265>
+001 (7774013.000.000) 07/18 00:29:13 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774013.000.000) 07/18 00:29:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608447
+	   Memory (MB)          :      107        1         1
+...
+000 (7774014.000.000) 07/18 00:29:31 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: f7ac03587690bef75928652bfb47bbad
+...
+001 (7774014.000.000) 07/18 00:29:33 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774014.000.000) 07/18 00:31:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:23, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:23, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       75       75    608446
+	   Memory (MB)          :      109     2000      2000
+...
+000 (7774015.000.000) 07/18 00:31:23 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 8dd06707f2fd936c5589290a07a4e2e1
+...
+001 (7774015.000.000) 07/18 00:31:24 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774015.000.000) 07/18 00:31:28 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608446
+	   Memory (MB)          :        0        1      2000
+...
+005 (7773816.000.000) 07/18 03:06:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 16:08:13, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 16:08:13, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       40       40    607677
+	   Memory (MB)          :      257     2048      2048
+...
+005 (7773818.000.000) 07/18 03:37:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 16:40:35, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 16:40:35, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       40       40    609210
+	   Memory (MB)          :      256     2048      2048
+...
+005 (7773815.000.000) 07/18 04:00:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 17:03:10, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 17:03:10, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       40       40    608456
+	   Memory (MB)          :      258     2048      2048
+...
+005 (7773817.000.000) 07/18 04:07:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 17:10:14, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 17:10:14, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       40       40    607975
+	   Memory (MB)          :      257     2048      2048
+...
+000 (7774051.000.000) 07/18 04:07:57 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: b72ee7b7b7ce577458a7a2bad0c4197e
+...
+001 (7774051.000.000) 07/18 04:08:04 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774051.000.000) 07/18 04:08:13 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608477
+	   Memory (MB)          :        4        1         1
+...
+000 (7774052.000.000) 07/18 04:08:22 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: b2bf9138fbe1359abb45dc3edea1fb0b
+...
+001 (7774052.000.000) 07/18 04:08:24 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774052.000.000) 07/18 04:10:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:29, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:29, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       75       75    608485
+	   Memory (MB)          :        4     2000      2000
+...
+000 (7774053.000.000) 07/18 04:10:23 Job submitted from host: <172.21.0.15:36820?addrs=172.21.0.15-36820>
+    DAG Node: 6d895015bce73f0972d859160f491513
+...
+001 (7774053.000.000) 07/18 04:10:24 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774053.000.000) 07/18 04:10:27 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608485
+	   Memory (MB)          :        0        1      2000
+...
+005 (7773819.000.000) 07/18 11:05:32 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 00:08:24, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 00:08:24, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :       40       40          
+	   Memory (MB)          :      375     2048          
+...
+005 (7773820.000.000) 07/18 12:17:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 01:20:12, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 01:20:12, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :       40       40          
+	   Memory (MB)          :      377     2048          
+...
+005 (7773821.000.000) 07/18 12:22:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 01:23:39, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 01:23:39, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :       40       40          
+	   Memory (MB)          :      379     2048          
+...
+005 (7773822.000.000) 07/18 12:37:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 01:39:11, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 01:39:11, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :       40       40          
+	   Memory (MB)          :      377     2048          
+...
+000 (7774078.000.000) 07/18 12:37:11 Job submitted from host: <172.21.0.15:9618?addrs=172.21.0.15-9618&noUDP&sock=4660_f36c_3>
+    DAG Node: afc24eab3bfd02a4c6979cf2c0c0d31f
+...
+001 (7774078.000.000) 07/18 12:37:31 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774078.000.000) 07/18 12:37:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608484
+	   Memory (MB)          :        0        1         1
+...
+000 (7774079.000.000) 07/18 12:37:41 Job submitted from host: <172.21.0.15:9618?addrs=172.21.0.15-9618&noUDP&sock=4660_f36c_3>
+    DAG Node: 1471d575cc5c3cb17e8c06b64180ad38
+...
+001 (7774079.000.000) 07/18 12:37:42 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774079.000.000) 07/18 12:37:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608484
+	   Memory (MB)          :        0        1         1
+...
+000 (7774080.000.000) 07/18 12:37:51 Job submitted from host: <172.21.0.15:9618?addrs=172.21.0.15-9618&noUDP&sock=4660_f36c_3>
+    DAG Node: 874d857bf9245fc953c75e203d881a6e
+...
+001 (7774080.000.000) 07/18 12:38:11 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774080.000.000) 07/18 12:40:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:44, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:44, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       75       75    608483
+	   Memory (MB)          :      123     2000      2000
+...
+000 (7774081.000.000) 07/18 12:40:22 Job submitted from host: <172.21.0.15:9618?addrs=172.21.0.15-9618&noUDP&sock=4660_f36c_3>
+    DAG Node: 13ce43b36f13dded0bad3f29bc0643cd
+...
+001 (7774081.000.000) 07/18 12:40:22 Job executing on host: <172.20.1.50:53044?addrs=172.20.1.50-53044>
+...
+005 (7774081.000.000) 07/18 12:40:29 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    608483
+	   Memory (MB)          :        0        1      2000
 ...

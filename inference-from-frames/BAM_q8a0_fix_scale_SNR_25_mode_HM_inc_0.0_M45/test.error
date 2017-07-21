@@ -30,3 +30,55 @@
 2017-07-12 14:55:18,053 attempting to aquire lock '/tmp/Condor-execute.172.20.1.11-7289/dir_21634/1341829_python27_compiled/none/none/code_lockfile' for compiling code
 2017-07-12 14:55:18,054 we have aquired the lock
 2017-07-12 14:55:19,408 the lock has been released
+2017-07-12 15:33:11,732 Writing results to file
+2017-07-12 15:34:36,195 Writing state to file
+2017-07-12 15:34:36,203 Clearing chain
+2017-07-12 15:34:37,023 Running sampler for 1000 to 2000 out of 12000 iterations
+2017-07-12 16:24:45,756 Writing results to file
+2017-07-12 16:27:48,516 Writing state to file
+2017-07-12 16:27:48,525 Clearing chain
+2017-07-12 16:27:54,754 Running sampler for 2000 to 3000 out of 12000 iterations
+2017-07-12 17:30:19,824 Writing results to file
+2017-07-12 17:32:36,485 Writing state to file
+2017-07-12 17:32:36,721 Clearing chain
+2017-07-12 17:32:42,310 Running sampler for 3000 to 4000 out of 12000 iterations
+2017-07-12 18:47:39,873 Writing results to file
+2017-07-12 18:50:16,377 Writing state to file
+2017-07-12 18:50:16,502 Clearing chain
+2017-07-12 18:50:53,986 Running sampler for 4000 to 5000 out of 12000 iterations
+2017-07-12 20:06:21,824 Writing results to file
+2017-07-12 20:08:32,701 Writing state to file
+2017-07-12 20:08:32,769 Clearing chain
+2017-07-12 20:08:34,862 Running sampler for 5000 to 6000 out of 12000 iterations
+2017-07-12 21:29:50,725 Writing results to file
+2017-07-12 21:32:40,551 Writing state to file
+2017-07-12 21:32:41,898 Clearing chain
+2017-07-12 21:32:45,628 Running sampler for 6000 to 7000 out of 12000 iterations
+2017-07-12 23:02:18,675 Writing results to file
+2017-07-12 23:05:12,808 Writing state to file
+2017-07-12 23:05:12,990 Clearing chain
+2017-07-12 23:05:16,811 Running sampler for 7000 to 8000 out of 12000 iterations
+2017-07-13 00:43:56,757 Writing results to file
+2017-07-13 00:45:53,188 Writing state to file
+2017-07-13 00:45:53,390 Clearing chain
+2017-07-13 00:46:15,126 Running sampler for 8000 to 9000 out of 12000 iterations
+2017-07-13 02:26:30,666 Writing results to file
+2017-07-13 02:28:59,508 Writing state to file
+2017-07-13 02:29:00,200 Clearing chain
+2017-07-13 02:29:18,331 Running sampler for 9000 to 10000 out of 12000 iterations
+2017-07-13 04:14:52,969 Writing results to file
+2017-07-13 04:17:04,748 Writing state to file
+2017-07-13 04:17:04,915 Clearing chain
+2017-07-13 04:17:10,993 Running sampler for 10000 to 11000 out of 12000 iterations
+2017-07-13 06:03:38,357 Writing results to file
+2017-07-13 06:06:19,883 Writing state to file
+2017-07-13 06:06:20,635 Clearing chain
+2017-07-13 06:06:24,682 Running sampler for 11000 to 12000 out of 12000 iterations
+2017-07-13 07:54:05,947 Writing results to file
+2017-07-13 07:56:10,863 Writing state to file
+2017-07-13 07:56:11,779 Computing acls
+2017-07-13 07:56:12,140 attempting to aquire lock '/tmp/Condor-execute.172.20.1.11-7289/dir_21634/1341829_python27_compiled/none/none/code_lockfile' for compiling code
+2017-07-13 07:56:12,140 we have aquired the lock
+2017-07-13 07:56:17,816 the lock has been released
+2017-07-13 08:11:22,142 Clearing chain
+2017-07-13 08:12:03,183 Done

@@ -1,3 +1,0 @@
-# Job a9d6ba690b49a2c573c67d131e20deca
-condor_submit_dag /home/c1572221/Summer-project/inference-from-frames/GW150914_like_SNR_25_mode_PhenomPv2_inc_0.0_M90/PhenomPM90/lalinferencenest/IMRPhenomDthreePointFivePN/lalinference_1167559401-1167559697.dag
-
