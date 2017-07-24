@@ -9,7 +9,6 @@ from pycbc.types import TimeSeries, FrequencySeries
 from pycbc import strain as pystrain
 from pycbc import waveform
 from pycbc.waveform import generator
-genclass = generator.FDomainCBCGenerator
 from pycbc.filter import highpass_fir, matched_filter
 import numpy
 import matplotlib
@@ -17,7 +16,7 @@ matplotlib.use('Agg')
 from matplotlib import pyplot
 from pycbc.filter import match
 
-
+genclass = generator.FDomainCBCGenerator
 
 
 def get_ylim(data, times, tmin, tmax):
