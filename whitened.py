@@ -15,6 +15,25 @@ matplotlib.use('Agg')
 from matplotlib import pyplot
 from pycbc.filter import match
 
+def select_waveform_generator(approximant):
+     """ Returns the generator for the approximant.
+     """
+     if approximant in waveform.fd_approximants():
+         return waveform.FDomainCBCGenerator
+     elif approximant in waveform.td_approximants():
+         return waveform.TDomainCBCGenerator
+     elif approximant in waveform.ringdown_fd_approximants:
+         if approximant=='FdQNM':
+             return waveform.FDomainRingdownGenerator
+         elif approximant=='FdQNMmultiModes':
+             return waveform.FDomainMultiModeRingdownGenerator
+     elif approximant in waveform.ringdown_td_approximants:
+         raise ValueError("Time domain ringdowns not supported")
+     else:
+         raise ValueError("%s is not a valid approximant."%approximant)
+ 
+ 
+
 
 def get_ylim(data, times, tmin, tmax):
     selected = data[(times >= tmin) & (times < tmax)]
