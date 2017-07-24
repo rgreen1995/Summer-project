@@ -15,7 +15,6 @@ matplotlib.use('Agg')
 from matplotlib import pyplot
 from pycbc.filter import match
 
-genclass = generator.FDomainCBCGenerator
 
 
 def get_ylim(data, times, tmin, tmax):
@@ -97,7 +96,7 @@ for ifo in ['H1', 'L1']:
     sargs = fp.static_args
     mapvals = [map_values[arg] for arg in varargs]
     print "generating map waveforms"
-    genclass = waveform.select_waveform_generator(fp.static_args['approximant'])
+    genclass = generator.FDomainCBCGenerator
     gen = waveform.FDomainDetFrameGenerator(
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
