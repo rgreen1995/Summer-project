@@ -7,7 +7,6 @@ from pycbc.io import InferenceFile
 from pycbc.inference import option_utils
 from pycbc.types import TimeSeries, FrequencySeries
 from pycbc import strain as pystrain
-from pycbc import waveform
 from pycbc.waveform import generator
 from pycbc.filter import highpass_fir, matched_filter
 import numpy
@@ -39,25 +38,25 @@ folder=directorys[:21]
 print folder
 
 ## Load dictionary and make array of injected parameters (error here ??)
-dic_name="paramDict.npy"
-dict_load=folder+dic_name
-injected=numpy.load("%s" % dict_load).item()
+#dic_name="paramDict.npy"
+#dict_load=folder+dic_name
+#injected=numpy.load("%s" % dict_load).item()
 ## Generate array manually
-inj_vals=list([1126259462.0,     # time
-              injected["mass1"], # mass1
-              injected["mass2"], # mass2
-              injected["spin1_a"], # spin 1 magnitude
-              0, # spin1 azimuthal
-              injected["spin1_polar"], # spin 1 polar
-              injected["spin2_a"], # spin 2 magnitude
-              0, # spin2 azimuthal
-              injected["spin2_polar"], # spin 2 polar
-              injected["distance"], # distance
-              1.5, # coa_phase]
-              injected["inclination"], # inclination
-              injected["polarization"], # polarisation
-              injected["ra"],
-              injected["dec"]])
+#inj_vals=list([1126259462.0,     # time
+ #             injected["mass1"], # mass1
+  #            injected["mass2"], # mass2
+  #            injected["spin1_a"], # spin 1 magnitude
+  #            0, # spin1 azimuthal
+  #            injected["spin1_polar"], # spin 1 polar
+  #            injected["spin2_a"], # spin 2 magnitude
+ #             0, # spin2 azimuthal
+  #            injected["spin2_polar"], # spin 2 polar
+  #            injected["distance"], # distance
+  #            1.5, # coa_phase]
+  #            injected["inclination"], # inclination
+  #            injected["polarization"], # polarisation
+  #            injected["ra"],
+  #            injected["dec"]])
 
 snr_list=[]
 
