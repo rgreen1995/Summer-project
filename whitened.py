@@ -35,7 +35,7 @@ directorys=opts.output_file
 folder=directorys[:21]
 print folder
 
-## Load dictionary and make array of injected parameters
+## Load dictionary and make array of injected parameters (error here ??)
 dic_name="paramDict.npy"
 dict_load=folder+dic_name
 injected=numpy.load("%s" % dict_load).item()
