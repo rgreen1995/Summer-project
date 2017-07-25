@@ -112,7 +112,7 @@ for ifo in ['H1', 'L1']:
 
     print "generating injected waveforms"
 
-    genclass = waveform.select_waveform_generator(fp.static_args['approximant'])
+    genclass = generator.FDomainCBCGenerator
     gen = waveform.FDomainDetFrameGenerator(
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
