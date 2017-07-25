@@ -1,0 +1,45 @@
+Trigger time = 1167559679 
+Sampler min frequency = 20. 
+ 
+Sampler parameters: 
+ 20. 
+ 
+Sampler parameters: 
+Number of walkers = 5000 
+Number of walkers = 5000 
+Number of checkpoints = 1000 
+Number of checkpoints = 1000 
+Number of iterations = 12000 
+Trigger time = 1167559679 
+Number of processors = 12 
+0 
+Sampler min frequency = 20. 
+ 
+Other parameters> 
+= 12 
+ 
+Sampler parameters: 
+Sampler min frequency = 20Number of walkers = 5Detectors = H1 L1 
+ 
+Sampler parameters: 
+ 1000 
+Number of checkpoinNumber of iterations = 12000 
+wer L1:aLIGOZeroDetHighPower 
+Number of walkers = 5000 
+Number of iterations = 12000 
+wer L1:aLIGOZeroDetHighPower 
+Number of checkpoints = 1000 
+Number of iterations = 12000 
+ 
+Other parameters> 
+Detectors = H1 L1 
+s = 12 
+ 
+Other parameters> 
+ 
+Other parameters> 
+DetHighPower L1:aLIGOZeroDetHighPower 
+Detectors = H1 L1 
+Detectors = H1 L1 
+Strain = H1:aLIGOZeroDetHighPower L1:aLIGOZeroDetHighPower 
+Strain = H1:aLIGOZeroDetHighPower L1:aLIGOZeroDetHighPower 
