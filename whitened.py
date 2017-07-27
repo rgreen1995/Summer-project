@@ -7,6 +7,7 @@ from pycbc.io import InferenceFile
 from pycbc.inference import option_utils
 from pycbc.types import TimeSeries, FrequencySeries
 from pycbc import strain as pystrain
+from pycbc import waveform
 from pycbc.waveform import generator
 from pycbc.filter import highpass_fir, matched_filter
 import numpy
@@ -14,7 +15,6 @@ import matplotlib
 matplotlib.use('Agg')
 from matplotlib import pyplot
 from pycbc.filter import match
-
 
 
 def get_ylim(data, times, tmin, tmax):
@@ -75,8 +75,8 @@ for ifo in ['H1', 'L1']:
     sargs = fp.static_args
     mapvals = [map_values[arg] for arg in varargs]
     print "generating map waveforms"
-    genclass = generator.FDomainCBCGenerator
-    gen = waveform.FDomainDetFrameGenerator(
+    genclass =generator.select_waveform_generator(fp.static_args['approximant'])
+    gen = generator.FDomainDetFrameGenerator(
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
         variable_args=varargs,
@@ -91,8 +91,8 @@ for ifo in ['H1', 'L1']:
 
     print "generating injected waveforms"
 
-    genclass = generator.FDomainCBCGenerator
-    gen = waveform.FDomainDetFrameGenerator(
+    genclass = generator.select_waveform_generator(fp.static_args['approximant'])
+    gen = generator.FDomainDetFrameGenerator(
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
         variable_args=varargs,
