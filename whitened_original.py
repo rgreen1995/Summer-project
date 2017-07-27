@@ -8,6 +8,7 @@ from pycbc.inference import option_utils
 from pycbc.types import TimeSeries, FrequencySeries
 from pycbc import strain as pystrain
 from pycbc import waveform
+from pycbc.waveform import generator
 from pycbc.filter import highpass_fir, matched_filter
 import numpy
 import matplotlib
