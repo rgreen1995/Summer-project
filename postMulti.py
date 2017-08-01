@@ -78,7 +78,7 @@ def chi_effect():
    return chi_eff
 
 def chi_prec():
-   ## chi_p is given by (1/B1m1^2)*max(B1*S1perp,B2*S2perp)
+   ## chi_p is given by (1/B2m1^2)*max(B1*S1perp,B2*S2perp)
    ## with B1=2+3/2q, B2=2+3q/2
    ## so we need m1, q, s1_a, s1_polar, s2_a, s2_polar
    ## NB chi_p should always be 0 < chi_p < 1
