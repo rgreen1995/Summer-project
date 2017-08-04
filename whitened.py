@@ -105,7 +105,7 @@ for ifo in ['H1', 'L1']:
         detectors=['H1', 'L1'], epoch=stilde.epoch,
         variable_args=varargs,
         **sargs)
-    fs = gen.generate(*map(float, mapvals))[ifo]
+    fs = gen.generate(tc=mapvals[0], mass1= mapvals[1], mass2=mapvals[2], spin1_a= mapvals[3], spin1_azimuthal= mapvals[4], spin1_polar=mapvals[5], spin2_a=mapvals[6],spin2_azimuthal= mapvals[7], spin2_polar=mapvals[8], distance=mapvals[9], coa_phase=mapvals[10], inclination=mapvals[11],polarization=mapvals[12[, ra=mapvals[13], dec=mapvals[14]  )[ifo]
     if len(fs) < len(psd):
         fs.resize(len(psd))
     elif len(psd) < len(fs):
