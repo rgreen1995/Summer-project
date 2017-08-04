@@ -7,7 +7,6 @@ from pycbc.io import InferenceFile
 from pycbc.inference import option_utils
 from pycbc.types import TimeSeries, FrequencySeries
 from pycbc import strain as pystrain
-from pycbc import waveform
 from pycbc.waveform import generator
 from pycbc.filter import highpass_fir, matched_filter
 import numpy
@@ -36,6 +35,27 @@ directorys=opts.output_file
 folder=directorys[:21]
 print folder
 
+## Load dictionary and make array of injected parameters
+dic_name="d.npy"
+dict_load=folder+dic_name
+injected=numpy.load("%s" % dict_load).item()
+## Generate array manually
+inj_vals=list([1126259462.0,     # time
+              injected["mass1"], # mass1
+              injected["mass2"], # mass2
+              injected["spin1_a"], # spin 1 magnitude
+              0, # spin1 azimuthal
+              injected["spin1_polar"], # spin 1 polar
+              injected["spin2_a"], # spin 2 magnitude
+              0, # spin2 azimuthal
+              injected["spin2_polar"], # spin 2 polar
+              injected["distance"], # distance
+              1.5, # coa_phase]
+              injected["inclination"], # inclination
+              injected["polarization"], # polarisation
+              injected["ra"],
+              injected["dec"]])
+
 snr_list=[]
 
 fig = pyplot.figure()
@@ -63,41 +83,15 @@ for ifo in ['H1', 'L1']:
                                  epoch=stilde.epoch)
     wh_strain = wh_stilde.to_timeseries()
 
-    # get the MAP values
-    print "loading MAP values"
-    llrs = fp.read_likelihood_stats(iteration=opts.iteration,
-                                    thin_start=opts.thin_start,
-                                    thin_end=opts.thin_end,
-                                    thin_interval=opts.thin_interval)
-    map_idx = (llrs.loglr + llrs.prior).argmax()
-    map_values = samples[map_idx]
-    varargs = fp.variable_args
-    sargs = fp.static_args
-    mapvals = [map_values[arg] for arg in varargs]
-    print "generating map waveforms"
-    genclass = waveform.select_waveform_generator(fp.static_args['approximant'])
-    gen = waveform.FDomainDetFrameGenerator(
-        genclass,
-        detectors=['H1', 'L1'], epoch=stilde.epoch,
-        variable_args=varargs,
-        **sargs)
-    fs = gen.generate(*map(float, mapvals))[ifo]
-    if len(fs) < len(psd):
-        fs.resize(len(psd))
-    elif len(psd) < len(fs):
-        fs = fs[:len(psd)]
-    fs /= asd
-    ts = fs.to_timeseries()
-
     print "generating injected waveforms"
 
-    genclass = waveform.select_waveform_generator(fp.static_args['approximant'])
-    gen = waveform.FDomainDetFrameGenerator(
+    genclass = generator.select_waveform_generator(fp.static_args['approximant'])
+    gen = generator.FDomainDetFrameGenerator(
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
         variable_args=varargs,
         **sargs)
-    fis = gen.generate(*map(float, inj_vals))[ifo]
+    fis = gen.generate(**inj_vals)[ifo]
     if len(fis) < len(psd):
         fis.resize(len(psd))
     elif len(psd) < len(fis):
@@ -109,8 +103,7 @@ for ifo in ['H1', 'L1']:
 
     try:
         gps_time = sargs['tc']
-    except KeyError:
-        gps_time = map_values['tc']
+    except KeyError
     xmin = float(opts.min_xlim)
     xmax = 0.05
 
@@ -119,9 +112,6 @@ for ifo in ['H1', 'L1']:
     y = wh_strain
     ax.plot(x, y, colors[ifo], lw=1.5, zorder=1)
     ylim = get_ylim(y, x, xmin, xmax)
-
-    if opts.plot_map_waveforms:
-        ax.plot(ts.sample_times.numpy()-gps_time, ts.data, 'k', lw=2, zorder=2)
 
     if opts.injection_file:
         # get the injection values
@@ -147,10 +137,10 @@ for ifo in ['H1', 'L1']:
 
     ## Find and save SNR
     snr = matched_filter(ti, y, psd=psd, low_frequency_cutoff=20.0) ## Should be SNR between injected waveform and whitened data
-    snr_map=matched_filter(ts, y, psd=psd, low_frequency_cutoff=20.0) ## SNR between MAP waveform and whitened data
+    #snr_map=matched_filter(ts, y, psd=psd, low_frequency_cutoff=20.0) ## SNR between MAP waveform and whitened data
 
-    # Remove regions corrupted by filter wraparound
-    snr = snr[len(snr) / 4: len(snr) * 3 / 4]
+   # Remove regions corrupted by filter wraparound
+     snr = snr[len(snr) / 4: len(snr) * 3 / 4]
     snr_map = snr[len(snr_map) / 4: len(snr_map) * 3 / 4]
     snr_list.append(snr)
     snr_list.append(snr_map)
@@ -164,20 +154,15 @@ jj=0
 pyplot.figure()
 for ifo in ['H1', 'L1']: ### Will need to manually extend this for Virgo
     jj+=1
-    map_snr=snr_list[jj-1]
+   # map_snr=snr_list[jj-1]
     inj_snr=snr_list[jj]
     pyplot.subplot(2,1,jj)
-    pyplot.plot(map_snr.sample_times,abs(map_snr))
+    #pyplot.plot(map_snr.sample_times,abs(map_snr))
     pyplot.ylabel("SNR")
 pyplot.xlabel("Time")
 pyplot.savefig("%s.png" % figname)
 '''
 
-
-print "saving MAP values to dictionary"
-MAPDic={}
-for aa in range(len(varargs)):
-    MAPDic[varargs[aa]]=mapvals[aa]
 
 print "save dictionary"
 savename=opts.output_file
