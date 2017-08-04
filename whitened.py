@@ -35,26 +35,25 @@ directorys=opts.output_file
 folder=directorys[:21]
 print folder
 
-## Load dictionary and make array of injected parameters
-#dic_name="d.npy"
-#dict_load=folder+dic_name
-#injected=numpy.load("%s" % dict_load).item()
-## Generate array manually
-#inj_vals=list([1126259462.0,     # time
- #             injected["mass1"], # mass1
-  #            injected["mass2"], # mass2
-   #           injected["spin1_a"], # spin 1 magnitude
-   #           0, # spin1 azimuthal
-    #          injected["spin1_polar"], # spin 1 polar
-     #         injected["spin2_a"], # spin 2 magnitude
-      #        0, # spin2 azimuthal
-      #        injected["spin2_polar"], # spin 2 polar
-       #       injected["distance"], # distance
-        #      1.5, # coa_phase]
-        #      injected["inclination"], # inclination
-        #      injected["polarization"], # polarisation
-        #      injected["ra"],
-        #      injected["dec"]])
+tc_inj= 1126259462.0 
+mass1_inj = 80. 
+mass2_inj = 10. 
+ra_inj = 2.21535724066 
+dac_inj = -1.23649695537 
+inclination_inj = 1.047197551 
+coa_phase_inj = 0. 
+polarisation_inj = 0.8 
+theta_JN_inj = 2.7 
+distance_inj = 500000
+
+spin1_a_inj = 0.75 
+spin1_azimuthal kappa_inj = 0.0
+spin1_polar_inj =0.0
+spin2_a_inj = 0.0 
+spin2_azimuthal_inj = 0.0
+spin2_polar_inj =0.0
+
+inj_vals=[tc_inj,mass1_inj,mass2_inj,spin1_a_inj,spin1_azimuthal_inj,spin1_polar_inj,spin2_a_inj,spin2_azimuthal_inj, spin2_polar_inj, distance_inj, coa_phase_inj, inclination_inj, polarization_inj, ra_inj, dec_inj ]
 
 snr_list=[]
 
@@ -120,8 +119,9 @@ for ifo in ['H1', 'L1']:
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
         variable_args=varargs,
-        **sargs)
-    fis = gen.generate(*map(float, inj_vals))[ifo]
+        **sargs
+    fis=gen.generate(tc=injvals[0], mass1= injvals[1], mass2=injvals[2], spin1_a= injvals[3], spin1_azimuthal= injvals[4], spin1_polar=injvals[5], spin2_a=injvals[6],spin2_azimuthal= injvals[7], spin2_polar=injvals[8], distance=injvals[9], coa_phase=injvals[10], inclination=injvals[11],polarization=injvals[12], ra=injvals[13], dec=injvals[14] )[ifo]
+
     if len(fis) < len(psd):
         fis.resize(len(psd))
     elif len(psd) < len(fis):
