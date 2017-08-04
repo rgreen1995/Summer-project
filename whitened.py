@@ -36,25 +36,25 @@ folder=directorys[:21]
 print folder
 
 ## Load dictionary and make array of injected parameters
-dic_name="d.npy"
-dict_load=folder+dic_name
-injected=numpy.load("%s" % dict_load).item()
+#dic_name="d.npy"
+#dict_load=folder+dic_name
+#injected=numpy.load("%s" % dict_load).item()
 ## Generate array manually
-inj_vals=list([1126259462.0,     # time
-              injected["mass1"], # mass1
-              injected["mass2"], # mass2
-              injected["spin1_a"], # spin 1 magnitude
-              0, # spin1 azimuthal
-              injected["spin1_polar"], # spin 1 polar
-              injected["spin2_a"], # spin 2 magnitude
-              0, # spin2 azimuthal
-              injected["spin2_polar"], # spin 2 polar
-              injected["distance"], # distance
-              1.5, # coa_phase]
-              injected["inclination"], # inclination
-              injected["polarization"], # polarisation
-              injected["ra"],
-              injected["dec"]])
+#inj_vals=list([1126259462.0,     # time
+ #             injected["mass1"], # mass1
+  #            injected["mass2"], # mass2
+   #           injected["spin1_a"], # spin 1 magnitude
+   #           0, # spin1 azimuthal
+    #          injected["spin1_polar"], # spin 1 polar
+     #         injected["spin2_a"], # spin 2 magnitude
+      #        0, # spin2 azimuthal
+      #        injected["spin2_polar"], # spin 2 polar
+       #       injected["distance"], # distance
+        #      1.5, # coa_phase]
+        #      injected["inclination"], # inclination
+        #      injected["polarization"], # polarisation
+        #      injected["ra"],
+        #      injected["dec"]])
 
 snr_list=[]
 
@@ -82,7 +82,8 @@ for ifo in ['H1', 'L1']:
     wh_stilde = FrequencySeries(stilde / asd, delta_f=stilde.delta_f,
                                  epoch=stilde.epoch)
     wh_strain = wh_stilde.to_timeseries()
-
+    
+   
     # get the MAP values
     print "loading MAP values"
     llrs = fp.read_likelihood_stats(iteration=opts.iteration,
@@ -93,6 +94,8 @@ for ifo in ['H1', 'L1']:
     map_values = samples[map_idx]
     varargs = fp.variable_args
     sargs = fp.static_args
+    print varargs
+    print sargs
     mapvals = [map_values[arg] for arg in varargs]
     print "generating map waveforms"
     print mapvals

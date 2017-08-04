@@ -36,9 +36,9 @@ folder=directorys[:21]
 print folder
 
 ## Load dictionary and make array of injected parameters
-dic_name="d.npy"
-dict_load=folder+dic_name
-injected=numpy.load("%s" % dict_load).item()
+#dic_name="d.npy"
+#dict_load=folder+dic_name
+#injected=numpy.load("%s" % dict_load).item()
 ## Generate array manually
 inj_vals=list([1126259462.0,     # time
               injected["mass1"], # mass1
@@ -82,16 +82,17 @@ for ifo in ['H1', 'L1']:
     wh_stilde = FrequencySeries(stilde / asd, delta_f=stilde.delta_f,
                                  epoch=stilde.epoch)
     wh_strain = wh_stilde.to_timeseries()
-
+    
     print "generating injected waveforms"
-
+    print sargs
+    print varargs
     genclass = generator.select_waveform_generator(fp.static_args['approximant'])
     gen = generator.FDomainDetFrameGenerator(
         genclass,
         detectors=['H1', 'L1'], epoch=stilde.epoch,
         variable_args=varargs,
         **sargs)
-    fis = gen.generate(**inj_vals)[ifo]
+    fis = gen.generate(*map(float,inj_vals)[ifo]
     if len(fis) < len(psd):
         fis.resize(len(psd))
     elif len(psd) < len(fis):
@@ -103,7 +104,7 @@ for ifo in ['H1', 'L1']:
 
     try:
         gps_time = sargs['tc']
-    except KeyError
+    except KeyError:
         gps_time = 1126259462.008837
     xmin = float(opts.min_xlim)
     xmax = 0.05
@@ -141,7 +142,7 @@ for ifo in ['H1', 'L1']:
     #snr_map=matched_filter(ts, y, psd=psd, low_frequency_cutoff=20.0) ## SNR between MAP waveform and whitened data
 
    # Remove regions corrupted by filter wraparound
-     snr = snr[len(snr) / 4: len(snr) * 3 / 4]
+    snr = snr[len(snr) / 4: len(snr) * 3 / 4]
     snr_map = snr[len(snr_map) / 4: len(snr_map) * 3 / 4]
     snr_list.append(snr)
     snr_list.append(snr_map)
