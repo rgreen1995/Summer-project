@@ -104,6 +104,7 @@ for ifo in ['H1', 'L1']:
     try:
         gps_time = sargs['tc']
     except KeyError
+        gps_time = 1126259462.008837
     xmin = float(opts.min_xlim)
     xmax = 0.05
 
