@@ -140,14 +140,14 @@ for ifo in ['H1', 'L1']:
     #print "Match between map and injected is %.2f" % m
     ax.set_xlim(xmin, xmax)
     ax.set_ylim(ylim)
-    ax.text(xmin, ylim[0], 'Match=%.2f' % m, ha='left', va='bottom', fontsize=12)
+   # ax.text(xmin, ylim[0], 'Match=%.2f' % m, ha='left', va='bottom', fontsize=12)
     ax.set_ylabel('{} whitened strain'.format(ifo))
-    if ii == 2:
-        ax.set_xlabel('GPS time - {} (s)'.format(gps_time))
+   # if ii == 2:
+    ax.set_xlabel('GPS time - {} (s)'.format(gps_time))
 
     ## Find and save SNR
-    snr = matched_filter(ti, y, psd=psd, low_frequency_cutoff=20.0) ## Should be SNR between injected waveform and whitened data
-    snr_map=matched_filter(ts, y, psd=psd, low_frequency_cutoff=20.0) ## SNR between MAP waveform and whitened data
+   # snr = matched_filter(ti, y, psd=psd, low_frequency_cutoff=20.0) ## Should be SNR between injected waveform and whitened data
+  #  snr_map=matched_filter(ts, y, psd=psd, low_frequency_cutoff=20.0) ## SNR between MAP waveform and whitened data
 
 fp.close()
 fig.savefig(opts.output_file, dpi=200, bbox_inches='tight')
