@@ -82,6 +82,13 @@ for ifo in ['H1', 'L1']:
                                  epoch=stilde.epoch)
     wh_strain = wh_stilde.to_timeseries()
     
+    #load map values
+    llrs = fp.read_likelihood_stats(iteration=opts.iteration,
+                                    thin_start=opts.thin_start,
+                                    thin_end=opts.thin_end,
+                                    thin_interval=opts.thin_interval)
+    map_idx = (llrs.loglr + llrs.prior).argmax()
+    map_values = samples[map_idx]
     varargs = fp.variable_args
     sargs = fp.static_args
 
