@@ -35,6 +35,7 @@ directorys=opts.output_file
 folder=directorys[:21]
 print folder
 
+#list of parameters for plot currently manual need to change this!
 tc_inj= 1126259462.0 
 mass1_inj = 80. 
 mass2_inj = 10. 
