@@ -126,7 +126,8 @@ for ifo in ['H1', 'L1']:
         fi /= asd
         ti = fi.to_timeseries()
         ax.plot(ti.sample_times.numpy()-gps_time, ti.data, 'b-', lw=2, zorder=2)
-    m, i = match(ti, ts, psd=psd, low_frequency_cutoff=gen.current_params['f_lower']
+    #m, i = match(ti, ts, psd=psd, low_frequency_cutoff=gen.current_params['f_lower'])
+    #print "Match between map and injected is %.2f" % m
     ax.set_xlim(xmin, xmax)
     ax.set_ylim(ylim)
     ax.text(xmin, ylim[0], 'Match=%.2f' % m, ha='left', va='bottom', fontsize=12)
@@ -134,8 +135,9 @@ for ifo in ['H1', 'L1']:
     if ii == 2:
         ax.set_xlabel('GPS time - {} (s)'.format(gps_time))
 
- 
-
+    ## Find and save SNR
+    snr = matched_filter(ti, y, psd=psd, low_frequency_cutoff=20.0) ## Should be SNR between injected waveform and whitened data
+    snr_map=matched_filter(ts, y, psd=psd, low_frequency_cutoff=20.0) ## SNR between MAP waveform and whitened data
 
 fp.close()
 fig.savefig(opts.output_file, dpi=200, bbox_inches='tight')
