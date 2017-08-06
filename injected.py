@@ -81,6 +81,9 @@ for ifo in ['H1', 'L1']:
     wh_stilde = FrequencySeries(stilde / asd, delta_f=stilde.delta_f,
                                  epoch=stilde.epoch)
     wh_strain = wh_stilde.to_timeseries()
+    
+    varargs = fp.variable_args
+    sargs = fp.static_args
 
     print "generating injected waveforms"
 
