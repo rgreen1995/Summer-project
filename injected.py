@@ -37,8 +37,8 @@ print folder
 
 #list of parameters for plot currently manual need to change this!
 tc_inj= 1126259462.0 
-mass1_inj = 80. 
-mass2_inj = 10. 
+mass1_inj =15. 
+mass2_inj =5. 
 ra_inj = 2.21535724066 
 dec_inj = -1.23649695537 
 inclination_inj = 1.047197551 
@@ -47,7 +47,7 @@ polarization_inj = 0.8
 theta_JN_inj = 2.7 
 distance_inj = 500000
 
-spin1_a_inj = 0.75 
+spin1_a_inj = 0.0 
 spin1_azimuthal_inj = 0.0
 spin1_polar_inj =0.0
 spin2_a_inj = 0.0 
