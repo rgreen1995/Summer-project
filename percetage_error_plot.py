@@ -18,11 +18,14 @@ print list_of_lal_mass1_error
 
 N=5
 ind = np.arange(N)    # the x locations for the groups
-width = 0.35       # the width of the bars: can also be len(x) sequence
+width = 0.2       # the width of the bars: can also be len(x) sequence
 
 fig, ax = plt.subplots()
-lal = ax.bar(ind, list_of_lal_mass1_error , width, color='r',)
-pycbc = ax.bar(ind + width, list_of_pycbc_mass1_error , width, color='y',)
+lal = ax.bar(ind, lal_mass1 , width, color='r')   
+inj = ax.bar(ind+ 2*width, inj_mass1, width, color ='b')                            #actual value
+#lal = ax.bar(ind, list_of_lal_mass1_error , width, color='r',)                  #percentage error
+pycbc = ax.bar(ind + width, pycbc_mass1 , width, color='y')                           #actual values
+#pycbc = ax.bar(ind + width, list_of_pycbc_mass1_error , width, color='y',)      #percentage errors
 ax.set_ylabel('percentage error')
 ax.set_xlabel('mass1')
 ax.set_title('pycbc v lal percentage errors')
