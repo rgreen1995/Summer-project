@@ -15,7 +15,7 @@ test=(1,2.3,3,4,5,6,6,7,7,88,9,)
 #m1=24th index
 #open file from which we want to read data
 #for this to work, we must have our python file saved in the same directory as the data file of interest
-f = open('test.txt', 'r')
+f = open('SNR_50_mode_PhenomPv2_inc_0.0_M45_s1x_0.5_q8.txt', 'r')
     
     #create empty list to store numerics of interest
 data = []
