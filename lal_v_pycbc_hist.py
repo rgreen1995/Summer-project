@@ -6,7 +6,6 @@ from pycbc.io import InferenceFile
 import sys
 from lalsimulation import SimInspiralTransformPrecessingNewInitialConditions
 from pycbc.waveform import get_td_waveform
-
 f = open('test.txt', 'r')
 
    
@@ -53,6 +52,10 @@ whatdo=raw_input("What parameters do you want to plot? \n")
 ## List of parameters add in as required
 params=np.array(["mass1","mass2",])
 
+#adding lines for subplot
+ii=1
+fig=plt.figure()
+ax=fig.add_subplot(int('21{}'.format(ii)))
 
 def getParameter(parameter):
    ## Prepare to read in parameters
@@ -86,7 +89,7 @@ def plotPosterior(parameter):
       for aa in range(len(mass1)):
          parameter_values[aa]=min(mass1[aa],mass2[aa])
       plt.figure()
-      plt.hist(m2_freq,50, normed=True)
+      ax.hist(m2_freq,50, normed=True)
       
       
    else:
@@ -102,13 +105,13 @@ def plotPosterior(parameter):
    
    ## Plot and save
    plt.figure()
-   plt.title("%d data points" % (values))
-   plt.hist(parameter_values,50, normed=True, alpha=0.9)
+   ax.title("%d data points" % (values))
+   ax.hist(parameter_values,50, normed=True, alpha=0.9)
  #  plt.axvline(x=lower_90,linewidth=2,linestyle='dashed',color='k')
  # plt.axvline(x=mean_val,linewidth=2, color='k')
  # plt.axvline(x=upper_90,linewidth=2,linestyle='dashed',color='k')
-   plt.xlabel("%s" % parameter)
-   plt.grid()
+   ax.xlabel("%s" % parameter)
+   ax.grid()
    # Removed the priors, add them if you fancy
    ## Plot priors for derived spin parameters
    #if parameter=="chi_p":
@@ -117,7 +120,7 @@ def plotPosterior(parameter):
    #elif parameter=="chi_eff":
       #prior=np.loadtxt("priors/chi_eff_prior.txt")
       #plt.hist(prior,50,normed=True,alpha=0.6)
-   plt.savefig("%s.png" % savename)
+   ax.savefig("lal_v_pycbc_%s.png" % savename)
    print "Plot saved as %s.png" % savename
 
 
