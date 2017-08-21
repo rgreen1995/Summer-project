@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug 20 20:39:53 2017
-
-@author: Rhys
-"""
 
 from __future__ import division
-from scipy.constants import G
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.interpolate as inter
 
 test=(1,2.3,3,4,5,6,6,7,7,88,9,)
 #m1=24th index
