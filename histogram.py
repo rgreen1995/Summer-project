@@ -19,4 +19,4 @@ for line in f:
     
 plt.hist(m1_freq,50, normed=True)
 plt.xlabel('m1')
-plt.ylabel('frequency')
+plt.ylabel('probability density')
