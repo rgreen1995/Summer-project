@@ -24,7 +24,6 @@ whatdo=raw_input("What parameters do you want to plot? \n")
 ## List of parameters
 params=np.array(["mass1"])
 
-
 ## Function to extract posterior for a given parameter
 def getParameter(parameter):
    ## Prepare to read in parameters
@@ -38,21 +37,18 @@ def getParameter(parameter):
       temp=getattr(samples,parameter)
       parameter_values=np.append(parameter_values,temp[-1])
    return parameter_values
-
-
-
 ## Extract parameter and plot posterior
 def plotPosterior(parameter):
-      parameter_values=getParameter(parameter)
+    parameter_values=getParameter(parameter)
       values=len(parameter_values)
 
    savename=folder+parameter   
    values=len(parameter_values)
    ## Find confidence intervals
-   parameter_values=np.sort(parameter_values)
-   lower_90=parameter_values[250]
-   upper_90=parameter_values[4749]
-   mean_val=np.average(parameter_values)
+#   parameter_values=np.sort(parameter_values)
+#   lower_90=parameter_values[250]
+#  upper_90=parameter_values[4749]
+#  mean_val=np.average(parameter_values)
    
    ## Plot and save
    plt.figure()
@@ -63,8 +59,17 @@ def plotPosterior(parameter):
    plt.axvline(x=upper_90,linewidth=2,linestyle='dashed',color='k')
    plt.xlabel("%s" % parameter)
    plt.grid()
+   # Removed the priors, add them if you fancy
+   ## Plot priors for derived spin parameters
+   #if parameter=="chi_p":
+      #prior=np.loadtxt("priors/chi_p_prior.txt")
+      #plt.hist(prior,50,normed=True,alpha=0.6)
+   #elif parameter=="chi_eff":
+      #prior=np.loadtxt("priors/chi_eff_prior.txt")
+      #plt.hist(prior,50,normed=True,alpha=0.6)
    plt.savefig("%s.png" % savename)
    print "Plot saved as %s.png" % savename
+
 
 ## Execute
 if whatdo=="all":
@@ -76,3 +81,4 @@ else:
   plotPosterior(whatdo)
 
 print "DONE"
+
