@@ -169,10 +169,9 @@ def plotPosterior(parameter):
   
    
    ## save as txt file
-   np.savetxt("%s.png" % savename,paramter_values,)
+   np.savetxt("%s.txt" % savename,parameter_values,)
    
-   plt.savefig("%s.png" % savename)
-   print "Plot file saved as %s.txt" % savename
+   print "file saved as %s.txt" % savename
 
 
 ## Execute
